@@ -2,7 +2,8 @@
 
 <div align="center">
 <h3> Languages </h3>
-<img src="icons/html5-original-wordmark.svg" width=45px alt="HTML5">
+<a href="http://www.google.com/">
+<img src="icons/html5-original-wordmark.svg" width=45px alt="HTML5"></a>
 <img src="icons/css3-original-wordmark.svg" width=45px alt="CSS3">
 <img src="icons/javascript-original.svg" width=45px alt="Javascript">
 <img src="icons/ruby-original.svg" width=45px alt="Javascript">
