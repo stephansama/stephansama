@@ -1,14 +1,14 @@
 ### Hello World... 🌍
 
-My name is Stephan Randle. I am a Software Developer
+My name is Stephan Randle. I am a Software Developer who uses primarily web technologies. I completed a software engineering immersive course through General Assembly (03/2022)
+
 
 <!-- Contact Me -->
 <div>
-    <h3>⇒ Contact Me</h3>
     <a target="_blank" href="https://triplebyte.com/tb/stephan-randle-gqgkqpa">
-    <img src="https://avatars.githubusercontent.com/u/12144133?s=200&v=4" width=45px alt="Triplebyte"></a>
-    <a target="_blank" href="https://www.linkedin.com/in/stephan-randle-38a30319a/"><img src="icons/contact/linkedin-original.svg" width=45px alt="LinkedIn"></a>
-    <a target="_blank" href="https://stackoverflow.com/users/2908680/stephan-randle"><img src="icons/contact/stackoverflow.svg" width=45px alt="Stack Overflow"></a>
+    <img src="https://avatars.githubusercontent.com/u/12144133?s=200&v=4" width=24px alt="Triplebyte"></a>
+    <a target="_blank" href="https://www.linkedin.com/in/stephan-randle-38a30319a/"><img src="icons/contact/linkedin-original.svg" width=24px alt="LinkedIn"></a>
+    <a target="_blank" href="https://stackoverflow.com/users/2908680/stephan-randle"><img src="icons/contact/stackoverflow.svg" width=24px alt="Stack Overflow"></a>
 </div>
 <!-- Languages -->
 <div>
