@@ -1,28 +1,21 @@
-### Hi there 👋
+### 🌍 Hello world!
 
-<div align="center">
-    <h3>Contact Me</h3>
+<!-- Contact Me -->
+<div>
+    <h3>⇒Contact Me</h3>
     <!-- https://triplebyte.com/tb/stephan-randle-gqgkqpa -->
-    <img src="icons/contact/triplebyte.svg" width=45px alt="Triplebyte">
-    <img src="icons/contact/linkedin.svg" width=45px alt="LinkedIn">
+    <img src="https://avatars.githubusercontent.com/u/12144133?s=200&v=4" width=45px alt="Triplebyte">
+    <img src="icons/contact/linkedin-original.svg" width=45px alt="LinkedIn">
     <img src="icons/contact/stackoverflow.svg" width=45px alt="Stack Overflow">
 </div>
-
-<div align="center">
-    <h3>Operating systems</h3>
-    <img src="icons/os/apple-original.svg" width=45px alt="Handlebars">
-    <img src="icons/os/linux-original.svg" width=45px alt="Handlebars">
-    <img src="icons/os/android-original.svg" width=45px alt="Handlebars">
-    <img src="icons/os/windows8-original.svg" width=45px alt="Handlebars">
-</div>
-
-<div align="center">
+<!-- Languages -->
+<div>
     <h3> Languages </h3>
     <a href="">
-        <img src="icons/html5-original-wordmark.svg" width=45px alt="HTML5">
+        <img src="icons/html5-original.svg" width=45px alt="HTML5">
     </a>
     <a href="">
-        <img src="icons/css3-original-wordmark.svg" width=45px alt="CSS3">
+        <img src="icons/css3-original.svg" width=45px alt="CSS3">
     </a>
     <a href="">
         <img src="icons/javascript-original.svg" width=45px alt="Javascript">
@@ -37,8 +30,8 @@
         <img src="icons/swift-original.svg" width=45px alt="Swift">
     </a>
 </div>
-
-<div align="center">
+<!-- Frameworks -->
+<div>
     <h3>Frameworks / Libraries / Technologies</h3>
     <a href="https://handlebarsjs.com/guide/">
         <img src="icons/handlebars-original.svg" width=45px alt="Handlebars">
