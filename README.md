@@ -1,6 +1,6 @@
 ### Hello World... 🌍
 
-My name is Stephan Randle. I am a Software Developer who uses primarily web technologies. I completed a software engineering immersive course through General Assembly (03/2022)
+My name is Stephan Randle. I am a Software Developer who uses primarily web technologies. I completed the software engineering immersive course through General Assembly (03/2022)
 
 
 <!-- Contact Me -->
