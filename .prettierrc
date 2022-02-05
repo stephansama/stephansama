@@ -1,0 +1,11 @@
+semi: false
+tabWidth: 4
+useTabs: true
+singleQuote: true
+jsxSingleQuote: true
+overrides:
+  - files:
+    - "*.jsx"
+    - "*.html"
+    options: 
+      tabWidth: 2
