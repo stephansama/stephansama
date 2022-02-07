@@ -1,6 +1,6 @@
 ### Hello World... 🌍
 
-My name is Stephan Randle. I am a Software Developer who uses primarily web technologies. I completed the software engineering immersive course through General Assembly (03/2022)
+My name is Stephan Randle. I am a Software Developer who focuses primarily web technologies. I completed the software engineering immersive course through General Assembly (03/2022)
 
 <!-- Contact Me -->
 <div>
@@ -21,7 +21,7 @@ My name is Stephan Randle. I am a Software Developer who uses primarily web tech
     <a target="_blank" href="">
         <img src="icons/javascript-original.svg" width=36px alt="Javascript">
     </a>
-    <a target="_blank" href="">
+    <a target="_blank" href="https://www.typescriptlang.org">
         <img src="icons/typescript-original.svg" width=36px alt="Javascript">
     </a>
     <a target="_blank" href="">

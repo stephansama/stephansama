@@ -1,0 +1,111 @@
+{
+	"vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+	"launch": { "configurations": [] },
+	"security.workspace.trust.startupPrompt": "never",
+	"redhat.telemetry.enabled": false,
+	"settingsSync.ignoredExtensions": ["oderwat.indent-rainbow"],
+	"svg.preview.mode": "svg",
+	"terminal.integrated.cursorStyle": "underline",
+	// PLUGIN CONFIRM
+	"git.confirmSync": false,
+	"mdb.confirmRunAll": false,
+	// JS
+	"javascript.updateImportsOnFileMove.enabled": "always",
+	"json.schemas": [],
+	// VSCODE Window
+	"window.restoreWindows": "none",
+	// Explorer Settings
+	"explorer.confirmDragAndDrop": false,
+	"explorer.confirmDelete": false,
+	// EDITOR WINDOW
+	"editor.suggestSelection": "first",
+	"editor.minimap.enabled": false,
+	"editor.tabSize": 4,
+	// ADD bracket Colors
+	"editor.bracketPairColorization.enabled": true,
+	"editor.guides.bracketPairs": "active",
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"editor.formatOnSave": true,
+	// "[javascriptreact]": { "editor.tabSize": 2 },
+	"python.formatting.provider": "autopep8",
+	"[python]": { "editor.defaultFormatter": "ms-python.python" },
+	// React Snippets
+	"reactSnippets.settings.prettierEnabled": true,
+	"reactSnippets.settings.importReactOnTop": false,
+	// FILE OPEN ASSOCIATIONS
+	"workbench.editorAssociations": {
+		"*.db": "sqlite-viewer.option",
+		"*.mongodb": "default"
+	},
+	// THEME
+	"workbench.colorTheme": "Atom One Dark",
+	"workbench.iconTheme": "material-icon-theme",
+	// ICON FILE ASSOCIATIONS
+	"material-icon-theme.files.associations": {
+		"package-lock.json": "npm",
+		"package.json": "npm",
+		"*.mongodb": "mint"
+	},
+	// ICON FOLDER ASSOCIATIONS
+	"material-icon-theme.folders.associations": {
+		"partials": "components",
+		"bootstrap": "css",
+		"index": "home"
+	},
+	// FONT DECLARATIONS
+	"editor.fontSize": 14,
+	"editor.fontFamily": "'Fira Code', monospace",
+	"editor.fontLigatures": "'ss01', 'ss02', 'ss03', 'ss04', 'ss05', 'ss06', 'ss07', 'zero', 'onum'",
+	"diffEditor.ignoreTrimWhitespace": false,
+	"peacock.favoriteColors": [
+		{
+			"name": "Angular Red",
+			"value": "#dd0531"
+		},
+		{
+			"name": "Azure Blue",
+			"value": "#007fff"
+		},
+		{
+			"name": "JavaScript Yellow",
+			"value": "#f9e64f"
+		},
+		{
+			"name": "Mandalorian Blue",
+			"value": "#1857a4"
+		},
+		{
+			"name": "Node Green",
+			"value": "#215732"
+		},
+		{
+			"name": "React Blue",
+			"value": "#61dafb"
+		},
+		{
+			"name": "Something Different",
+			"value": "#832561"
+		},
+		{
+			"name": "Svelte Orange",
+			"value": "#ff3d00"
+		},
+		{
+			"name": "Vue Green",
+			"value": "#42b883"
+		}
+	],
+	"gitlens.hovers.currentLine.over": "line",
+	"gitlens.currentLine.enabled": false,
+	"prettier.requireConfig": true,
+	"prettier.useTabs": true,
+	"prettier.tabWidth": 4,
+	"prettier.singleQuote": true,
+	"prettier.prettierPath": "~/.prettierrc",
+	"prettier.semi": false,
+	"prettier.configPath": "~/.prettierrc",
+	"window.zoomLevel": 4,
+	"files.associations": {
+		".prettierrc": "yaml"
+	}
+}
