@@ -5,38 +5,43 @@ My name is Stephan Randle. I am a Software Developer who focuses primarily web t
 <!-- Contact Me -->
 <div>
     <a target="_blank" href="https://triplebyte.com/tb/stephan-randle-gqgkqpa">
-    <img src="https://avatars.githubusercontent.com/u/12144133?s=200&v=4" width=24px alt="Triplebyte"></a>
-    <a target="_blank" href="https://www.linkedin.com/in/stephan-randle-38a30319a/"><img src="icons/contact/linkedin-original.svg" width=24px alt="LinkedIn"></a>
-    <a target="_blank" href="https://stackoverflow.com/users/2908680/stephan-randle"><img src="icons/contact/stackoverflow.svg" width=24px alt="Stack Overflow"></a>
+    <img src="https://avatars.githubusercontent.com/u/12144133?s=200&v=4" width=24px alt="Triplebyte">
+</a>
+    <a target="_blank" href="https://www.linkedin.com/in/stephan-randle-38a30319a/">
+<img src="icons/contact/linkedin-original.svg" width=24px alt="LinkedIn">
+</a>
+    <a target="_blank" href="https://stackoverflow.com/users/2908680/stephan-randle">
+<img src="icons/contact/stackoverflow.svg" width=24px alt="Stack Overflow">
+</a>
 </div>
 <!-- Languages -->
 <div>
     <h3>⇒ Languages </h3>
-    <a target="_blank" href="">
+    <a target="_blank" href="https://developer.mozilla.org/en-US/docs/Web/HTML">
         <img src="icons/html5-original.svg" width=36px alt="HTML5">
     </a>
-    <a target="_blank" href="">
+    <a target="_blank" href="https://developer.mozilla.org/en-US/docs/Web/CSS">
         <img src="icons/css3-original.svg" width=36px alt="CSS3">
     </a>
-    <a target="_blank" href="">
+    <a target="_blank" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">
         <img src="icons/javascript-original.svg" width=36px alt="Javascript">
     </a>
     <a target="_blank" href="https://www.typescriptlang.org">
         <img src="icons/typescript-original.svg" width=36px alt="Javascript">
     </a>
-    <a target="_blank" href="">
+    <a target="_blank" href="https://ruby-doc.org">
         <img src="icons/ruby-original.svg" width=36px alt="Ruby">
     </a>
-    <a target="_blank" href="">
+    <a target="_blank" href="https://docs.python.org/3/">
         <img src="icons/python-original.svg" width=36px alt="Python">
     </a>
-    <a target="_blank" href="">
+    <a target="_blank" href="https://www.swift.org/documentation/">
         <img src="icons/swift-original.svg" width=36px alt="Swift">
     </a>
 </div>
 <!-- Frameworks -->
 <div>
-    <h3>⇒ Frameworks / Libraries / Technologies</h3>
+    <h3>⇒ Frameworks | Libraries | Technologies</h3>
     <a target="_blank" href="https://handlebarsjs.com/guide/">
         <img src="icons/handlebars-original.svg" width=45px alt="Handlebars">
     </a>
