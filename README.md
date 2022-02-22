@@ -92,7 +92,7 @@ My name is Stephan Randle. I am a Software Developer who focuses primarily web t
     </a>
 </div>
 
-<div style="display:flex;justify-content:center;">
+<div align="center">
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=stephansama&layout=compact)](https://github.com/stephansama)
     </div>
 <!--
