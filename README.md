@@ -92,6 +92,8 @@ My name is Stephan Randle. I am a Software Developer who focuses primarily web t
     </a>
 </div>
 
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=nvthompson&layout=compact)](https://github.com/nvthompson/github-readme-stats)
+
 <!--
 **stephansama/stephansama** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
