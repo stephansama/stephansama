@@ -12,8 +12,8 @@ My name is Stephan Randle. I am a Software Developer who focuses primarily web t
 [![Socket.IO](https://img.shields.io/badge/Socket.IO-JS-black?style=flat-square&logo=socketdotio)](https://socket.io/docs/v4/)
 
 [![Django](https://img.shields.io/badge/Django-PY-0F422D?style=flat-square&logo=django)](https://docs.djangoproject.com/en/4.0/)
-[![Flask](https://img.shields.io/badge/Flask-PY-white?style=flat-square&logo=flask)](https://flask.palletsprojects.com/en/2.0.x/)
 [![FastAPI](https://img.shields.io/badge/FastAPI-PY-009688?style=flat-square&logo=fastapi)](https://fastapi.tiangolo.com)
+[![Flask](https://img.shields.io/badge/Flask-PY-white?style=flat-square&logo=flask)](https://flask.palletsprojects.com/en/2.0.x/)
 
 [![Firebase](https://img.shields.io/badge/Firebase-DB-FFCA28?style=flat-square&logo=firebase)](https://firebase.google.com/docs/)
 [![MongoDB](https://img.shields.io/badge/Mongo-DB-47A248?style=flat-square&logo=mongodb)](https://docs.mongodb.com)
@@ -23,12 +23,7 @@ My name is Stephan Randle. I am a Software Developer who focuses primarily web t
 [![Bootstrap](https://img.shields.io/badge/Bootstrap-CSS-7952B3?style=flat-square&logo=bootstrap)](https://getbootstrap.com/docs/)
 [![Sass](https://img.shields.io/badge/Sass-CSS-CC6699?style=flat-square&logo=sass)](https://sass-lang.com/documentation)
 
-<br />
-<div style='text-align:center'>
-
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=stephansama&theme=github_dark&show_icons=true&layout=compact)](https://github.com/stephansama)
-
-</div>
 
 <!--
 **stephansama/stephansama** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
