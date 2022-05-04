@@ -2,8 +2,7 @@
 
 My name is Stephan Randle. I am a Software Developer who focuses primarily web technologies. I completed the software engineering immersive course through General Assembly (03/2022)
 
-[![D3.js](https://img.shields.io/badge/D3-JS-F9A03C?style=flat-square&logo=d3dotjs)](https://github.com/d3/d3/wiki)
-[![Express JS](https://img.shields.io/badge/Express-JS-white?style=flat-square&logo=express)](http://expressjs.com/en/5x/api.html)
+[![D3.js](https://img.shields.io/badge/D3-JS-F9A03C?style=flat-square&logo=d3dotjs)](https://github.com/d3/d3/wiki) [![Express JS](https://img.shields.io/badge/Express-JS-white?style=flat-square&logo=express)](http://expressjs.com/en/5x/api.html)
 [![Gatsby JS](https://img.shields.io/badge/Gatsby-JS-6522B0?style=flat-square&logo=gatsby)](https://www.gatsbyjs.com/docs/)
 [![jQuery](https://img.shields.io/badge/jQuery-JS-0868AC?style=flat-square&logo=jquery)](https://api.jquery.com)
 [![Material UI](https://img.shields.io/badge/Material%20UI-JS-007FFF?style=flat-square&logo=mui)](https://mui.com/getting-started/installation/)
