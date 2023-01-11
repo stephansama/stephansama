@@ -23,11 +23,6 @@
 *.tar
 *.zip
 
-# Project Files #
-######################
-.idea/
-.vscode/
-
 # Logs and databases #
 ######################
 *.log
@@ -103,7 +98,18 @@ tags
 #######
 .env
 
+# Project configurations #
+##########################
+.vscode/
+.idea/
+
 # Python #
-#######
+##########
 *.pyc
 __pycache__/
+
+
+.mongodb
+.restIcon
+
+Icon
