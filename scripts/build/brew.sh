@@ -1,23 +1,22 @@
 #!/bin/bash
 
-createMessage() {
-    append=$([ $1 ] && echo " $1 Applications" || echo "...")
-    echo "Installing Homebrew$append"
-}
+. ./lib/funcs.sh
 
-createMessage
+brewMessage() { installing "Homebrew" "Applications" $1; }
+
+brewMessage
 
 ### Install Homebrew ###
-# check if the directory exists
+# check if the homebrew directory exists
 if ! [[ -d "/usr/local/Cellar/" ]]; then
     /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 else
-    echo 'Not installing homebrew.\nAlready installed.'
+    noinstall "Homebrew"
 fi
 
 
 ### Install Homebrew Applications ###
-createMessage 'Common'
+brewMessage 'Common'
 # Common brew applications
 brew install nvm
 brew install vim
@@ -35,33 +34,33 @@ brew install --cask transmission
 ### Optional ###
 
 # Media
-createMessage 'Media'
+brewMessage 'Media'
 brew install --cask kid3
 brew install --cask plex
 
 # Battery
-createMessage 'Battery Related'
+brewMessage 'Battery Related'
 brew install --cask aldente
 
 # Internet
-createMessage 'Internet'
+brewMessage 'Internet'
 brew install --cask discord
 brew install --cask megasync
 brew install --cask expressvpn
 brew install --cask google-chrome
 
 # Hobbies
-createMessage 'Hobby'
+brewMessage 'Hobby'
 brew install --cask ultimaker-cura
 brew install --cask ableton-live-suite
 
 # Developer Tools
-createMessage 'Developer'
+brewMessage 'Developer'
 brew install --cask docker
 brew install --cask visual-studio-code
 
 # FONTS
-createMessage 'Font'
+brewMessage 'Font'
 brew tap homebrew/cask-fonts
 brew install --cask font-fira-code
 brew install --cask font-hack-nerd-font
