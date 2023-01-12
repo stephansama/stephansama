@@ -1,36 +1,3 @@
-<style>
-    .certificates {
-        display: flex;
-        list-style-type: none;
-        align-items: center;
-        justify-content: space-between;
-    }
-    .certificates li a img{
-        height: 20px;
-        object-fit: contain;
-    }
-
-    /* Details */
-    .test-details {
-        display: flex;
-        justify-content: center;
-    }
-    .test-details details summary {
-        min-width: 75px;
-        display: flex;
-    }
-    .test-details details summary img {
-    }
-    .test-details details div {
-        display: flex;
-        flex-flow: column wrap;
-    }
-    .test-details details div img {
-        width: 100%;
-        object-fit: scale-down;
-    }
-</style>
-
 ### Hello World... 🌍
 
 <!-- SOCIALS -->
@@ -53,20 +20,20 @@ My name is **Stephan Randle**. I am a Software Developer who works primarily wit
 
 ##### Certificates Earned
 
-<ul style="display: flex;list-style-type: none;align-items: center;justify-content: space-between;">
+<ul>
 <li>
 <a href="https://www.freecodecamp.org/certification/stephansama/javascript-algorithms-and-data-structures" target="_blank">
-<img style="height: 20px;object-fit: contain;" src="https://theforage.wpengine.com/wp-content/uploads/2022/05/Forage_Logo_Icon_Horiz_Green_RGB-768x197.png" alt=""/>
+<img src="https://theforage.wpengine.com/wp-content/uploads/2022/05/Forage_Logo_Icon_Horiz_Green_RGB-768x197.png" alt=""/>
 </a>
 </li>
 <li>
 <a href="https://www.freecodecamp.org/certification/stephansama/javascript-algorithms-and-data-structures" target="_blank">
-<img style="height: 20px;object-fit: contain;" src="https://upload.wikimedia.org/wikipedia/commons/f/fa/FreeCodeCamp_logo.svg" alt=""/>
+<img src="https://upload.wikimedia.org/wikipedia/commons/f/fa/FreeCodeCamp_logo.svg" alt=""/>
 </a>
 </li>
 <li>
 <a href="https://www.linkedin.com/feed/update/urn:li:activity:6907047452076056576/" target="_blank">
-<img style="height: 20px;object-fit: contain;" src="https://upload.wikimedia.org/wikipedia/en/f/f4/General_Assembly_logo.svg" alt=""/>
+<img src="https://upload.wikimedia.org/wikipedia/en/f/f4/General_Assembly_logo.svg" alt=""/>
 </a>
 </li>
 </ul>
@@ -93,10 +60,8 @@ My name is **Stephan Randle**. I am a Software Developer who works primarily wit
 
 ##### GitHub Statistics
 
-<div>
-    <img src='https://github-readme-stats.vercel.app/api?username=stephansama&count_private=true&show_icons=true&theme=github_dark' alt='GitHub Stats' height='192px' />
-    <img src='https://github-readme-stats.vercel.app/api/top-langs/?username=stephansama&theme=github_dark&show_icons=true&layout=compact' alt='Top Languages' height='192px' />
-</div>
+<img src='https://github-readme-stats.vercel.app/api?username=stephansama&count_private=true&show_icons=true&theme=github_dark' alt='GitHub Stats' height='192px' />
+<img src='https://github-readme-stats.vercel.app/api/top-langs/?username=stephansama&theme=github_dark&show_icons=true&layout=compact' alt='Top Languages' height='192px' />
 
 <!-- Tale of Two Programs -->
 <details>
