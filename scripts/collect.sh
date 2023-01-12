@@ -1,17 +1,19 @@
 #!/bin/bash
 
-. ./files.sh
+. ./lib/files.sh
 
-codeDir="$CONFIG_DIR/.vscode"
+echo 'Copying system configuration files to repo configs folder'
 
 # loop through files and add them to this repo
 for file in "${FILES[@]}"
 do
     # check if filename has a directory within it
     if [[ "$file" == */* ]]; then
-        mkdir -p $codeDir # create parent directory
-        cp -i "$HOME/$file" "$codeDir/settings.json"
+        mkdir -p $VSC_DIR # create parent directory
+        copy "$HOME/$file" $VSC_JSON
     else
-        cp -i $HOME/$file "$CONFIG_DIR/$file"
+        copy $HOME/$file "$CONFIG_DIR/$file"
     fi
 done
+
+exit 0
