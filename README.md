@@ -1,26 +1,4 @@
 <style>
-    /* Socials */
-    .socials {
-        display: flex;
-        justify-content: center;
-        padding-bottom: 5px;
-    }
-    .socials a {
-        padding: 0 2.5px;
-    }
-    /* GitHub Stats */
-    .gh-stats {
-        margin: 10px 0;
-        display: flex;
-        align-items: center;
-    }
-    .gh-stats img {
-        /* width: 50%;
-        height: 100%; */
-        height: 192px;
-        padding: 2px;
-        border-radius: 5px;
-    }
     .certificates {
         display: flex;
         list-style-type: none;
@@ -56,17 +34,17 @@
 ### Hello World... 🌍
 
 <!-- SOCIALS -->
-<div class='socials'>
-<a href="https://www.linkedin.com/in/stephan-randle-38a30319a/" target="_blank">
+<div style="display: flex;justify-content: center;padding-bottom: 5px;">
+<a style="padding: 0 2.5px;" href="https://www.linkedin.com/in/stephan-randle-38a30319a/" target="_blank">
 <img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=LinkedIn&logoColor=white" />
 </a>
-<a href="https://stackoverflow.com/users/2908680/stephan-randle" target="_blank">
+<a style="padding: 0 2.5px;" href="https://stackoverflow.com/users/2908680/stephan-randle" target="_blank">
 <img alt="Stack Overflow" src="https://img.shields.io/badge/Stack_Overflow-%23F58025.svg?&style=for-the-badge&logo=stackoverflow&logoColor=white" />
 </a>
-<a href="/" target="_blank">
+<a style="padding: 0 2.5px;" href="/" target="_blank">
 <img alt="Youtube" src="https://img.shields.io/badge/youtube-%23FF1A1A.svg?&style=for-the-badge&logo=youtube&logoColor=white" />
 </a>
-<a href="https://www.buymeacoffee.com/stephanrandle" target="_blank">
+<a style="padding: 0 2.5px;" href="https://www.buymeacoffee.com/stephanrandle" target="_blank">
 <img alt="Buy me a Coffee" src="https://img.shields.io/badge/buy_me_a_coffee-%23FFDD00.svg?&style=for-the-badge&logo=buymeacoffee&logoColor=black" />
 </a>
 </div>
@@ -75,20 +53,20 @@ My name is **Stephan Randle**. I am a Software Developer who works primarily wit
 
 ##### Certificates Earned
 
-<ul class="certificates">
+<ul style="display: flex;list-style-type: none;align-items: center;justify-content: space-between;">
 <li>
 <a href="https://www.freecodecamp.org/certification/stephansama/javascript-algorithms-and-data-structures" target="_blank">
-<img src="https://theforage.wpengine.com/wp-content/uploads/2022/05/Forage_Logo_Icon_Horiz_Green_RGB-768x197.png" alt=""/>
+<img style="height: 20px;object-fit: contain;" src="https://theforage.wpengine.com/wp-content/uploads/2022/05/Forage_Logo_Icon_Horiz_Green_RGB-768x197.png" alt=""/>
 </a>
 </li>
 <li>
 <a href="https://www.freecodecamp.org/certification/stephansama/javascript-algorithms-and-data-structures" target="_blank">
-<img src="https://upload.wikimedia.org/wikipedia/commons/f/fa/FreeCodeCamp_logo.svg" alt=""/>
+<img style="height: 20px;object-fit: contain;" src="https://upload.wikimedia.org/wikipedia/commons/f/fa/FreeCodeCamp_logo.svg" alt=""/>
 </a>
 </li>
 <li>
 <a href="https://www.linkedin.com/feed/update/urn:li:activity:6907047452076056576/" target="_blank">
-<img src="https://upload.wikimedia.org/wikipedia/en/f/f4/General_Assembly_logo.svg" alt=""/>
+<img style="height: 20px;object-fit: contain;" src="https://upload.wikimedia.org/wikipedia/en/f/f4/General_Assembly_logo.svg" alt=""/>
 </a>
 </li>
 </ul>
@@ -115,9 +93,9 @@ My name is **Stephan Randle**. I am a Software Developer who works primarily wit
 
 ##### GitHub Statistics
 
-<div class='gh-stats'>
-    <img src='https://github-readme-stats.vercel.app/api?username=stephansama&count_private=true&show_icons=true&theme=github_dark' alt='GitHub Stats' />
-    <img src='https://github-readme-stats.vercel.app/api/top-langs/?username=stephansama&theme=github_dark&show_icons=true&layout=compact' alt='Top Languages' />
+<div>
+    <img src='https://github-readme-stats.vercel.app/api?username=stephansama&count_private=true&show_icons=true&theme=github_dark' alt='GitHub Stats' height='192px' />
+    <img src='https://github-readme-stats.vercel.app/api/top-langs/?username=stephansama&theme=github_dark&show_icons=true&layout=compact' alt='Top Languages' height='192px' />
 </div>
 
 <!-- Tale of Two Programs -->
