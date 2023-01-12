@@ -7,10 +7,11 @@
 	"repository": "https://github.com/stephansama/stephansama.git",
 	"scripts": {
 		"clean": "rm -rf node_modules/ && rm yarn.lock",
-		"start": "auto-changelog",
+		"start": "yarn install && auto-changelog",
+		"dev": "yarn collect",
 		"test": "cd ./scripts/ && ./test.sh",
-		"collect": "cd ./scripts/ && ./collect.sh",
-		"install": "cd ./scripts/ && ./install.sh"
+		"build": "cd ./scripts/ && ./install.sh",
+		"collect": "cd ./scripts/ && ./collect.sh"
 	},
 	"auto-changelog": {
 		"output": "CHANGELOG.md",
