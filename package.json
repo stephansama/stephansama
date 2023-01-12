@@ -1,0 +1,24 @@
+{
+	"name": "stephansama",
+	"author": "Stephan Randle <stephanrandle@hotmail.com>",
+	"version": "1.0.0",
+	"license": "MIT",
+	"private": true,
+	"repository": "https://github.com/stephansama/stephansama.git",
+	"scripts": {
+		"clean": "rm -rf node_modules/ && rm yarn.lock",
+		"start": "auto-changelog",
+		"test": "cd ./scripts/ && ./test.sh",
+		"collect": "cd ./scripts/ && ./collect.sh",
+		"install": "cd ./scripts/ && ./install.sh"
+	},
+	"auto-changelog": {
+		"output": "CHANGELOG.md",
+		"template": "keepachangelog",
+		"unreleased": true,
+		"commitLimit": false
+	},
+	"devDependencies": {
+		"auto-changelog": "*"
+	}
+}
