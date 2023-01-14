@@ -1,42 +1,38 @@
 # Hello World... 🌍
 
 <!-- SOCIALS -->
-<div style="display: flex;justify-content: center;padding-bottom: 5px;">
-<a style="padding: 0 2.5px;" href="https://www.linkedin.com/in/stephan-randle-38a30319a/" target="_blank">
+<p align="center">
+<a href="https://www.linkedin.com/in/stephan-randle-38a30319a/" target="_blank">
 <img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=LinkedIn&logoColor=white" />
 </a>
-<a style="padding: 0 2.5px;" href="https://stackoverflow.com/users/2908680/stephan-randle" target="_blank">
+<a href="https://stackoverflow.com/users/2908680/stephan-randle" target="_blank">
 <img alt="Stack Overflow" src="https://img.shields.io/badge/Stack_Overflow-%23F58025.svg?&style=for-the-badge&logo=stackoverflow&logoColor=white" />
 </a>
-<a style="padding: 0 2.5px;" href="/" target="_blank">
+<a href="" target="_blank">
 <img alt="Youtube" src="https://img.shields.io/badge/youtube-%23FF1A1A.svg?&style=for-the-badge&logo=youtube&logoColor=white" />
 </a>
-<a style="padding: 0 2.5px;" href="https://www.buymeacoffee.com/stephanrandle" target="_blank">
+<a href="https://www.buymeacoffee.com/stephanrandle" target="_blank">
 <img alt="Buy me a Coffee" src="https://img.shields.io/badge/buy_me_a_coffee-%23FFDD00.svg?&style=for-the-badge&logo=buymeacoffee&logoColor=black" />
 </a>
-</div>
+</p>
 
 My name is **Stephan Randle**. I am a Software Developer who works primarily with web technologies. I completed the software engineering immersive course through General Assembly (03/2022).
 
 ##### Certificates Earned
 
-<ul>
-<li>
+<p align="center">
 <a href="https://www.freecodecamp.org/certification/stephansama/javascript-algorithms-and-data-structures" target="_blank">
-<img src="https://theforage.wpengine.com/wp-content/uploads/2022/05/Forage_Logo_Icon_Horiz_Green_RGB-768x197.png" alt=""/>
+<img src="https://theforage.wpengine.com/wp-content/uploads/2022/05/Forage_Logo_Icon_Horiz_Green_RGB-768x197.png" alt="Forage" height="20px"/>
 </a>
-</li>
-<li>
+<br />
 <a href="https://www.freecodecamp.org/certification/stephansama/javascript-algorithms-and-data-structures" target="_blank">
-<img src="https://upload.wikimedia.org/wikipedia/commons/f/fa/FreeCodeCamp_logo.svg" alt=""/>
+<img src="https://upload.wikimedia.org/wikipedia/commons/f/fa/FreeCodeCamp_logo.svg" alt="FreeCodeCamp" height="20px"/>
 </a>
-</li>
-<li>
+<br />
 <a href="https://www.linkedin.com/feed/update/urn:li:activity:6907047452076056576/" target="_blank">
-<img src="https://upload.wikimedia.org/wikipedia/en/f/f4/General_Assembly_logo.svg" alt=""/>
+<img src="https://upload.wikimedia.org/wikipedia/en/f/f4/General_Assembly_logo.svg" alt="General Assembly" height="20px"/>
 </a>
-</li>
-</ul>
+</p>
 
 <!-- [![D3.js](https://img.shields.io/badge/D3-JS-F9A03C?style=flat-square&logo=d3dotjs)](https://github.com/d3/d3/wiki)
 [![Express JS](https://img.shields.io/badge/Express-JS-white?style=flat-square&logo=express)](http://expressjs.com/en/5x/api.html)
