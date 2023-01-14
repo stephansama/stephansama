@@ -18,7 +18,6 @@ fi
 ### Install Homebrew Applications ###
 brewMessage 'Common'
 # Common brew applications
-brew install nvm
 brew install vim
 brew install tty-clock
 

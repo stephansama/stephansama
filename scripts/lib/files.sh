@@ -14,5 +14,3 @@ export CONFIG_DIR="../configs"
 
 export VSC_DIR="$CONFIG_DIR/.vscode"
 export VSC_JSON="$VSC_DIR/settings.json"
-
-copy() { cp -i $1 $2; }

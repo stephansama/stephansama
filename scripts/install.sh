@@ -10,13 +10,10 @@
 for file in "${FILES[@]}"
 do
     if [[ "$file" == */* ]]; then
-        copy $VSC_JSON "$HOME/$file"
+        cp -i $VSC_JSON "$HOME/$file"
     else
-        copy "$CONFIG_DIR/$file" "$HOME/$file"
+        cp -i "$CONFIG_DIR/$file" "$HOME/$file"
     fi
 done
-
-# Enable YARN
-corepack enable
 
 exit 0
