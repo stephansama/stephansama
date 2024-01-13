@@ -9,130 +9,71 @@
 <img alt="Stack Overflow" src="https://img.shields.io/badge/Stack_Overflow-%23F58025.svg?&style=for-the-badge&logo=stackoverflow&logoColor=white" />
 </a>
 <a href="" target="_blank">
-<img alt="Youtube" src="https://img.shields.io/badge/youtube-%23FF1A1A.svg?&style=for-the-badge&logo=youtube&logoColor=white" />
 </a>
 <a href="https://www.buymeacoffee.com/stephanrandle" target="_blank">
 <img alt="Buy me a Coffee" src="https://img.shields.io/badge/buy_me_a_coffee-%23FFDD00.svg?&style=for-the-badge&logo=buymeacoffee&logoColor=black" />
 </a>
 </p>
 
-My name is **Stephan Randle**. I am a Software Developer who works primarily with web technologies. I completed the software engineering immersive course through General Assembly (03/2022).
-
-##### Certificates Earned
+<div align="center">
+<img src="https://www.codewars.com/users/stephansama/badges/small" />
+</div>
 
 <p align="center">
-<a href="https://www.freecodecamp.org/certification/stephansama/javascript-algorithms-and-data-structures" target="_blank">
-<img src="https://theforage.wpengine.com/wp-content/uploads/2022/05/Forage_Logo_Icon_Horiz_Green_RGB-768x197.png" alt="Forage" height="20px"/>
-</a>
-<br />
-<a href="https://www.freecodecamp.org/certification/stephansama/javascript-algorithms-and-data-structures" target="_blank">
-<img src="https://upload.wikimedia.org/wikipedia/commons/f/fa/FreeCodeCamp_logo.svg" alt="FreeCodeCamp" height="20px"/>
-</a>
-<br />
-<a href="https://www.linkedin.com/feed/update/urn:li:activity:6907047452076056576/" target="_blank">
-<img src="https://upload.wikimedia.org/wikipedia/en/f/f4/General_Assembly_logo.svg" alt="General Assembly" height="20px"/>
-</a>
+Hello world, I'm <b>Stephan Randle</b>, a seasoned Fullstack Web Developer with a specialization in frontend technologies. I bring a wealth of experience to the table, having served as a Frontend Engineer at United Wholesale Mortgage for nearly two years. My journey includes the successful completion of the Software Engineering Immersive Course at General Assembly in March 2022.
 </p>
 
-<!-- [![D3.js](https://img.shields.io/badge/D3-JS-F9A03C?style=flat-square&logo=d3dotjs)](https://github.com/d3/d3/wiki)
-[![Express JS](https://img.shields.io/badge/Express-JS-white?style=flat-square&logo=express)](http://expressjs.com/en/5x/api.html)
-[![Gatsby JS](https://img.shields.io/badge/Gatsby-JS-6522B0?style=flat-square&logo=gatsby)](https://www.gatsbyjs.com/docs/)
-[![jQuery](https://img.shields.io/badge/jQuery-JS-0868AC?style=flat-square&logo=jquery)](https://api.jquery.com)
-[![Material UI](https://img.shields.io/badge/Material%20UI-JS-007FFF?style=flat-square&logo=mui)](https://mui.com/getting-started/installation/)
-[![Node JS](https://img.shields.io/badge/Node-JS-83CD29?style=flat-square&logo=nodedotjs)](https://nodejs.org/api/)
-[![React JS](https://img.shields.io/badge/React-JS-61DAFB?style=flat-square&logo=react)](https://reactjs.org/docs/getting-started.html)
-[![Socket.IO](https://img.shields.io/badge/Socket.IO-JS-black?style=flat-square&logo=socketdotio)](https://socket.io/docs/v4/)
 
-[![Django](https://img.shields.io/badge/Django-PY-0F422D?style=flat-square&logo=django)](https://docs.djangoproject.com/en/4.0/)
-[![FastAPI](https://img.shields.io/badge/FastAPI-PY-009688?style=flat-square&logo=fastapi)](https://fastapi.tiangolo.com)
-[![Flask](https://img.shields.io/badge/Flask-PY-white?style=flat-square&logo=flask)](https://flask.palletsprojects.com/en/2.0.x/)
 
-[![Firebase](https://img.shields.io/badge/Firebase-DB-FFCA28?style=flat-square&logo=firebase)](https://firebase.google.com/docs/) [![MongoDB](https://img.shields.io/badge/Mongo-DB-47A248?style=flat-square&logo=mongodb)](https://docs.mongodb.com) [![PostgreSQL](https://img.shields.io/badge/PostgreSQL-DB-4169E1?style=flat-square&logo=postgresql)](https://www.postgresql.org/docs/current/) [![SQLite](https://img.shields.io/badge/SQLite-DB-1175C5?style=flat-square&logo=sqlite)](https://sqlite.org/docs.html) -->
+<!-- SKILLS -->
+<h3>👨🏽‍💻‍ Programming and Markup Languages</h3>
 
-<!-- [![Bootstrap](https://img.shields.io/badge/Bootstrap-CSS-7952B3?style=flat-square&logo=bootstrap)](https://getbootstrap.com/docs/)
-[![Sass](https://img.shields.io/badge/Sass-CSS-CC6699?style=flat-square&logo=sass)](https://sass-lang.com/documentation) -->
+  <div style="display: flex; flex-wrap: wrap; justify-content:center; gap: 4px; padding-bottom: 16px; ">
+      <a href="https://github.com/search?q=user%3Astephansama+language%3Abash"><img alt="Bash" src="https://img.shields.io/badge/Bash-121011.svg?logo=gnu-bash&logoColor=white"></a>
+      <a href="https://github.com/search?q=user%3Astephansama+language%3Acpp"><img alt="C++" src="https://custom-icon-badges.demolab.com/badge/C++-9C033A.svg?logo=cpp2&logoColor=white"></a>
+      <a href="https://github.com/search?q=user%3Astephansama+language%3Acsharp"><img alt="C#" src="https://custom-icon-badges.demolab.com/badge/C%23-68217A.svg?logo=cs2&logoColor=white"></a>
+      <a href="https://github.com/search?q=user%3Astephansama+language%3Acss"><img alt="CSS" src="https://img.shields.io/badge/CSS-1572B6.svg?logo=css3&logoColor=white"></a>
+      <a href="https://github.com/search?q=user%3Astephansama+language%3Acss"><img alt="TailwindCSS" src="https://img.shields.io/badge/TailwindCSS-06B6D4.svg?logo=tailwindcss&logoColor=white"></a>
+      <a href="https://github.com/search?q=user%3Astephansama+language%3Ahtml"><img alt="HTML" src="https://img.shields.io/badge/HTML-E34F26.svg?logo=html5&logoColor=white"></a>
+      <a href="https://github.com/search?q=user%3Astephansama+language%3Aastro"><img alt="AlpineJS" src="https://img.shields.io/badge/Astro-BC52EE.svg?logo=astro&logoColor=white"></a>
+      <a href="https://github.com/search?q=user%3Astephansama+language%3Ajavascript"><img alt="AlpineJS" src="https://img.shields.io/badge/Alpine.js-8BC0D0.svg?logo=alpinedotjs&logoColor=black"></a>
+      <a href="https://github.com/search?q=user%3Astephansama+language%3Ajavascript"><img alt="JavaScript" src="https://img.shields.io/badge/JavaScript-F7DF1E.svg?logo=javascript&logoColor=black"></a>
+      <a href="https://github.com/search?q=user%3Astephansama+language%3Amarkdown"><img alt="Markdown" src="https://img.shields.io/badge/Markdown-000000.svg?logo=markdown&logoColor=white"></a>
+      <a href="https://github.com/search?q=user%3Astephansama+language%3Ajavascript"><img alt="Node.js" src="https://img.shields.io/badge/Node.js-43853D.svg?logo=node.js&logoColor=white"></a>
+      <a href="https://github.com/search?q=user%3Astephansama+language%3Ar"><img alt="Go" src="https://img.shields.io/badge/Golang-00ADD8.svg?logo=go&logoColor=white"></a>
+      <a href="https://github.com/search?q=user%3Astephansama+language%3Ar"><img alt="Rust" src="https://img.shields.io/badge/Rust-orange.svg?logo=rust"></a>
+      <a href="https://github.com/search?q=user%3Astephansama+language%3Asql"><img alt="MongoDB" src="https://custom-icon-badges.demolab.com/badge/MongoDB-47A248.svg?logo=mongodb&logoColor=white"></a>
+      <a href="https://github.com/search?q=user%3Astephansama+language%3Asvg"><img alt="SVG+XML" src="https://img.shields.io/badge/SVG%2BXML-e0982c.svg?logo=svg&logoColor=white"></a>
+      <a href="https://github.com/search?q=user%3Astephansama+language%3AtypeScript"><img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-007ACC.svg?logo=typescript&logoColor=white"></a>
+  </div>
 
-<!-- GitHub Stats -->
+<h3>🔥 GitHub Streak Stats</h3>
 
-##### GitHub Statistics
+<!-- STATS -->
+<p>
+    <a href="https://github.com/stephansama/github-readme-streak-stats">
+      <!-- Use https://streak-stats.demolab.com or self-host with your own Vercel app - visit https://git.io/streak-stats for instructions -->
+      <img title="🔥 Get streak stats for your profile at git.io/streak-stats" alt="stephansama's streak" src="https://github-readme-streak-stats-9m8ugfa77-denvercoder1.vercel.app/?user=stephansama&theme=monokai-metallian&hide_border=true"/>
+    </a>
+  </p>
 
-<img src='https://github-readme-stats.vercel.app/api?username=stephansama&count_private=true&show_icons=true&theme=github_dark' alt='GitHub Stats' height='192px' />
-<img src='https://github-readme-stats.vercel.app/api/top-langs/?username=stephansama&theme=github_dark&show_icons=true&layout=compact' alt='Top Languages' height='192px' />
+  <h3>💻 GitHub Profile Stats</h3>
 
-<!-- Tale of Two Programs -->
-<details>
-<summary>A Tale of Two Functions</summary>
+  <!-- https://github.com/anuraghazra/github-readme-stats -->
 
-```js
-const best = 3
-const worst = 5
-const times = 1859
+  <a href="https://github.com/anuraghazra/github-readme-stats"><img alt="DenverCoder1's Github Stats" src="https://denvercoder1-github-readme-stats.vercel.app/api/?username=stephansama&show_icons=true&include_all_commits=true&count_private=true&theme=react&hide_border=true&bg_color=1F222E&title_color=F85D7F&icon_color=F8D866" height="192px"/></a>
+  <a href="https://github.com/anuraghazra/github-readme-stats"><img alt="stephansama's Top Languages" src="https://denvercoder1-github-readme-stats.vercel.app/api/top-langs/?username=stephansama&langs_count=8&layout=compact&theme=react&hide_border=true&bg_color=1F222E&title_color=F85D7F&icon_color=F8D866&hide=Jupyter%20Notebook,Roff" height="192px"/></a>
+  <br/>
 
-const it = console.log
-const was =
-	(_, ...vals) =>
-	(num) =>
-		[...Array(num).keys()].filter((e) => e % vals[0] === 0)
+  <b>Note:</b> Top languages is only a metric of the languages my public code consists of and doesn't reflect experience or skill level.
+  
+  <!-- https://github.com/ashutosh00710/github-readme-activity-graph -->
 
-it(was`the ${best} of`(times))
-it(was`the ${worst} of`(times))
-```
+  <a href="https://github.com/ashutosh00710/github-readme-activity-graph"><img alt="stephansama's Activity Graph" src="https://github-readme-activity-graph.vercel.app/graph/?username=stephansama&bg_color=1F222E&color=F8D866&line=F85D7F&point=FFFFFF&hide_border=true" /></a>
 
-</details>
 
-<!-- Technologies Used -->
 
-<!-- <div class='test-details'>
-<details>
-    <summary>
-        <img alt="JavaScript" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
-    </summary>
-    <div>
-        <img src='https://img.shields.io/badge/D3-JS-F9A03C?style=flat-square&logo=d3dotjs' />
-    </div>
-</details>
-<details>
-<summary>
-<img alt="Python" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" />
-</summary>
-<div>
-<img src="https://img.shields.io/badge/Django-PY-0F422D?style=flat-square&logo=django" />
-<img src="https://img.shields.io/badge/FastAPI-PY-009688?style=flat-square&logo=fastapi" />
-<img src="https://img.shields.io/badge/Flask-PY-white?style=flat-square&logo=flask" />
-</div>
-</details>
-<details>
-    <summary>
-        <img alt="CSS" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" />
-    </summary>
-    <div>
-        <img src='https://img.shields.io/badge/Bootstrap-CSS-7952B3?style=flat-square&logo=bootstrap' />
-        <img src='https://img.shields.io/badge/Sass-CSS-CC6699?style=flat-square&logo=sass' />
-    </div>
-</details>
-</div> -->
+<!-- RSS Reader for blog -->
+<!-- https://pythonhosted.org/feedparser/ -->
 
-<!-- [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=stephansama&theme=github_dark&show_icons=true&layout=compact)](https://github.com/stephansama) -->
-
-<!--
-RESOURCES used to create this repo
-
-Devicons (https://devicon.dev/)
-Simple Icons (https://github.com/simple-icons/simple-icons/blob/develop/slugs.md)
-
--->
-
-<!--
-**stephansama/stephansama** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+<!-- GitHub Statistics -->
