@@ -53,7 +53,7 @@ Hello world, I'm <b>Stephan Randle</b>, a seasoned Fullstack Web Developer with 
 <h3>🔥 GitHub Streak Stats</h3>
 
 <!-- STATS -->
-<p>
+<p align="center">
     <a href="https://github.com/stephansama/github-readme-streak-stats">
       <!-- Use https://streak-stats.demolab.com or self-host with your own Vercel app - visit https://git.io/streak-stats for instructions -->
       <img title="🔥 Get streak stats for your profile at git.io/streak-stats" alt="stephansama's streak" src="https://github-readme-streak-stats-9m8ugfa77-denvercoder1.vercel.app/?user=stephansama&theme=monokai-metallian&hide_border=true"/>
