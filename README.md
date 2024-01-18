@@ -43,7 +43,7 @@ Hello world, I'm <b>Stephan Randle</b>, a seasoned Fullstack Web Developer with 
       <a href="https://github.com/search?q=user%3Astephansama+language%3Aastro"><img alt="AstroJS" src="https://img.shields.io/badge/Astro-BC52EE.svg?logo=astro&logoColor=white"></a>
       <a href="https://github.com/search?q=user%3Astephansama+language%3Ajavascript"><img alt="AlpineJS" src="https://img.shields.io/badge/Alpine.js-red.svg?logo=alpinedotjs&logoColor=white"></a>
       <a href="https://github.com/search?q=user%3Astephansama+language%3Atypescript"><img alt="NextJS" src="https://img.shields.io/badge/Next.JS-000.svg?logo=nextdotjs&logoColor=white"></a>
-      <a href="https://github.com/search?q=user%3Astephansama+language%3Atypescript"><img alt="ReactJS" src="https://img.shields.io/badge/React-61DAFB.svg?logo=react&logoColor=333"></a>
+      <a href="https://github.com/search?q=user%3Astephansama+language%3Atypescript"><img alt="ReactJS" src="https://img.shields.io/badge/React-red.svg?logo=react&logoColor=white"></a>
       <a href="https://github.com/search?q=user%3Astephansama+language%3Amarkdown"><img alt="Markdown" src="https://img.shields.io/badge/Markdown-000000.svg?logo=markdown&logoColor=white"></a>
       <a href="https://github.com/search?q=user%3Astephansama+language%3Ar"><img alt="Go" src="https://img.shields.io/badge/Golang-00ADD8.svg?logo=go&logoColor=white"></a>
       <a href="https://github.com/search?q=user%3Astephansama+language%3Ar"><img alt="Rust" src="https://img.shields.io/badge/Rust-orange.svg?logo=rust"></a>
