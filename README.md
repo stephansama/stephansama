@@ -37,11 +37,11 @@ Hello world, I'm <b>Stephan Randle</b>, a seasoned Fullstack Web Developer with 
       <a href="https://github.com/search?q=user%3Astephansama+language%3Acss"><img alt="CSS" src="https://img.shields.io/badge/CSS-1572B6.svg?logo=css3&logoColor=white"></a>
       <a href="https://github.com/search?q=user%3Astephansama+language%3Apostcss"><img alt="PostCSS" src="https://img.shields.io/badge/PostCSS-DD3A0A.svg?logo=postcss&logoColor=white"></a>
       <a href="https://github.com/search?q=user%3Astephansama+language%3Acss"><img alt="TailwindCSS" src="https://img.shields.io/badge/TailwindCSS-06B6D4.svg?logo=tailwindcss&logoColor=white"></a>
-      <a href="https://github.com/search?q=user%3Astephansama+language%3Ajavascript"><img alt="JavaScript" src="https://img.shields.io/badge/JavaScript-F7DF1E.svg?logo=javascript&logoColor=black"></a>
+      <a href="https://github.com/search?q=user%3Astephansama+language%3Ajavascript"><img alt="JavaScript" src="https://img.shields.io/badge/JavaScript-red.svg?logo=javascript&logoColor=white"></a>
       <a href="https://github.com/search?q=user%3Astephansama+language%3Ajavascript"><img alt="Node.js" src="https://img.shields.io/badge/Node.js-43853D.svg?logo=node.js&logoColor=white"></a>
       <a href="https://github.com/search?q=user%3Astephansama+language%3AtypeScript"><img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-007ACC.svg?logo=typescript&logoColor=white"></a>
       <a href="https://github.com/search?q=user%3Astephansama+language%3Aastro"><img alt="AstroJS" src="https://img.shields.io/badge/Astro-BC52EE.svg?logo=astro&logoColor=white"></a>
-      <a href="https://github.com/search?q=user%3Astephansama+language%3Ajavascript"><img alt="AlpineJS" src="https://img.shields.io/badge/Alpine.js-8BC0D0.svg?logo=alpinedotjs&logoColor=black"></a>
+      <a href="https://github.com/search?q=user%3Astephansama+language%3Ajavascript"><img alt="AlpineJS" src="https://img.shields.io/badge/Alpine.js-red.svg?logo=alpinedotjs&logoColor=white"></a>
       <a href="https://github.com/search?q=user%3Astephansama+language%3Atypescript"><img alt="NextJS" src="https://img.shields.io/badge/Next.JS-000.svg?logo=nextdotjs&logoColor=white"></a>
       <a href="https://github.com/search?q=user%3Astephansama+language%3Atypescript"><img alt="ReactJS" src="https://img.shields.io/badge/React-61DAFB.svg?logo=react&logoColor=333"></a>
       <a href="https://github.com/search?q=user%3Astephansama+language%3Amarkdown"><img alt="Markdown" src="https://img.shields.io/badge/Markdown-000000.svg?logo=markdown&logoColor=white"></a>
