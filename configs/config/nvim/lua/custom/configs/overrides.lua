@@ -4,6 +4,9 @@ M.treesitter = {
   ensure_installed = {
     "astro",
     "rust",
+    "gomod",
+    "gosum",
+    "go",
     "vim",
     "lua",
     "html",
@@ -13,8 +16,8 @@ M.treesitter = {
     "typescript",
     "tsx",
     "c",
+    "sql",
     "markdown",
-    "mdx_analyzer",
     "markdown_inline",
   },
   indent = {

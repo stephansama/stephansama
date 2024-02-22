@@ -20,7 +20,7 @@ local options = {
   },
   git = {
     enable = false,
-    ignore = true,
+    ignore = false,
   },
   filesystem_watchers = {
     enable = true,

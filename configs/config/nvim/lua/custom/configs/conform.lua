@@ -6,10 +6,12 @@ local options = {
     lua = { "stylua" },
 
     -- web dev
-    javascript = { { "prettierd", "prettier" } },
-    typescript = { { "prettierd", "prettier" } },
     css = { { "prettierd", "prettier" } },
     html = { { "prettierd", "prettier" } },
+    javascript = { { "prettierd", "prettier" } },
+    typescript = { { "prettierd", "prettier" } },
+    javascriptreact = { { "prettierd", "prettier" } },
+    typescriptreact = { { "prettierd", "prettier" } },
 
     -- systems
     -- rust = { "rustfmt" },

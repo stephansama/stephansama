@@ -2,7 +2,7 @@ local on_attach = require("plugins.configs.lspconfig").on_attach
 local capabilities = require("plugins.configs.lspconfig").capabilities
 
 local lspconfig = require "lspconfig"
--- local util = require "lspconfig/util"
+local util = require "lspconfig/util"
 
 -- if you just want default config for the servers then put them in a table
 -- https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md
@@ -22,8 +22,9 @@ local servers = {
   "eslint",
   "tsserver",
   "tailwindcss",
+  "sqlls",
   -- systems
-  "gopls",
+  -- "gopls",
   "dockerls",
   "clangd",
   -- c
@@ -31,30 +32,64 @@ local servers = {
 }
 
 for _, lsp in ipairs(servers) do
+  if lsp == "tailwindcss" then
+    lspconfig[lsp].setup {
+      capabilities = capabilities,
+      on_attach = function(c, b)
+        require("tailwindcss-colors").buf_attach(b)
+        on_attach(c, b)
+      end,
+    }
+    goto continue
+  end
   lspconfig[lsp].setup {
     on_attach = on_attach,
     capabilities = capabilities,
   }
+  ::continue::
 end
 
--- vim.lsp.inlay_hint.enable(true)
+lspconfig.gopls.setup {
+  on_attach = on_attach,
+  capabilities = capabilities,
+  cmd = { "gopls" },
+  filetypes = { "go", "gomod", "gowork", "gotmpl" },
+  root_dir = util.root_pattern("go.work", "go.mod", ".git"),
+}
 
--- lspconfig.rust_analyzer.setup {
---   on_attach = on_attach,
---   capabilities = capabilities,
---   filetypes = {"rust"},
---   root_dir = util.root_pattern("Cargo.toml"),
---   settings = {
---     ['rust-analyzer'] = {
---       cargo = {
---         allFeatures = true
---       },
---       diagnostics = {
---         enable = false;
---       }
---     }
---   }
--- }
+lspconfig.mdx_analyzer.setup {
+  on_attach = on_attach,
+  capabilities = capabilities,
+  filetypes = { "mdx", "md" },
+}
 
---
--- lspconfig.pyright.setup { blabla}
+lspconfig.tsserver.setup {
+  on_attach = on_attach,
+  capabilities = capabilities,
+  settings = {
+    typescript = {
+      inlayHints = {
+        includeInlayParameterNameHints = "all",
+        includeInlayParameterNameHintsWhenArgumentMatchesName = false,
+        includeInlayFunctionParameterTypeHints = true,
+        includeInlayVariableTypeHints = true,
+        includeInlayVariableTypeHintsWhenTypeMatchesName = false,
+        includeInlayPropertyDeclarationTypeHints = true,
+        includeInlayFunctionLikeReturnTypeHints = true,
+        includeInlayEnumMemberValueHints = true,
+      },
+    },
+    javascript = {
+      inlayHints = {
+        includeInlayParameterNameHints = "all",
+        includeInlayParameterNameHintsWhenArgumentMatchesName = false,
+        includeInlayFunctionParameterTypeHints = true,
+        includeInlayVariableTypeHints = true,
+        includeInlayVariableTypeHintsWhenTypeMatchesName = false,
+        includeInlayPropertyDeclarationTypeHints = true,
+        includeInlayFunctionLikeReturnTypeHints = true,
+        includeInlayEnumMemberValueHints = true,
+      },
+    },
+  },
+}

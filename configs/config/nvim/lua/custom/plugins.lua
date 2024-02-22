@@ -4,7 +4,6 @@ local overrides = require "custom.configs.overrides"
 local plugins = {
 
   -- Override plugin definition options
-
   {
     "neovim/nvim-lspconfig",
     opts = {
@@ -85,25 +84,119 @@ local plugins = {
       require("crates").setup()
     end,
   },
+  {
+    "lvimuser/lsp-inlayhints.nvim",
+    config = function()
+      require("lsp-inlayhints").setup {
+        -- config as code
+      }
+    end,
+  },
   -- AI
-  { "TabbyML/vim-tabby" },
+  { "TabbyML/vim-tabby", lazy = false },
+  {
+    "themaxmarchuk/tailwindcss-colors.nvim",
+    config = function()
+      require("tailwindcss-colors").setup()
+    end,
+  },
+  {
+    "iamcco/markdown-preview.nvim",
+    cmd = { "MarkdownPreviewToggle", "MarkdownPreview", "MarkdownPreviewStop" },
+    ft = { "markdown" },
+    build = function()
+      vim.fn["mkdp#util#install"]()
+    end,
+  },
+  {
+    "gennaro-tedesco/nvim-jqx",
+    ft = { "json", "yaml" },
+  },
+  {
+    "epwalsh/obsidian.nvim",
+    version = "*", -- recommended, use latest release instead of latest commit
+    lazy = true,
+    ft = "markdown",
+    dependencies = { "nvim-lua/plenary.nvim" },
+    config = function()
+      require "custom.configs.obsidian"
+    end,
+  },
+  {
+    "folke/todo-comments.nvim",
+    ft = "*,!nvdash",
+    lazy = false,
+    dependencies = { "nvim-telescope/telescope.nvim", "nvim-lua/plenary.nvim" },
+    config = function()
+      require("todo-comments").setup()
+    end,
+  },
+  {
+    "folke/trouble.nvim",
+    dependencies = { "nvim-tree/nvim-web-devicons" },
+    lazy = false,
+  },
+  {
+    "kristijanhusak/vim-dadbod-ui",
+    dependencies = {
+      { "tpope/vim-dadbod", lazy = true },
+      { "kristijanhusak/vim-dadbod-completion", ft = { "sql", "mysql", "plsql" }, lazy = true },
+    },
+    cmd = {
+      "DBUI",
+      "DBUIToggle",
+      "DBUIAddConnection",
+      "DBUIFindBuffer",
+    },
+    init = function()
+      -- Your DBUI configuration
+      vim.g.db_ui_use_nerd_fonts = 1
+    end,
+  },
+  { "ellisonleao/dotenv.nvim" },
+  { "mbbill/undotree", lazy = false },
+  {
+    "mg979/vim-visual-multi",
+    lazy = false,
+    init = function()
+      require "custom.configs.vvm"
+    end,
+  },
+  {
+    "mattn/emmet-vim",
+    ft = { "html", "astro", "svelte", "typescriptreact", "tsx", "javascriptreact", "jsx" },
+  },
+  -- TODO figure out
   -- {
-  --   "mattn/emmet-vim",
-  --   lazy = false,
+  --   "mfussenegger/nvim-dap",
+  --   lazy = true,
+  --   dependencies = {
+  --     "rcarriga/nvim-dap-ui",
+  --     -- lazy spec to build "microsoft/vscode-js-debug" from source
+  --     {
+  --       "microsoft/vscode-js-debug",
+  --       version = "1.x",
+  --       build = "npm i && npm run compile vsDebugServerBundle && mv dist out",
+  --     },
+  --   },
+  --   keys = {
+  --     {
+  --       "<leader>d",
+  --       function()
+  --         require("dap").toggle_breakpoint()
+  --       end,
+  --     },
+  --     {
+  --       "<leader>c",
+  --       function()
+  --         require("dap").continue()
+  --       end,
+  --     },
+  --   },
+  --   config = function()
+  --     require "custom.configs.debugger"
+  --   end,
   -- },
-  -- To make a plugin not be loaded
-  -- {
-  --   "NvChad/nvim-colorizer.lua",
-  --   enabled = false
-  -- },
-
-  -- All NvChad plugins are lazy-loaded by default
-  -- For a plugin to be loaded, you will need to set either `ft`, `cmd`, `keys`, `event`, or set `lazy = false`
-  -- If you want a plugin to load on startup, add `lazy = false` to a plugin spec, for example
-  -- {
-  --   "mg979/vim-visual-multi",
-  --   lazy = false,
-  -- }
 }
 
 return plugins
