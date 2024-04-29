@@ -1,4 +1,5 @@
 source ~/.oh-my-zsh/custom/themes/zsh-syntax-highlighting/themes/catppuccin_mocha-zsh-syntax-highlighting.zsh
+source /usr/share/nvm/init-nvm.sh
 
 # Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
 # Initialization code that may require console input (password prompts, [y/n]
@@ -81,6 +82,7 @@ ZSH_THEME="powerlevel10k/powerlevel10k"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
+
 plugins=(
 	# Laptop
 	battery
@@ -98,6 +100,7 @@ plugins=(
 	systemd
 	# ZSH
 	pnpm
+	zsh-vi-mode
 	zsh-autocomplete
 	zsh-autosuggestions
 	zsh-syntax-highlighting
@@ -127,6 +130,10 @@ alias serve="http-server"
 # Compilation flags
 # export ARCHFLAGS="-arch x86_64"
 
+# Enable Vim
+# set -o vi
+
+
 # Set personal aliases, overriding those provided by oh-my-zsh libs,
 # plugins, and themes. Aliases can be placed here, though oh-my-zsh
 # users are encouraged to define aliases within the ZSH_CUSTOM folder.
@@ -135,11 +142,6 @@ alias serve="http-server"
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-
-# Enable Vim
-set -o vi
-
-source /usr/share/nvm/init-nvm.sh
 
 # in order to enable terminal programs in wofi symlink Preferred terminal with xterm
 # sudo ln -s /bin/kitty /bin/xterm 

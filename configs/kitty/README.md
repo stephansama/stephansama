@@ -13,3 +13,9 @@ sudo pacman -S kitty
 ```sh
 brew install kitty
 ```
+
+## Theming
+
+```sh
+kitty +kitten themes
+```
