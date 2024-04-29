@@ -116,11 +116,10 @@ xnoremap y "*y
 " leader functions
 nnoremap <leader>w :w<CR>
 nnoremap <leader>e :Ex<CR>
+nnoremap \ :vsp<CR>:Ex<CR>
 nnoremap <leader>/ :noh<CR>
 nnoremap <leader>t :term<CR>
 nnoremap <leader>% :source %<CR>
 nnoremap <leader>lsp :LspInstall<CR>
 nnoremap gh :LspHover<CR>
-nnoremap <C-l> :vsp<CR>
-nnoremap <C-j> :sp<CR>
 nnoremap <C-x> :x<CR>

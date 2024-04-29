@@ -1,0 +1,22 @@
+:root {
+  --text: #cdd6f4;
+  --base: #1e1e2e;
+  --blue: #89b4fa;
+  --peach: #fab387;
+  --green: #a6e3a1;
+  --mantle: #181825;
+  --lavender: #b4befe;
+  --surface0: #313244;
+  --surface2: #585b70;
+  --rosewater: #f5e0dc;
+}
+
+.LH {
+  color: #cdd6f4;
+  border: none;
+  opacity: 0.9;
+}
+
+.D > .LH {
+  background: #313244;
+}
