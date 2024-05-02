@@ -1,6 +1,18 @@
+# https://github.com/torvalds/linux/blob/master/include/uapi/linux/input-event-codes.h
+# https://github.com/wez/evremap
 device_name = "AT Translated Set 2 keyboard"
 
 [[dual_role]]
 input = "KEY_CAPSLOCK"
 hold = ["KEY_LEFTCTRL"]
 tap = ["KEY_ESC"]
+
+### Swap Super and Alt Key ###
+
+[[remap]]
+input = ["KEY_LEFTMETA"]
+output = ["KEY_LEFTALT"]
+
+[[remap]]
+input = ["KEY_LEFTALT"]
+output = ["KEY_LEFTMETA"]
