@@ -1,14 +1,17 @@
 configuration{
-    modi: "drun,clipboard:~/.config/rofi/cliphist-rofi-img,window";
+    modi: "combi,clipboard:~/.config/rofi/cliphist-img.sh,window";
     icon-theme: "Papirus";
     show-icons: true;
 	location: 0;
     terminal: "kitty";
+	run-command: "{cmd}";
+	run-shell-command: "{terminal} --hold -e {cmd}";
 	drun-display-format: "{icon} {name}";
     disable-history: false;
     hide-scrollbar: true;
-	display-run: "  Run ";
-    display-drun: " 󰀻 Apps ";
+	display-run: " ";
+    display-drun: " 󰀻";
+    display-combi: " 󰀻 Apps ";
     display-window: " 󱂬 Window ";
     display-Network: " 󰤨  Network";
 	display-clipboard: " 󱘞 Clipboard ";

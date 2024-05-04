@@ -1,11 +1,13 @@
 #!/usr/bin/env bash
+#
+# https://github.com/sentriz/cliphist/blob/master/contrib/cliphist-rofi-img
 
 tmp_dir="/tmp/cliphist"
 rm -rf "$tmp_dir"
 
 if [[ -n "$1" ]]; then
-    cliphist decode <<<"$1" | wl-copy
-    exit
+	cliphist decode <<<"$1" | wl-copy
+	exit
 fi
 
 mkdir -p "$tmp_dir"
