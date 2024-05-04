@@ -23,8 +23,6 @@
 Hello world, I'm <b>Stephan Randle</b>, a seasoned Fullstack Web Developer with a specialization in frontend technologies. I bring a wealth of experience to the table, having served as a Frontend Engineer at United Wholesale Mortgage for nearly two years. My journey includes the successful completion of the Software Engineering Immersive Course at General Assembly in March 2022.
 </p>
 
-
-
 <!-- SKILLS -->
 <h3>👨🏽‍💻‍ Programming Languages</h3>
 
@@ -56,7 +54,7 @@ Hello world, I'm <b>Stephan Randle</b>, a seasoned Fullstack Web Developer with 
 <p align="center">
     <a href="https://github.com/stephansama/github-readme-streak-stats">
       <!-- Use https://streak-stats.demolab.com or self-host with your own Vercel app - visit https://git.io/streak-stats for instructions -->
-      <img title="🔥 Get streak stats for your profile at git.io/streak-stats" alt="stephansama's streak" src="https://github-readme-streak-stats-9m8ugfa77-denvercoder1.vercel.app/?user=stephansama&theme=monokai-metallian&hide_border=true"/>
+      <img title="🔥 Get streak stats for your profile at git.io/streak-stats" alt="stephansama's streak" src="https://github-readme-streak-stats-9m8ugfa77-denvercoder1.vercel.app/?user=stephansama&theme=catppuccin-mocha&hide_border=true"/>
     </a>
   </p>
 
@@ -65,8 +63,8 @@ Hello world, I'm <b>Stephan Randle</b>, a seasoned Fullstack Web Developer with 
   <!-- https://github.com/anuraghazra/github-readme-stats -->
 
 <p align="center">
-  <a href="https://github.com/anuraghazra/github-readme-stats"><img alt="Stephansama's Github Stats" src="https://denvercoder1-github-readme-stats.vercel.app/api/?username=stephansama&show_icons=true&include_all_commits=true&count_private=true&theme=react&hide_border=true&bg_color=1F222E&title_color=F85D7F&icon_color=F8D866" height="192px"/></a>
-  <a href="https://github.com/anuraghazra/github-readme-stats"><img alt="stephansama's Top Languages" src="https://denvercoder1-github-readme-stats.vercel.app/api/top-langs/?username=stephansama&langs_count=8&layout=compact&theme=react&hide_border=true&bg_color=1F222E&title_color=F85D7F&icon_color=F8D866&hide=Jupyter%20Notebook,Roff" height="192px"/></a>
+  <a href="https://github.com/anuraghazra/github-readme-stats"><img alt="Stephansama's Github Stats" src="https://github-readme-stats.vercel.app/api?username=stephansama&theme=catppuccin_mocha&show_icons=true&hide_border=true" height="192px"/></a>
+  <a href="https://github.com/anuraghazra/github-readme-stats"><img alt="stephansama's Top Languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=stephansama&theme=catppuccin_mocha&layout=compact&hide_border=true" height="192px"/></a>
 </p>
   <br/>
 
@@ -74,9 +72,7 @@ Hello world, I'm <b>Stephan Randle</b>, a seasoned Fullstack Web Developer with 
   
   <!-- https://github.com/ashutosh00710/github-readme-activity-graph -->
 
-  <a href="https://github.com/ashutosh00710/github-readme-activity-graph"><img alt="stephansama's Activity Graph" src="https://github-readme-activity-graph.vercel.app/graph/?username=stephansama&bg_color=1F222E&color=F8D866&line=F85D7F&point=FFFFFF&hide_border=true" /></a>
-
-
+  <a href="https://github.com/ashutosh00710/github-readme-activity-graph"><img alt="stephansama's Activity Graph" src="https://github-readme-activity-graph.vercel.app/graph/?username=stephansama&bg_color=1e1e2e&color=cdd6f4&line=94e2d5&point=cba6f7&hide_border=true" /></a>
 
 <!-- RSS Reader for blog -->
 <!-- https://pythonhosted.org/feedparser/ -->
