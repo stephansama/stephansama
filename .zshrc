@@ -8,8 +8,6 @@ fi
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
-# append rust binaries to path
-PATH=$HOME/.cargo/bin/:$PATH
 
 # Path to your oh-my-zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
@@ -80,12 +78,12 @@ export ZSH_THEME="powerlevel10k/powerlevel10k"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
+
 plugins=(
-	aliases
-	git
-	tmux
-	vi-mode
-	# --- JAVASCRIPT --- #
+	aliases # https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/aliases
+	git # https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/git
+	tmux # https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/tmux
+	vi-mode # https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/vi-mode
 	nvm # https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/nvm
 	yarn # https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/yarn
 	rust # https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/rust
@@ -137,19 +135,33 @@ alias lg='lazygit'
 alias ls=lsd
 # alias restart='shutdown -r 0'
 
-export NVM_DIR="$HOME/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm
-[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
+# Catppuccin Mocha ZSH Syntax highlighting
+source "${ZSH_CUSTOM:-~/.oh-my-zsh/custom}"/themes/zsh-syntax-highlighting/themes/catppuccin_mocha-zsh-syntax-highlighting.zsh
+
+### NVM ###
+if [[ "$OSTYPE" == "linux-gnu" ]]; then
+	source /usr/share/nvm/init-nvm.sh
+else
+	export NVM_DIR="$HOME/.nvm"
+	[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm
+	[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+fi
 
 alias CM_LAUNCHER=wofi
 
+export QT_QPA_PLATFORMTHEME=qt6ct
+
 # pnpm
-export PNPM_HOME="/home/srandle/.local/share/pnpm"
+export PNPM_HOME="$HOME/.local/share/pnpm"
 case ":$PATH:" in
   *":$PNPM_HOME:"*) ;;
   *) export PATH="$PNPM_HOME:$PATH" ;;
 esac
 # pnpm end
+
+# append rust binaries to path
+PATH=$HOME/.cargo/bin/:$PATH
 
 set -o vi
 
