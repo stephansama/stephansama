@@ -18,7 +18,7 @@ export ZSH="$HOME/.oh-my-zsh"
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
-ZSH_THEME="powerlevel10k/powerlevel10k"
+export ZSH_THEME="powerlevel10k/powerlevel10k"
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
@@ -83,17 +83,14 @@ ZSH_THEME="powerlevel10k/powerlevel10k"
 plugins=(
 	aliases
 	git
-	vi-mode
 	tmux
+	vi-mode
 	# --- JAVASCRIPT --- #
 	nvm # https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/nvm
 	yarn # https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/yarn
-	pnpm
-	# --- SYSTEMS --- #
 	rust # https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/rust
 	golang # https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/golang
-	
-	# --- CUSTOM ---#
+	pnpm # https://github.com/ntnyq/omz-plugin-pnpm
 	zsh-autocomplete # https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/autocomplete
 	zsh-autosuggestions # https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/autosuggestions
 	zsh-syntax-highlighting # https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/highlighting
@@ -102,10 +99,8 @@ plugins=(
 
 if [[ "$OSTYPE" == "linux-gnu" ]]; then
 	plugins+=(
-		# https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/archlinux
-		archlinux
-		# https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/systemd
-		systemd
+		systemd # https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/systemd
+		archlinux # https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/archlinux
 	)
 fi
 
