@@ -1,0 +1,19 @@
+configuration{
+    modi: "drun,clipboard:~/.config/rofi/cliphist-rofi-img,window";
+    icon-theme: "Papirus";
+    show-icons: true;
+	location: 0;
+    terminal: "kitty";
+	drun-display-format: "{icon} {name}";
+    disable-history: false;
+    hide-scrollbar: true;
+	display-run: "  Run ";
+    display-drun: " 󰀻 Apps ";
+    display-window: " 󱂬 Window ";
+    display-Network: " 󰤨  Network";
+	display-clipboard: " 󱘞 Clipboard ";
+    sidebar-mode: true;
+}
+
+@theme "catppuccin-mocha"
+
