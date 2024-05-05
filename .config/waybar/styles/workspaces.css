@@ -25,7 +25,7 @@
 #workspaces button.active {
   opacity: 1;
   border-radius: 16px;
-  color: @base;
+  color: #302d41;
   background: @red;
 }
 
