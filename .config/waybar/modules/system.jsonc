@@ -1,0 +1,96 @@
+{
+	"tray": { // https://github.com/Alexays/Waybar/wiki/Module:-Tray
+		"show-passive-items": true,
+		"icon-size": 16,
+		"spacing": 10
+	},
+	"cpu": { // https://github.com/Alexays/Waybar/wiki/Module:-CPU
+		"interval": 1,
+		"format": "{icon0}{icon1}{icon2}{icon3}{icon4}{icon5}{icon6}{icon7}",
+		"format-icons": [
+			"<span color='#69ff94'>▁</span>", // green
+			"<span color='#2aa9ff'>▂</span>", // blue
+			"<span color='#f8f8f2'>▃</span>", // white
+			"<span color='#f8f8f2'>▄</span>", // white
+			"<span color='#ffffa5'>▅</span>", // yellow
+			"<span color='#ffffa5'>▆</span>", // yellow
+			"<span color='#ff9977'>▇</span>", // orange
+			"<span color='#dd532e'>█</span>" // red
+		]
+	},
+	"memory": { // https://github.com/Alexays/Waybar/wiki/Module:-Memory
+		"format": "{}% "
+	},
+	"disk": { // https://github.com/Alexays/Waybar/wiki/Module:-Disk
+		"interval": 30,
+		"format": "{free} 󰋊",
+		"path": "/"
+	},
+	"idle_inhibitor": { // https://github.com/Alexays/Waybar/wiki/Module:-Idle-Inhibitor
+		"format": "{icon}",
+		"format-icons": {
+			"activated": "󰈈",
+			"deactivated": "󰈉"
+		}
+	},
+	"temperature": { // https://github.com/Alexays/Waybar/wiki/Module:-Temperature
+		"tooltip": false,
+		"critical-threshold": 80,
+		"format-critical": "{temperatureC}󰔄 {icon}!",
+		"format": "{temperatureC}󰔄 {icon}",
+		"format-icons": [
+			"",
+			"",
+			""
+		]
+	},
+	"battery": { // https://github.com/Alexays/Waybar/wiki/Module:-Battery
+		"states": {
+			"good": 90,
+			"warning": 30,
+			"critical": 15
+		},
+		"format": "{capacity}% {icon}",
+		"format-full": "{capacity}% {icon}",
+		"format-charging": "{capacity}% 󰂄",
+		"format-plugged": "{capacity}% ",
+		"format-alt": "{time} {icon}",
+		"format-icons": [
+			"",
+			"",
+			"",
+			"",
+			""
+		]
+	},
+	"network": { // https://github.com/Alexays/Waybar/wiki/Module:-Network
+		"tooltip-format": "{ifname} via {gwaddr} 󰛳",
+		"format-wifi": "{essid} ({signalStrength}%) 󰤨",
+		"format-ethernet": "{ipaddr}/{cidr} 󰈀",
+		"format-linked": "{ifname} (No IP) 󰌘",
+		"format-disconnected": "Disconnected ",
+		"format-alt": "{ifname}: {ipaddr}/{cidr}"
+	},
+	"privacy": { // https://github.com/Alexays/Waybar/wiki/Module:-Privacy
+		"icon-spacing": 4,
+		"icon-size": 18,
+		"transition-duration": 250,
+		"modules": [
+			{
+				"type": "screenshare",
+				"tooltip": true,
+				"tooltip-icon-size": 24
+			},
+			{
+				"type": "audio-out",
+				"tooltip": true,
+				"tooltip-icon-size": 24
+			},
+			{
+				"type": "audio-in",
+				"tooltip": true,
+				"tooltip-icon-size": 24
+			}
+		]
+	}
+}

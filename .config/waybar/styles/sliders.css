@@ -1,0 +1,37 @@
+/* https://github.com/Alexays/Waybar/wiki/Module:-Backlight#style */
+/* https://github.com/Alexays/Waybar/wiki/Module:-Backlight-Slider#style */
+
+/* https://github.com/Alexays/Waybar/wiki/Module:-PulseAudio#style */
+/* https://github.com/Alexays/Waybar/wiki/Module:-PulseAudio-Slider#style */
+
+#backlight,
+#pulseaudio {
+  color: white;
+  font-size: 24px;
+}
+
+#backlight-slider slider,
+#pulseaudio-slider slider {
+  border: none;
+  opacity: 0;
+  min-width: 0px;
+  min-height: 0px;
+  box-shadow: none;
+  border-radius: 999999px;
+  background-color: #302d41;
+  border: 3px solid @red;
+}
+
+#backlight-slider trough,
+#pulseaudio-slider trough {
+  min-width: 80px;
+  min-height: 3px;
+  border-radius: 10px;
+  background-color: alpha(@red, 0.3);
+}
+
+#backlight-slider highlight,
+#pulseaudio-slider highlight {
+  border-radius: 10px;
+  background-color: red;
+}

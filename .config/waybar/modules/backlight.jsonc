@@ -1,0 +1,28 @@
+// https://github.com/Alexays/Waybar/wiki/Module:-Backlight
+{
+	"backlight": {
+		"device": "intel_backlight",
+		"tooltip": false,
+		"format": "{icon}",
+		"format-icons": [
+			"󰹐",
+			"󱩎",
+			"󱩏",
+			"󱩐",
+			"󱩑",
+			"󱩒",
+			"󱩓",
+			"󱩔",
+			"󱩕",
+			"󱩖",
+			"󰛨"
+		]
+	},
+	"backlight/slider": {
+		// "device": "acpi_video1",
+		"min": 20,
+		"max": 100,
+		"orientation": "horizontal",
+		"format": "{percent}% {icon}"
+	}
+}

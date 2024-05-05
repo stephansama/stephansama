@@ -1,0 +1,47 @@
+/* https://github.com/Alexays/Waybar/wiki/Module:-Battery#style */
+
+#battery.good {
+  color: @green;
+}
+
+#battery.charging {
+  color: @green;
+}
+
+#battery.warning {
+  color: @yellow;
+}
+
+#battery.critical {
+  color: @red;
+}
+
+/** Critical and warning animation **/
+
+@keyframes to_critical {
+  to {
+    color: @red;
+  }
+}
+
+@keyframes to_warning {
+  to {
+    color: @yellow;
+  }
+}
+
+#battery.critical:not(.charging) {
+  animation-name: to_warning;
+}
+
+#battery.warning:not(.charging) {
+  animation-name: to_critical;
+}
+
+#battery.critical:not(.charging),
+#battery.warning:not(.charging) {
+  animation-duration: 1.5s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  animation-timing-function: steps(12);
+}

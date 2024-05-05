@@ -1,0 +1,46 @@
+{
+	"hyprland/window": {
+		"icons": true,
+		"format": "{class} 󰄾 {title}"
+	},
+	"hyprland/workspaces": {
+		"disable-scroll": true,
+		"all-outputs": true,
+		"warp-on-scroll": false,
+		"format": "{icon}<span>{windows}</span>",
+		"format-window-separator": " ",
+		"format-icons": {
+			"1": " 󰬺 ",
+			"2": " 󰬻 ",
+			"3": " 󰬼 ",
+			"4": " 󰬽 ",
+			"5": " 󰬾 ",
+			"6": " 󰬿 ",
+			"7": " 󰭀 ",
+			"8": " 󰭁 ",
+			"9": " 󰭂 ",
+			"10": " 󰿩 ",
+			"urgent": "",
+			"focused": "",
+			"default": ""
+		},
+		"window-rewrite-default": "",
+		"window-rewrite": {
+			"title<.*youtube.*>": "",
+			"class<kitty>": "",
+			"class<firefox>": "",
+			"class<org.kde.dolphin>": "",
+			"class<com.obsproject.Studio>": "󰑋",
+			"class<vlc>": "󰕼",
+			"class<discord>": "󰙯",
+			"class<thunderbird>": "󱗆",
+			"class<Gimp.*>": "",
+			"class<google-chrome>": "",
+			"class<blueman-manager>": "",
+			"class<nm-connection-editor>": "󰤨",
+			"class<firefox> title<.*github.*>": "",
+			"class<org.kde.kcalc>": "󰃬",
+			"title<.*tmux.*>": ""
+		}
+	}
+}

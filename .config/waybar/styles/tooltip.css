@@ -1,0 +1,11 @@
+tooltip {
+  border-radius: 16px;
+  background: transparent;
+  color: @text;
+  border: 3px solid @red;
+}
+
+tooltip label {
+  color: @text;
+  padding: 10px;
+}
