@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-#
+
 # https://github.com/sentriz/cliphist/blob/master/contrib/cliphist-rofi-img
 
 tmp_dir="/tmp/cliphist"

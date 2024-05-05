@@ -1,6 +1,9 @@
 #!/bin/sh
 
+# https://github.com/MusicalArtist12/rofi-firefox-bookmark
+
 # Juliaviolet.dev | Sept 2023
+# Modified Stephan Randle | May 2024
 
 # UI states 'Shift+Return: new window', but expects ROFI_RETV == 11 to do so. which by default is 'Alt+1.'
 # To match the stated UI, add these lines to your config file.\
@@ -13,6 +16,8 @@
 #
 
 # ruthlessly modified from a dmenu script to be native to rofi. 
+
+export DB="${HOME}/.cache/rofibookmarksdb"
 
 gen_bookmark() {
     # search for profile folder if not specified
@@ -36,14 +41,14 @@ gen_bookmark() {
 
     # fetch all bookmark records from copy, show menu and open selected bookmark in browser
     sqlite3 "${bookmarks_folder}"/bookmarks_copy.sqlite 'SELECT i.title, u.url FROM items i, urls u WHERE (i.urlId = u.id)' \
-    | sed 's/|http/:http/' > TEMP
+    | sed 's/|http/:http/' > "${DB}"
 
     while read -r line; do
         LINK=$(echo -en "$line" | grep -Eo '(http|https)://.*') 
         TITLE=$(echo -en $line | cut -d: -f1)
 
         echo -en "${TITLE}\0info\x1f${LINK}\x1ficon\x1fbookmarks\n"
-    done < TEMP
+    done < "${DB}"
 }
 
 if [ -z $@ ]
