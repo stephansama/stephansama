@@ -2,6 +2,7 @@
 	"include": [
 		"~/.config/waybar/modules/hypr.jsonc",
 		"~/.config/waybar/modules/clock.jsonc",
+		"~/.config/waybar/modules/custom.jsonc",
 		"~/.config/waybar/modules/system.jsonc",
 		"~/.config/waybar/modules/backlight.jsonc",
 		"~/.config/waybar/modules/pulseaudio.jsonc"

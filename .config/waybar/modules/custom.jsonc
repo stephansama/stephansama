@@ -1,0 +1,12 @@
+{ // https://github.com/coffebar/waybar-module-pacman-updates
+	"custom/updates": {
+		"exec": "waybar-module-pacman-updates  --interval-seconds 5 --network-interval-seconds 300",
+		"exec-if": "which waybar-module-pacman-updates",
+		"format": "{} {icon}",
+		"return-type": "json",
+		"format-icons": {
+			"updated": "󰣇",
+			"has-updates": "󰏕"
+		}
+	}
+}

@@ -26,6 +26,7 @@
 		"group/pulseaudio",
 		"group/backlight",
 		"idle_inhibitor",
+		"custom/updates",
 		"privacy",
 		"tray"
 	],

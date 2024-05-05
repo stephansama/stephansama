@@ -1,39 +1,5 @@
 /* https://github.com/Alexays/Waybar/wiki/Module:-Hyprland#style */
 
-/* #workspaces */
-/* #workspaces button */
-/* #workspaces button.active */
-/* #workspaces button.empty */
-/* #workspaces button.persistent */
-/* #workspaces button.special */
-/* #workspaces button.visible */
-/* #workspaces button.urgent */
-/* #workspaces button.hosting-monitor */
-
-/* #workspaces { */
-/*   border-radius: 16px; */
-/* } */
-/**/
-/* #workspaces button > span:first-child { */
-/*   margin-left: 10px; */
-/* } */
-/**/
-/* #workspaces button.visible, */
-/* #workspaces button { */
-/*   padding: 0 5px; */
-/*   background: transparent; */
-/*   color: white; */
-/* } */
-/**/
-/* #workspaces button.active { */
-/*   color: @base; */
-/*   background-color: @red; */
-/* } */
-/**/
-/* #workspaces button.focused { */
-/*   background: @red; */
-/* } */
-
 #workspaces {
   margin: 5px 1px;
   padding: 0px 1px;
@@ -47,21 +13,19 @@
 }
 
 #workspaces button {
-  opacity: 0.4;
-  padding: 0px 5px;
-  margin: 4px 3px;
-  border: 0px;
-  border-radius: 16px;
-  transition: all 0.3s ease-in-out;
-  color: @text;
   background-color: #302d41;
+  border-radius: 16px;
+  border: 0px;
+  margin: 4px 3px;
+  padding: 0px 5px;
+  opacity: 0.4;
+  color: @text;
 }
 
 #workspaces button.active {
   opacity: 1;
   border-radius: 16px;
-  transition: all 0.3s ease-in-out;
-  color: @textcolor1;
+  color: @base;
   background: @red;
 }
 
