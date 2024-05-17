@@ -1,31 +1,21 @@
 # Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
 # Initialization code that may require console input (password prompts, [y/n]
 # confirmations, etc.) must go above this block; everything else may go below.
-if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then
-  source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
-fi
+# shellcheck disable=SC1090,SC2296
+# if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then
+#   source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
+# fi
 
-# If you come from bash you might have to change your $PATH.
-# export PATH=$HOME/bin:/usr/local/bin:$PATH
+export VISUAL='nvim'
+export EDITOR='nvim'
 
-
-# Path to your oh-my-zsh installation.
-export ZSH="$HOME/.oh-my-zsh"
+export ZSH="$HOME/.oh-my-zsh" # Path to your oh-my-zsh installation.
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
 export ZSH_THEME="powerlevel10k/powerlevel10k"
-
-# Set list of themes to pick from when loading at random
-# Setting this variable when ZSH_THEME=random will cause zsh to load
-# a theme from this variable instead of looking in $ZSH/themes/
-# If set to an empty array, this variable will have no effect.
-# ZSH_THEME_RANDOM_CANDIDATES=( "robbyrussell" "agnoster" )
-
-# Uncomment the following line to use case-sensitive completion.
-# CASE_SENSITIVE="true"
 
 # Uncomment the following line to use hyphen-insensitive completion.
 # Case-sensitive completion must be off. _ and - will be interchangeable.
@@ -38,9 +28,6 @@ export ZSH_THEME="powerlevel10k/powerlevel10k"
 
 # Uncomment the following line to change how often to auto-update (in days).
 # zstyle ':omz:update' frequency 13
-
-# Uncomment the following line if pasting URLs and other text is messed up.
-# DISABLE_MAGIC_FUNCTIONS="true"
 
 # Uncomment the following line to disable colors in ls.
 # DISABLE_LS_COLORS="true"
@@ -78,90 +65,72 @@ export ZSH_THEME="powerlevel10k/powerlevel10k"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-
 plugins=(
-	aliases # https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/aliases
-	git # https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/git
-	tmux # https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/tmux
-	vi-mode # https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/vi-mode
-	nvm # https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/nvm
-	yarn # https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/yarn
-	rust # https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/rust
-	golang # https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/golang
-	pnpm # https://github.com/ntnyq/omz-plugin-pnpm
-	zsh-autocomplete # https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/autocomplete
-	zsh-autosuggestions # https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/autosuggestions
+	git                     # https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/git
+	sudo                    # https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/sudo
+	tmux                    # https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/tmux
+	aliases                 # https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/aliases
+	vi-mode                 # https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/vi-mode
+	nvm                     # https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/nvm
+	yarn                    # https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/yarn
+	rust                    # https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/rust
+	golang                  # https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/golang
+	pnpm                    # https://github.com/ntnyq/omz-plugin-pnpm
+	zsh-autocomplete        # https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/autocomplete
+	zsh-autosuggestions     # https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/autosuggestions
 	zsh-syntax-highlighting # https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/highlighting
 )
 
-
 if [[ "$OSTYPE" == "linux-gnu" ]]; then
 	plugins+=(
-		systemd # https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/systemd
 		archlinux # https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/archlinux
+		systemd   # https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/systemd
+	)
+else
+	plugins+=(
+		macos # https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/macos
 	)
 fi
 
+# if [[ ]]
+
 source $ZSH/oh-my-zsh.sh
-
-# User configuration
-
-# export MANPATH="/usr/local/man:$MANPATH"
-
-# You may need to manually set your language environment
-# export LANG=en_US.UTF-8
-
-# Preferred editor for local and remote sessions
-# if [[ -n $SSH_CONNECTION ]]; then
-#   export EDITOR='vim'
-# else
-#   export EDITOR='mvim'
-# fi
-
-# Compilation flags
-# export ARCHFLAGS="-arch x86_64"
-
-# Set personal aliases, overriding those provided by oh-my-zsh libs,
-# plugins, and themes. Aliases can be placed here, though oh-my-zsh
-# users are encouraged to define aliases within the ZSH_CUSTOM folder.
-# For a full list of active aliases, run `alias`.
-#
-# Example aliases
-# alias zshconfig="mate ~/.zshrc"
-# alias ohmyzsh="mate ~/.oh-my-zsh"
 
 alias nv='nvim'
 alias lg='lazygit'
-alias ls=lsd
+alias ls='lsd'
 # alias restart='shutdown -r 0'
-
 
 # Catppuccin Mocha ZSH Syntax highlighting
 source "${ZSH_CUSTOM:-~/.oh-my-zsh/custom}"/themes/zsh-syntax-highlighting/themes/catppuccin_mocha-zsh-syntax-highlighting.zsh
 
-### NVM ###
 if [[ "$OSTYPE" == "linux-gnu" ]]; then
+
+	alias CM_LAUNCHER=wofi
+
+	export QT_QPA_PLATFORMTHEME=qt6ct
+
+	# load nvm from AUR
 	source /usr/share/nvm/init-nvm.sh
 else
+	# load nvm from homebrew
 	export NVM_DIR="$HOME/.nvm"
-	[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm
-	[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+	[ -s "$HOMEBREW_PREFIX/opt/nvm/nvm.sh" ] && \. "$HOMEBREW_PREFIX/opt/nvm/nvm.sh"
+	[ -s "$HOMEBREW_PREFIX/opt/nvm/etc/bash_completion.d/nvm" ] && \. "$HOMEBREW_PREFIX/opt/nvm/etc/bash_completion.d/nvm"
 fi
-
-alias CM_LAUNCHER=wofi
-
-export QT_QPA_PLATFORMTHEME=qt6ct
 
 # pnpm
 export PNPM_HOME="$HOME/.local/share/pnpm"
 case ":$PATH:" in
-  *":$PNPM_HOME:"*) ;;
-  *) export PATH="$PNPM_HOME:$PATH" ;;
+*":$PNPM_HOME:"*) ;;
+*) export PATH="$PNPM_HOME:$PATH" ;;
 esac
 # pnpm end
 
-# append rust binaries to path
-PATH=$HOME/.cargo/bin/:$PATH
+export GOPATH=$HOME/go
+
+export PATH=$HOME/.cargo/bin/:$PATH       # append rust binaries to path
+export PATH=$PATH:$GOROOT/bin:$GOPATH/bin # append go binaries to path
 
 set -o vi
 

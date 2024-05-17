@@ -36,3 +36,13 @@ custom
 ^/Brewfile
 ^/update_configs.sh
 
+########################
+# Uncomment if on mac #
+########################
+
+# dunst
+# hypr
+# rofi
+# waybar
+# kdeglobals
+# electron-flags.conf
