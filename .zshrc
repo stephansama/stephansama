@@ -15,7 +15,7 @@ export ZSH="$HOME/.oh-my-zsh" # Path to your oh-my-zsh installation.
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
-export ZSH_THEME="powerlevel10k/powerlevel10k"
+export ZSH_THEME=""
 
 # Uncomment the following line to use hyphen-insensitive completion.
 # Case-sensitive completion must be off. _ and - will be interchangeable.
@@ -127,6 +127,8 @@ case ":$PATH:" in
 esac
 # pnpm end
 
+export OPENAI_API_KEY=""
+
 export GOPATH=$HOME/go
 
 export PATH=$HOME/.cargo/bin/:$PATH       # append rust binaries to path
@@ -134,5 +136,4 @@ export PATH=$PATH:$GOROOT/bin:$GOPATH/bin # append go binaries to path
 
 set -o vi
 
-# To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
-[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+eval "$(oh-my-posh init zsh --config '~/.zsh.omp.json')"
