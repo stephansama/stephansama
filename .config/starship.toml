@@ -15,6 +15,7 @@ $git_branch\
 $git_status\
 [](fg:green)\
 \n$time\
+$c\
 $lua\
 $php\
 $rust\
@@ -26,6 +27,7 @@ $aws\
 
 
 [palettes.catppuccin_mocha]
+c = "#00599C"
 go = "#00ADD8"
 lua = "#2C2D72"
 node = "#5FA04E"
@@ -89,7 +91,7 @@ truncation_length = 4
 truncation_symbol = "…/"
 
 [directory.substitutions]
-"nvim" = "vim"
+"nvim" = ""
 ".dotfiles" = " dotfiles"
 ".config" = " config"
 ".cargo" = "🦀 .cargo"
@@ -111,12 +113,29 @@ format = '[[ $symbol $branch ](fg:crust bg:green)]($style)'
 
 [git_status]
 style = "bg:green"
-format = '[[($all_status$ahead_behind )](fg:crust bg:green)]($style)'
+ahead = "⇡"
+behind = "⇣"
+conflicted = "="
+staged = "[󰐙](fg:#008000 bg:green)"
+stashed = "[](fg:#40a02b bg:green)"
+deleted = "[](fg:#FF0000 bg:green)"
+modified = "[](fg:#df8e1d bg:green)"
+untracked = "[](fg:#800080 bg:green)"
+diverged = "⇕"
+disabled = false
+typechanged = ""
+format = '[[($all_status$ahead_behind)](fg:crust bg:green)]($style)'
 
 [aws]
 symbol = "󰸏"
 style = "bold yellow"
 format = " [$symbol ($profile )(\\($region\\) )(\\[$duration\\] )]($style)"
+
+[c]
+symbol = ""
+style = "149 bold"
+detect_extensions = ["c", "h", "cxx", "cpp", "hpp"]
+format = '[ [](fg:c)[$symbol ($version)](fg:#FFFFFF bg:c)]($style)[](fg:c)'
 
 [lua]
 symbol = ""
