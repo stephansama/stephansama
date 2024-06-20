@@ -1,0 +1,144 @@
+'$schema' = "https://starship.rs/config-schema.json"
+
+add_newline = false
+
+palette = "catppuccin_mocha"
+
+format = """
+[ ](bg:blue)\
+$sudo\
+$username\
+[](fg:blue bg:red)\
+$directory\
+[](fg:red bg:green)\
+$git_branch\
+$git_status\
+[](fg:green)\
+\n$time\
+$lua\
+$php\
+$rust\
+$nodejs\
+$golang\
+$docker_context\
+$aws\
+\n$character"""
+
+
+[palettes.catppuccin_mocha]
+go = "#00ADD8"
+lua = "#2C2D72"
+node = "#5FA04E"
+rust = "#000000"
+docker = "#2496ED"
+rosewater = "#f5e0dc"
+flamingo = "#f2cdcd"
+pink = "#f5c2e7"
+mauve = "#cba6f7"
+red = "#f38ba8"
+maroon = "#eba0ac"
+peach = "#fab387"
+yellow = "#f9e2af"
+green = "#a6e3a1"
+teal = "#94e2d5"
+sky = "#89dceb"
+sapphire = "#74c7ec"
+blue = "#89b4fa"
+lavender = "#b4befe"
+text = "#cdd6f4"
+subtext1 = "#bac2de"
+subtext0 = "#a6adc8"
+overlay2 = "#9399b2"
+overlay1 = "#7f849c"
+overlay0 = "#6c7086"
+surface2 = "#585b70"
+surface1 = "#45475a"
+surface0 = "#313244"
+base = "#1e1e2e"
+mantle = "#181825"
+crust = "#11111b"
+
+[package]
+disabled = true
+
+[character]
+format = "╰$symbol"
+error_symbol = "[❯](bold red)"
+success_symbol = "[❯](bold green)"
+vimcmd_symbol = "[❮](bold green)"
+vimcmd_visual_symbol = "[❮](bold yellow)"
+vimcmd_replace_symbol = "[❮](bold purple)"
+vimcmd_replace_one_symbol = "[❮](bold purple)"
+
+[sudo]
+style = "fg:crust bg:blue"
+symbol = "󱞾"
+format = "[$symbol]($style)"
+disabled = false
+
+[username]
+show_always = true
+style_user = "fg:crust bg:blue"
+format = "[ $user]($style)"
+
+[directory]
+style = "fg:crust bg:red"
+format = "[ $path]($style)"
+home_symbol = "󰋜"
+truncation_length = 4
+truncation_symbol = "…/"
+
+[directory.substitutions]
+"nvim" = "vim"
+".dotfiles" = " dotfiles"
+".config" = " config"
+".cargo" = "🦀 .cargo"
+"Music" = " Music"
+"Pictures" = " Pictures"
+"Documents" = "󰈙 Documents"
+"Downloads" = " Downloads"
+
+[time]
+disabled = false
+time_format = "%R"                       # Hour:Minute Format
+style = "bg:#1d2230"
+format = '[[│ $time](fg:text)]($style)'
+
+[git_branch]
+symbol = ""
+style = "bg:green"
+format = '[[ $symbol $branch ](fg:crust bg:green)]($style)'
+
+[git_status]
+style = "bg:green"
+format = '[[($all_status$ahead_behind )](fg:crust bg:green)]($style)'
+
+[aws]
+symbol = "󰸏"
+style = "bold yellow"
+format = " [$symbol ($profile )(\\($region\\) )(\\[$duration\\] )]($style)"
+
+[lua]
+symbol = ""
+format = '[ [](fg:lua)[$symbol ($version)](fg:#FFFFFF bg:lua)]($style)[](fg:lua)'
+
+[nodejs]
+symbol = ""
+format = '[ [](fg:node)[$symbol ($version)](fg:#FFFFFF bg:node)]($style)[](fg:node)'
+
+[rust]
+symbol = ""
+format = '[ [](fg:rust)[$symbol ($version)](fg:#FFFFFF bg:rust)]($style)[](fg:rust)'
+
+[golang]
+symbol = ""
+format = '[ [](fg:go)[$symbol ($version)](fg:#FFFFFF bg:go)]($style)[](fg:go)'
+
+[docker_context]
+symbol = ""
+format = '[ [](fg:docker)[$symbol $context](fg:#FFFFFF bg:docker)]($style)[](fg:docker)'
+
+[php]
+symbol = ""
+style = "bg:#212736"
+format = '[[ $symbol ($version) ](fg:#769ff0 bg:#212736)]($style)'
