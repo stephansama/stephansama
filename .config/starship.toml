@@ -64,7 +64,7 @@ crust = "#11111b"
 disabled = true
 
 [character]
-format = "╰$symbol"
+format = "╰$symbol "
 error_symbol = "[❯](bold red)"
 success_symbol = "[❯](bold green)"
 vimcmd_symbol = "[❮](bold green)"

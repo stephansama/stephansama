@@ -1,0 +1,29 @@
+{
+	"description": "Caps Lock to Escape on single press, Caps Lock on press and hold.",
+	"manipulators": [
+		{
+			"from": {
+				"key_code": "caps_lock",
+				"modifiers": {
+					"optional": [
+						"any"
+					]
+				}
+			},
+			"parameters": {
+				"basic.to_if_held_down_threshold_milliseconds": 50
+			},
+			"to_if_alone": [
+				{
+					"key_code": "escape"
+				}
+			],
+			"to_if_held_down": [
+				{
+					"key_code": "left_control"
+				}
+			],
+			"type": "basic"
+		}
+	]
+}
