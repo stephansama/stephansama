@@ -76,7 +76,7 @@ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:
 git clone https://github.com/catppuccin/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/themes/zsh-syntax-highlighting/
 ```
 
-## [TMUX Plugin Manager](https://github.com/tmux-plugins/tpm)
+## TMUX
 
 ### Install TMUX
 
@@ -96,4 +96,27 @@ brew install tmux
 git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
 ```
 
-### Favourite TMUX Plugins
+### Favourite [TMUX Plugins](https://github.com/tmux-plugins/tpm)
+
+### Additional TMUX Keybindings
+
+| Keybinding | Description                                                      |
+|------------|------------------------------------------------------------------|
+| `<C-b>`    | Prefix or (`P`)                                                  |
+| `<C-h>`    | Move to left                                                     |
+| `<C-j>`    | Move to down                                                     |
+| `<C-k>`    | Move to up                                                       |
+| `<C-l>`    | Move to right                                                    |
+| `P,[`      | Switch to copy mode                                              |
+| `P,I`      | Install tmux plugins                                             |
+| `P,S`      | Save tmux continuum session                                      |
+| `P,F`      | Fuzzy find for tmux commands                                     |
+| `P,s`      | Fuzzy find for tmux sessions                                     |
+| `P,w`      | Fuzzy find for tmux windows                                      |
+| `P,g`      | Open floating lazygit window                                     |
+| `P,o`      | Open under cursor  with default program                          |
+| `P,<C-o>`  | Open under cursor  with default `$EDITOR`                        |
+| `P,f`      | Find file to open with default `$EDITOR` using `fpp`             |
+| `P,<C-f>`  | Search and select file within current buffer                     |
+| `P,u`      | Find url within the current buffer and open with default browser |
+| `P,<C-u>`  | Search and select url within current buffer                      |
