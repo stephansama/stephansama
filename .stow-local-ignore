@@ -20,7 +20,7 @@ _darcs
 \#.*\#       # emacs autosave files
 
 # directory containing more customized configs
-custom
+^/custom
 
 ^/.*\.md
 \.md
