@@ -28,7 +28,8 @@ M.apply_to_config = function(config)
 
 	--- window
 	config.native_macos_fullscreen_mode = true
-	config.macos_window_background_blur = const.BACKGROUND_BLUR
+	-- turn off to make feature parity with linux and windows
+	-- config.macos_window_background_blur = const.BACKGROUND_BLUR
 	config.window_background_opacity = const.BACKGROUND_OPACITY
 	config.window_decorations = "RESIZE"
 	config.window_padding = { top = 0, left = 0, right = 0, bottom = 0 }

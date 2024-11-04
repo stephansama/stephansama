@@ -1,12 +1,12 @@
 local M = {}
 local action = require("wezterm").action
 
-local launch_command_pallette = action.ShowLauncherArgs({ flags = "LAUNCH_MENU_ITEMS" })
+-- local launch_command_pallette = action.ShowLauncherArgs({ flags = "LAUNCH_MENU_ITEMS" })
 local launch_char_select = action.CharSelect({ copy_on_select = true, copy_to = "ClipboardAndPrimarySelection" })
 
 M.keys = {
-	{ key = "l", mods = "ALT", action = launch_command_pallette },
-	{ key = "s", mods = "CTRL", action = launch_char_select },
+	-- { key = "l", mods = "ALT", action = launch_command_pallette },
+	-- { key = "s", mods = "CTRL", action = launch_char_select },
 }
 
 M.tmux_keys = {
