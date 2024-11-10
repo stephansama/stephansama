@@ -1,7 +1,7 @@
 #!/bin/bash
 
 if [[ "$OSTYPE" == "linux-gnu"* ]]; then
-	echo 'on linux'
+	echo 'Dark'
 elif [[ "$OSTYPE" == "darwin"* ]]; then
 	defaults read -g AppleInterfaceStyle
 elif [[ "$OSTYPE" == "cygwin" ]]; then

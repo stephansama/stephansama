@@ -10,6 +10,8 @@ config.hyperlink_rules = wezterm.default_hyperlink_rules()
 config.default_gui_startup_args = { "start", "--", const.INIT_SCRIPT }
 config.set_environment_variables = { PATH = const.PATH }
 
+config.enable_wayland = false
+
 ui.apply_to_config(config)
 keys.apply_to_config(config)
 events.register()
