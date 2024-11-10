@@ -34,19 +34,17 @@ fi
 
 source $ZSH/oh-my-zsh.sh
 
+alias ls='lsd'
 alias nv='nvim'
 alias lg='lazygit'
-alias ls='lsd'
-
-# Catppuccin Mocha ZSH Syntax highlighting
-source "${ZSH_CUSTOM:-~/.oh-my-zsh/custom}"/themes/zsh-syntax-highlighting/themes/catppuccin_mocha-zsh-syntax-highlighting.zsh
+alias ci='cd $(find . -mindepth 1 -maxdepth 1 | fzf)'
+alias del='rm -rf $(find . -mindepth 1 -maxdepth 1 | fzf)'
+alias all='als | awk NF | fzf'
+alias restow='stow -D . && stow .'
 
 if [[ "$OSTYPE" == "linux-gnu" ]]; then
-
 	alias CM_LAUNCHER=wofi
-
 	export QT_QPA_PLATFORMTHEME=qt6ct
-
 	# load nvm from AUR
 	source /usr/share/nvm/init-nvm.sh
 else
@@ -64,15 +62,17 @@ case ":$PATH:" in
 esac
 # pnpm end
 
-export OPENAI_API_KEY=""
-
 export GOPATH=$HOME/go
 
-export PATH=$HOME/.cargo/bin/:$PATH       # append rust binaries to path
-export PATH=$PATH:$GOROOT/bin:$GOPATH/bin # append go binaries to path
+export PATH="/usr/bin:/bin:/usr/sbin:/sbin:$PATH"  # append binaries
+export PATH="/usr/local/bin:/usr/local/sbin:$PATH" # append binaries
+export PATH="$HOME/Library/Python/3.9/bin:$PATH"   # MacOS Python
+export PATH="$HOME/.console-ninja/.bin:$PATH"      # console ninja for vscode
+export PATH=$HOME/.cargo/bin/:$PATH                # append rust binaries to path
+export PATH=$PATH:$GOROOT/bin:$GOPATH/bin          # append go binaries to path
+export PATH="$HOME/.sst/bin:$PATH"                 # sst
+export PATH="$PATH:$HOME/.local/bin"               # Created by `pipx` on 2024-08-04 12:48:38
 
 set -o vi
 
 eval "$(starship init zsh)"
-
-PATH=~/.console-ninja/.bin:$PATH
