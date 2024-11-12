@@ -9,7 +9,7 @@
     grey: #737994;
 
     width: 600;
-    font: "JetBrainsMono Nerd Font 14";
+    font: "FiraCode Nerd Font Mono 14";
 }
 
 element-text, element-icon , mode-switcher {
