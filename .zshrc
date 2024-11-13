@@ -34,12 +34,11 @@ fi
 
 source $ZSH/oh-my-zsh.sh
 
+alias c='clear'
 alias ls='lsd'
 alias nv='nvim'
 alias lg='lazygit'
-alias ci='cd $(find . -mindepth 1 -maxdepth 1 | fzf)'
 alias img='wezterm imgcat'
-alias del='rm -rf $(find . -mindepth 1 -maxdepth 1 | fzf)'
 alias all='als | awk NF | fzf'
 alias restow='stow -D . && stow .'
 
