@@ -41,6 +41,7 @@ alias lg='lazygit'
 alias cat='bat'
 alias img='wezterm imgcat'
 alias all='als | awk NF | fzf'
+alias ai='oatmeal sessions open'
 alias restow='stow -D . && stow .'
 
 if [[ "$OSTYPE" == "linux-gnu" ]]; then
