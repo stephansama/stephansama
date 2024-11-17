@@ -35,6 +35,7 @@ _darcs
 ^/COPYING
 ^/Brewfile
 ^/update_configs.sh
+.editorconfig
 
 ########################
 # Uncomment if on mac #
