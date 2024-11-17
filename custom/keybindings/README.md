@@ -1,5 +1,10 @@
 # Keybindings
 
+## ⚠️ Deprecated ⚠️
+
+Use [lily58](https://github.com/stephansama/lily58-zmk) or other zmk
+/ qmk compatible keyboard in order to offload functionality to firmware
+
 ## MacOS | [Karabiner](https://karabiner-elements.pqrs.org/)
 
 ```sh

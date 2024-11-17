@@ -2,19 +2,20 @@ export ZSH="$HOME/.oh-my-zsh"
 export ZSH_THEME=""
 
 plugins=(
-	git                     # https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/git
-	sudo                    # https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/sudo
-	tmux                    # https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/tmux
-	aliases                 # https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/aliases
-	vi-mode                 # https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/vi-mode
-	nvm                     # https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/nvm
-	yarn                    # https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/yarn
-	rust                    # https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/rust
-	golang                  # https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/golang
-	pnpm                    # https://github.com/ntnyq/omz-plugin-pnpm
-	zsh-autocomplete        # https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/autocomplete
-	zsh-autosuggestions     # https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/autosuggestions
-	zsh-syntax-highlighting # https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/highlighting
+	git                          # https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/git
+	sudo                         # https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/sudo
+	tmux                         # https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/tmux
+	aliases                      # https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/aliases
+	vi-mode                      # https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/vi-mode
+	nvm                          # https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/nvm
+	yarn                         # https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/yarn
+	rust                         # https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/rust
+	golang                       # https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/golang
+	pnpm                         # https://github.com/ntnyq/omz-plugin-pnpm
+	zsh-autocomplete             # https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/autocomplete
+	zsh-autosuggestions          # https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/autosuggestions
+	zsh-syntax-highlighting      # https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/highlighting
+	zsh-npm-scripts-autocomplete # https://github.com/grigorii-zander/zsh-npm-scripts-autocomplete
 )
 
 if [[ "$OSTYPE" == "linux-gnu" ]]; then
@@ -45,6 +46,8 @@ alias v='find . | fzf | xargs -r nvim'
 alias c='clear'
 alias ls='lsd'
 alias nv='nvim'
+alias lv='NVIM_APPNAME=lazyvim nvim'
+alias kv='NVIM_APPNAME=kickstart nvim'
 alias lg='lazygit'
 alias img='wezterm imgcat'
 alias all='als | awk NF | fzf'
@@ -57,6 +60,7 @@ case ":$PATH:" in
 *":$PNPM_HOME:"*) ;;
 *) export PATH="$PNPM_HOME:$PATH" ;;
 esac
+source "$HOME/.config/scripts/pnpm-completions.bash"
 # pnpm end
 
 export EDITOR='nvim'
@@ -76,6 +80,7 @@ export PATH="$PATH:$GOPATH/bin"
 export PATH="$PATH:$HOME/.sst/bin"
 export PATH="$PATH:$HOME/.local/bin"
 export PATH="$PATH:$HOME/.cargo/bin"
+export PATH="$PATH:$HOME/.config/scripts"
 export PATH="$PATH:$HOME/Library/Python/3.9/bin"
 
 set -o vi
