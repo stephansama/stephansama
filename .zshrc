@@ -1,8 +1,4 @@
-export VISUAL='nvim'
-export EDITOR='nvim'
-
-export ZSH="$HOME/.oh-my-zsh" # Path to your oh-my-zsh installation.
-
+export ZSH="$HOME/.oh-my-zsh"
 export ZSH_THEME=""
 
 plugins=(
@@ -27,13 +23,25 @@ if [[ "$OSTYPE" == "linux-gnu" ]]; then
 		systemd   # https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/systemd
 	)
 else
+	# https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/macos
 	plugins+=(
-		macos # https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/macos
+		macos
 	)
 fi
 
-source $ZSH/oh-my-zsh.sh
+source "$ZSH/oh-my-zsh.sh"
 
+if [[ "$OSTYPE" == "linux-gnu" ]]; then
+	alias CM_LAUNCHER=wofi
+	export QT_QPA_PLATFORMTHEME=qt6ct
+	source /usr/share/nvm/init-nvm.sh
+else
+	export NVM_DIR="$HOME/.nvm"
+	[ -s "$HOMEBREW_PREFIX/opt/nvm/nvm.sh" ] && \. "$HOMEBREW_PREFIX/opt/nvm/nvm.sh"
+	[ -s "$HOMEBREW_PREFIX/opt/nvm/etc/bash_completion.d/nvm" ] && \. "$HOMEBREW_PREFIX/opt/nvm/etc/bash_completion.d/nvm"
+fi
+
+alias v='find . | fzf | xargs -r nvim'
 alias c='clear'
 alias ls='lsd'
 alias nv='nvim'
@@ -43,18 +51,6 @@ alias all='als | awk NF | fzf'
 alias ai='oatmeal sessions open'
 alias restow='stow -D . && stow .'
 
-if [[ "$OSTYPE" == "linux-gnu" ]]; then
-	alias CM_LAUNCHER=wofi
-	export QT_QPA_PLATFORMTHEME=qt6ct
-	# load nvm from AUR
-	source /usr/share/nvm/init-nvm.sh
-else
-	# load nvm from homebrew
-	export NVM_DIR="$HOME/.nvm"
-	[ -s "$HOMEBREW_PREFIX/opt/nvm/nvm.sh" ] && \. "$HOMEBREW_PREFIX/opt/nvm/nvm.sh"
-	[ -s "$HOMEBREW_PREFIX/opt/nvm/etc/bash_completion.d/nvm" ] && \. "$HOMEBREW_PREFIX/opt/nvm/etc/bash_completion.d/nvm"
-fi
-
 # pnpm
 export PNPM_HOME="$HOME/.local/share/pnpm"
 case ":$PATH:" in
@@ -63,16 +59,24 @@ case ":$PATH:" in
 esac
 # pnpm end
 
-export GOPATH=$HOME/go
+export EDITOR='nvim'
+export VISUAL='nvim'
 
-export PATH="/usr/bin:/bin:/usr/sbin:/sbin:$PATH"  # append binaries
-export PATH="/usr/local/bin:/usr/local/sbin:$PATH" # append binaries
-export PATH="$HOME/Library/Python/3.9/bin:$PATH"   # MacOS Python
-export PATH="$HOME/.console-ninja/.bin:$PATH"      # console ninja for vscode
-export PATH=$HOME/.cargo/bin/:$PATH                # append rust binaries to path
-export PATH=$PATH:$GOROOT/bin:$GOPATH/bin          # append go binaries to path
-export PATH="$HOME/.sst/bin:$PATH"                 # sst
-export PATH="$PATH:$HOME/.local/bin"               # Created by `pipx` on 2024-08-04 12:48:38
+export GOPATH="$HOME/go"
+export GOPATH="$HOME/go"
+
+export PATH="$PATH"
+export PATH="$PATH:/usr/bin"
+export PATH="$PATH:/sbin"
+export PATH="$PATH:/usr/sbin"
+export PATH="$PATH:/usr/local/bin"
+export PATH="$PATH:/usr/local/sbin"
+export PATH="$PATH:$GOROOT/bin"
+export PATH="$PATH:$GOPATH/bin"
+export PATH="$PATH:$HOME/.sst/bin"
+export PATH="$PATH:$HOME/.local/bin"
+export PATH="$PATH:$HOME/.cargo/bin"
+export PATH="$PATH:$HOME/Library/Python/3.9/bin"
 
 set -o vi
 
