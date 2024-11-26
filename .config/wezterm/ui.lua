@@ -13,6 +13,8 @@ local function get_colorscheme(appearance)
 end
 
 M.apply_to_config = function(config)
+	config.max_fps = 120
+
 	--- command_palette
 	config.command_palette_rows = 5
 	config.command_palette_font_size = 30

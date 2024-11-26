@@ -48,6 +48,7 @@ alias ls='lsd'
 alias nv='nvim'
 alias lv='NVIM_APPNAME=lazyvim nvim'
 alias kv='NVIM_APPNAME=kickstart nvim'
+alias pj="bat package.json | jq '.scripts'"
 alias lg='lazygit'
 alias img='wezterm imgcat'
 alias all='als | awk NF | fzf'
