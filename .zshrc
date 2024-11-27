@@ -1,3 +1,4 @@
+# shellcheck disable=1091
 export ZSH="$HOME/.oh-my-zsh"
 export ZSH_THEME=""
 
@@ -30,6 +31,8 @@ else
 	)
 fi
 
+# shellcheck disable=1090
+source <(fzf --zsh)
 source "$ZSH/oh-my-zsh.sh"
 
 if [[ "$OSTYPE" == "linux-gnu" ]]; then
@@ -66,18 +69,19 @@ source "$HOME/.config/scripts/pnpm-completions.bash"
 
 export EDITOR='nvim'
 export VISUAL='nvim'
+export FZF_DEFAULT_OPTS='--tmux center'
 
 export GOPATH="$HOME/go"
 export GOPATH="$HOME/go"
 
 export PATH="$PATH"
-export PATH="$PATH:/usr/bin"
 export PATH="$PATH:/sbin"
+export PATH="$PATH:/usr/bin"
 export PATH="$PATH:/usr/sbin"
+export PATH="$PATH:$GOPATH/bin"
+export PATH="$PATH:$GOROOT/bin"
 export PATH="$PATH:/usr/local/bin"
 export PATH="$PATH:/usr/local/sbin"
-export PATH="$PATH:$GOROOT/bin"
-export PATH="$PATH:$GOPATH/bin"
 export PATH="$PATH:$HOME/.sst/bin"
 export PATH="$PATH:$HOME/.local/bin"
 export PATH="$PATH:$HOME/.cargo/bin"
