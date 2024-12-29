@@ -1,4 +1,5 @@
 gui:
+  nerdFontsVersion: "3"
   theme:
     activeBorderColor:
       - '#f38ba8'
@@ -19,6 +20,5 @@ gui:
       - '#cdd6f4'
     searchingActiveBorderColor:
       - '#f9e2af'
-
   authorColors:
     '*': '#b4befe'
