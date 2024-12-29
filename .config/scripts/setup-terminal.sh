@@ -18,20 +18,5 @@ for plugin in "${plugins[@]}"; do
 	git clone --depth=1 "$value" "${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/plugins/$key"
 done
 
-if [[ "$OSTYPE" == "linux-gnu"* ]]; then
-	package_manager="sudo pacman -S"
-elif [[ "$OSTYPE" == "darwin"* ]]; then
-	package_manager="brew install"
-else
-	echo "Unsupported OS: $OSTYPE"
-	exit 1
-fi
-
-# Install Starship
-$package_manager starship
-
-# Install TMUX
-$package_manager tmux
-
 # Install TPM
 git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
