@@ -9,6 +9,7 @@ Bespoke Post https://www.bespokepost.com/store?sr=nav_top
 CIA Factbook https://www.cia.gov/library/publications/the-world-factbook/index.html
 CSS to TailwindCSS https://transform.tools/css-to-tailwind
 Caniuse.rs | Rust feature search https://caniuse.rs/
+Can I Use | HTML / CSS https://caniuse.com/
 CarMax https://www.carmax.com/cars
 Cash App https://cash.app/
 Cheat.sh/:firstpage https://cheat.sh/
@@ -26,10 +27,10 @@ DaFont https://www.dafont.com/
 Daily.dev https://app.daily.dev/
 DankGeek https://dankgeek.com/
 DankStop https://dankstop.com/
-Dashboard | HackerRank https://www.hackerrank.com/
+HackerRank https://www.hackerrank.com/
 Desmos https://www.desmos.com/
 DevDocs https://devdocs.io/
-Developer Roadmaps - roadmap.sh https://roadmap.sh/
+Roadmap.sh https://roadmap.sh/
 Devhints https://devhints.io/
 Diagrams.net https://app.diagrams.net/
 Dice https://www.dice.com/home/home-feed
@@ -43,6 +44,7 @@ Drop https://drop.com/home
 Dropbox https://www.dropbox.com/home
 EDU https://www.apple.com/us-edu/store
 Excalidraw https://excalidraw.com/
+ExpressVPN https://www.expressvpn.works/
 ExtraTorrent.ag - The Real ExtraTorrents successor https://extratorrent.ag/
 FileInfo.com - The File Information Database https://fileinfo.com/
 Fontsource https://fontsource.org/
@@ -50,14 +52,13 @@ Fragrance Net https://www.fragrancenet.com/
 FragranceNet https://www.fragrancenet.com/
 Framework https://frame.work/
 FreeCodeCamp https://www.freecodecamp.org/
+GA curriculum https://seir-persistence.netlify.app/
 GitHub https://github.com/stephansama
 GitMind https://gitmind.com/app/template?lang=en
 Gitignore Creator https://www.toptal.com/developers/gitignore
 Glass UI https://ui.glass/generator/
 Go Lang https://golang.org/
 Haggar Clothing https://www.haggar.com/
-ExpressVPN https://www.expressvpn.works/
-GA curriculum https://seir-persistence.netlify.app/
 Homebrew https://brew.sh/
 Iconscout https://iconscout.com/
 Icônes https://icones.js.org/
@@ -75,7 +76,7 @@ LinkedIn https://www.linkedin.com/feed/
 Listing ALL Cars https://listingallcars.com/
 Logic Pro X help https://help.apple.com/logicpro/mac/10.4.5/
 Macy's https://www.macys.com/
-Mad Professor Blog https://madprofessor.blog/
+Mad Professor Blog https://madprofessorblog.org/
 Manpages https://manpages.org/
 Material UI https://mui.com/material-ui/getting-started/overview/
 Matthew K Jensen Blog https://matthewkjensen.wordpress.com/
@@ -86,7 +87,7 @@ Microsoft Docs https://docs.microsoft.com/en-us/learn/browse/?products=azure%2Cs
 Midjourney Documentation and User Guide https://docs.midjourney.com/
 Midjourney Profile https://www.midjourney.com/app/
 Monster https://www.monster.com/
-Musicmap | The Genealogy and History of Popular Music Genres https://musicmap.info/
+Musicmap https://musicmap.info/
 Musictheory​.net https://www.musictheory.net/
 NASA https://www.nasa.gov/
 NOAA https://www.weather.gov/
@@ -146,8 +147,8 @@ The Movie Database (TMDB) https://www.themoviedb.org/
 The best Favicon Generator - favicon.io https://favicon.io/
 Thingiverse https://www.thingiverse.com/
 Tina Cloud https://app.tina.io/projects
-Tina Docs | TinaCMS Docs https://tina.io/docs/
-Tmux Cheat Sheet & Quick Reference | Session, window, pane and more https://tmuxcheatsheet.com/
+Tina Docs https://tina.io/docs/
+Tmux Cheat Sheet https://tmuxcheatsheet.com/
 UNIQLO https://www.uniqlo.com/us/en/
 Uzone UWM https://www.uzone.uwm.com/home/#/
 Vercel https://vercel.com/dashboard
