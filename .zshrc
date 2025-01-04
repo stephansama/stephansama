@@ -64,7 +64,7 @@ case ":$PATH:" in
 *":$PNPM_HOME:"*) ;;
 *) export PATH="$PNPM_HOME:$PATH" ;;
 esac
-source "$HOME/.config/scripts/pnpm-completions.bash"
+source "$HOME/.config/scripts/completion-pnpm.sh"
 # pnpm end
 
 export EDITOR='nvim'
