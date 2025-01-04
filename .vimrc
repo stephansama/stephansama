@@ -33,7 +33,6 @@ nnoremap <C-u> <C-u>zz
 
 " <leader> functions
 nnoremap <leader>w :w<CR>
-nnoremap <leader>e :Ex<CR>
 nnoremap \ :Ex<CR>
 nnoremap <leader>/ :noh<CR>
 nnoremap <leader>d :bd<CR>
