@@ -8,6 +8,7 @@ if ! type fzf &>/dev/null; then
 fi
 
 dir="$HOME/.config/bookmarks/searchbars/"
+PREVIEW_WINDOW="up,1"
 SEARCH_PROMPT=" Searchbars  "
 INPUT_PROMPT="Input query: "
 
@@ -26,7 +27,7 @@ selected=$(cat "$dir"/*.txt | fzf \
 	--bind="enter:become(echo {-1})+abort" \
 	--with-nth='1..-2' \
 	--preview='echo {-1}' \
-	--preview-window='up,1')
+	--preview-window="$PREVIEW_WINDOW")
 
 if [[ -z "$selected" ]]; then
 	exit 1
@@ -35,6 +36,8 @@ fi
 query=$(echo "" | fzf --tmux \
 	--border=rounded \
 	--prompt="$INPUT_PROMPT" \
+	--preview="echo \"$selected\"" \
+	--preview-window="$PREVIEW_WINDOW" \
 	--print-query)
 
 if [[ -z "$query" ]]; then
