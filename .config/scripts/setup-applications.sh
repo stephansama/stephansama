@@ -19,6 +19,7 @@ base_applications=(
 	"lazygit"
 	"wezterm"
 	"starship"
+	"coreutils"
 	# Utilities
 	"jq"
 	"fzf"
