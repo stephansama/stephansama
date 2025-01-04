@@ -104,7 +104,7 @@ subcmd_install() {
 	if [[ -e yarn.lock ]] && has yarn; then
 		yarn add "$@"
 	elif [[ -e pnpm-lock.yaml ]] && has pnpm; then
-		pnpm i "$@"
+		pnpm add "$@"
 	else
 		npm i -S "$@"
 	fi
