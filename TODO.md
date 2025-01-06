@@ -1,6 +1,6 @@
 # TODO
 
-- [ ] Update Waybar
+- [x] Update Waybar
 - [x] Switch to rofi
 - [x] Enhance power management using autopowerscaling
   - [x] nvidia optimus manager?
