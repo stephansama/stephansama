@@ -1,17 +1,22 @@
 # CLI Tools
 cask "github"
-brew "lazydocker"
+brew "jesseduffield/lazydocker/lazydocker"
+brew "jesseduffield/lazygit/lazygit"
 brew "imagemagick"
 brew "dustinblackman/tap/oatmeal"
 
 # utilities
 cask "keka"
+cask "slack"
 cask "alfred"
 cask "caffeine"
 cask "inkscape"
+brew "folderify"
+cask "pomotroid"
 cask "rectangle"
 cask "imageoptim"
 cask "balenaetcher"
+cask "yubico-yubikey-manager"
 
 # development tools
 brew "cmake"
