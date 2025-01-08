@@ -41,3 +41,4 @@ SYMBL https://symbl.cc/en/search/?q={query}
 Vim Awesome https://vimawesome.com/?q={query}
 VSCode Extensions https://marketplace.visualstudio.com/search?term={query}&target=VSCode&category=All%20categories&sortBy=Relevance
 W3C Validator https://validator.w3.org/nu/?doc={query}
+Dribbble https://dribbble.com/search/{query}
