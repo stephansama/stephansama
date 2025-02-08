@@ -21,6 +21,7 @@ _darcs
 
 # directory containing more customized configs
 ^/custom
+^/docs
 
 ^/.*\.md
 \.md
@@ -41,9 +42,5 @@ _darcs
 # Uncomment if on mac #
 ########################
 
-# dunst
 # hypr
 # rofi
-# waybar
-# kdeglobals
-# electron-flags.conf
