@@ -1,42 +1,50 @@
 #!/bin/bash
 
-base_applications=(
-	# Programming
-	"go"
+programming_applications=(
 	"gcc"
-	"nvm"
+	"go"
 	"lua"
-	"zig"
 	"make"
+	"nvm"
 	"rustup"
-	# Terminal
-	"lsd"
-	"vim"
-	"tmux"
-	"docker"
-	"neovim"
-	"ranger"
-	"lazygit"
-	"wezterm"
-	"starship"
+	"zig"
+)
+
+terminal_applications=(
 	"coreutils"
-	# Utilities
-	"jq"
+	"docker"
 	"fzf"
+	"jq"
+	"lazygit"
+	"lsd"
 	"ncdu"
-	"stow"
-	"tokei"
+	"neovim"
 	"ollama"
-	"yt-dlp"
+	"ranger"
 	"ripgrep"
-	# GUI Utilities
-	"vlc"
-	"gimp"
-	"kid3"
-	"steam"
+	"starship"
+	"stow"
+	"tmux"
+	"tokei"
+	"vim"
+	"wezterm"
+	"yt-dlp"
+)
+
+gui_applications=(
 	"discord"
 	"firefox"
+	"gimp"
 	"google-chrome"
+	"kid3"
+	"steam"
+	"vlc"
+)
+
+base_applications=(
+	"${programming_applications[@]}"
+	"${terminal_applications[@]}"
+	"${gui_applications[@]}"
 )
 
 #######################################
