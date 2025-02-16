@@ -1,18 +1,13 @@
 18650 Battery store https://www.18650batterystore.com
 5 fiverr https://www.fiverr.com/
-AI Content Detector | GPT-3 | GPT-4 | ChatGPT - Writer https://writer.com/ai-content-detector/
 AWS Free Tier https://aws.amazon.com/free/?nc2=h_ql_pr_ft&all-free-tier.sort-by=item.additionalFields.SortRank&all-free-tier.sort-order=asc&awsf.Free%20Tier%20Types=*all&awsf.Free%20Tier%20Categories=*all
 Apple Developer https://developer.apple.com/
 Autotrader https://www.autotrader.com/
 Base64 https://www.base64decode.org/
 Bespoke Post https://www.bespokepost.com/store?sr=nav_top
 CIA Factbook https://www.cia.gov/library/publications/the-world-factbook/index.html
-CSS to TailwindCSS https://transform.tools/css-to-tailwind
-Can I Use | HTML / CSS https://caniuse.com/
-Caniuse.rs | Rust feature search https://caniuse.rs/
 CarMax https://www.carmax.com/cars
 Cash App https://cash.app/
-Cheat.sh/:firstpage https://cheat.sh/
 Chime https://www.chime.com/
 Clonezilla https://clonezilla.org/
 CloudConvert https://cloudconvert.com/
@@ -28,8 +23,6 @@ Daily.dev https://app.daily.dev/
 DankGeek https://dankgeek.com/
 DankStop https://dankstop.com/
 Desmos https://www.desmos.com/
-DevDocs https://devdocs.io/
-Devhints https://devhints.io/
 Diagrams.net https://app.diagrams.net/
 Dice https://www.dice.com/home/home-feed
 Discogs https://www.discogs.com/my
@@ -132,10 +125,7 @@ Stephan Randle — Résumé https://stephanrandle.netlify.app/
 Storybook: Frontend workshop for UI development https://storybook.js.org/
 SwiftUI Tutorials | Apple Developer Documentation https://developer.apple.com/tutorials/swiftui
 Synology NAS http://192.168.50.103:5000
-Tailblocks — Ready-to-use Tailwind CSS blocks https://tailblocks.cc/
 TailsOS https://tails.boum.org/
-Tailwind CSS https://tailwindcss.com/
-Tailwind UI https://tailwindui.com/
 Target https://www.target.com/
 TasteDive https://tastedive.com/
 Text to ASCII Art Generator (TAAG) | Figlet http://patorjk.com/software/taag/#p=display&f=Graffiti&t=Type%20Something%20
