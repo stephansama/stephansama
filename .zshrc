@@ -54,6 +54,7 @@ alias kv='NVIM_APPNAME=kickstart nvim'
 alias pj="bat package.json | jq '.scripts'"
 alias lg='launch-lazygit.sh'
 alias img='wezterm imgcat'
+alias dst="find . -type f -name '.DS_Store' -delete"
 alias all='als | awk NF | fzf'
 alias ai='oatmeal sessions open'
 alias restow='stow -D . && stow .'
