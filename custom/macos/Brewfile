@@ -25,6 +25,8 @@ cask "insomnia"
 cask "tableplus"
 cask "mongodb-compass"
 cask "visual-studio-code"
+cask "screaming-frog-seo-spider"
+cask "keepassxc"
 
 # Video Editing
 cask "obs"
