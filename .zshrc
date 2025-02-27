@@ -68,6 +68,10 @@ esac
 source "$HOME/.config/scripts/completion-pnpm.sh"
 # pnpm end
 
+if ! type docker &>/dev/null; then
+	source "$HOME/.config/scripts/completion-docker.sh"
+fi
+
 export EDITOR='nvim'
 export VISUAL='nvim'
 export FZF_DEFAULT_OPTS='--tmux center'
