@@ -1,6 +1,6 @@
 # [Rofi](https://davatorium.github.io/rofi/)
 
-- [Archi Wiki](https://wiki.archlinux.org/title/Rofi)
+- [Arch Wiki](https://wiki.archlinux.org/title/Rofi)
 
 ## Theming
 
