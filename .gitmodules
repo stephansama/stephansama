@@ -6,3 +6,6 @@
 	path = .config/wezterm
 	url = https://github.com/stephansama/wezterm.git
 	branch = main
+[submodule ".config/yazi"]
+	path = .config/yazi
+	url = https://github.com/stephansama/yazi

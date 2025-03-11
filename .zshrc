@@ -35,6 +35,15 @@ fi
 source <(fzf --zsh)
 source "$ZSH/oh-my-zsh.sh"
 
+function e() {
+	local tmp="$(mktemp -t "yazi-cwd.XXXXXX")" cwd
+	yazi "$@" --cwd-file="$tmp"
+	if cwd="$(command cat -- "$tmp")" && [ -n "$cwd" ] && [ "$cwd" != "$PWD" ]; then
+		builtin cd -- "$cwd"
+	fi
+	rm -f -- "$tmp"
+}
+
 if [[ "$OSTYPE" == "linux-gnu" ]]; then
 	alias CM_LAUNCHER=wofi
 	export QT_QPA_PLATFORMTHEME=qt6ct
