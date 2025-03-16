@@ -1,8 +1,6 @@
 #!/bin/zsh
 
-if [[ -z "$CODE" ]]; then
-	source "$HOME/.zshrc"
-fi
+source "$HOME/.zshrc"
 
 als | awk NF | fzf \
 	--ansi \
