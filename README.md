@@ -20,8 +20,8 @@
 </div>
 
 <p align="center">
-Hello world, I'm <b>Stephan Randle</b>, a seasoned Fullstack Web Developer with a specialization in frontend technologies. I bring a wealth of experience to the table, having served as a Frontend Engineer at United Wholesale Mortgage for nearly two years. My journey includes the successful completion of the Software Engineering Immersive Course at General Assembly in March 2022.
-</p>
+Hello, I'm <b>Stephan Randle</b>, a Fullstack Web Developer specializing in frontend technologies. With nearly two years of experience as a Frontend Engineer at <a href="https://www.uwm.com" target="_blank">United Wholesale Mortgage</a>, I have a strong foundation in building and optimizing web applications. My technical expertise is complemented by my completion of the Software Engineering Immersive Course at General Assembly in March 2022.
+<br />Beyond my professional work, I own and maintain the <a href="https://madprofessorblog.org" target="_blank">Mad Professor Blog</a>, where I share insights on web development, programming best practices, and emerging technologies.</p>
 
 <!-- SKILLS -->
 <h3>👨🏽‍💻‍ Programming Languages</h3>
@@ -48,8 +48,6 @@ Hello world, I'm <b>Stephan Randle</b>, a seasoned Fullstack Web Developer with 
       <a href="https://github.com/search?q=user%3Astephansama+language%3Asql"><img alt="MongoDB" src="https://custom-icon-badges.demolab.com/badge/MongoDB-47A248.svg?logo=mongodb&logoColor=white"></a>
   </div>
 
-<h3>🔥 GitHub Streak Stats</h3>
-
 <!-- STATS -->
 <p align="center">
     <a href="https://github.com/stephansama/github-readme-streak-stats">
@@ -58,23 +56,9 @@ Hello world, I'm <b>Stephan Randle</b>, a seasoned Fullstack Web Developer with 
     </a>
   </p>
 
-  <h3>💻 GitHub Profile Stats</h3>
-
-  <!-- https://github.com/anuraghazra/github-readme-stats -->
-
 <p align="center">
-  <a href="https://github.com/anuraghazra/github-readme-stats"><img alt="Stephansama's Github Stats" src="https://github-readme-stats.vercel.app/api?username=stephansama&theme=catppuccin_mocha&show_icons=true&hide_border=true" height="192px"/></a>
-  <a href="https://github.com/anuraghazra/github-readme-stats"><img alt="stephansama's Top Languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=stephansama&theme=catppuccin_mocha&layout=compact&hide_border=true" height="192px"/></a>
+  <a href="https://github.com/anuraghazra/github-readme-stats"><img alt="Stephansama's Github Stats" src="https://github-readme-stats.vercel.app/api?username=stephansama&theme=catppuccin_mocha&show_icons=true&hide_border=true" height="190px"/></a>
+  <a href="https://github.com/anuraghazra/github-readme-stats"><img alt="stephansama's Top Languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=stephansama&theme=catppuccin_mocha&layout=compact&hide_border=true" height="190px"/></a>
+<br />
+
 </p>
-  <br/>
-
-  <b>Note:</b> Top languages is only a metric of the languages my public code consists of and doesn't reflect experience or skill level.
-  
-  <!-- https://github.com/ashutosh00710/github-readme-activity-graph -->
-
-  <a href="https://github.com/ashutosh00710/github-readme-activity-graph"><img alt="stephansama's Activity Graph" src="https://github-readme-activity-graph.vercel.app/graph/?username=stephansama&bg_color=1e1e2e&color=cdd6f4&line=94e2d5&point=cba6f7&hide_border=true" /></a>
-
-<!-- RSS Reader for blog -->
-<!-- https://pythonhosted.org/feedparser/ -->
-
-<!-- GitHub Statistics -->
