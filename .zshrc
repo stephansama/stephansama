@@ -45,6 +45,7 @@ function e() {
 
 alias gsm='. fzf-submodule.sh'
 alias gu='cd "$(git rev-parse --show-toplevel)"'
+alias guu='cd .. && gu'
 alias ai='oatmeal sessions open'
 alias fp='. fzf-projects.sh'
 alias all='. fzf-alias.sh'
