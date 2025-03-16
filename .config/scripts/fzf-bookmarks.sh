@@ -14,7 +14,7 @@ if ! type fzf &>/dev/null; then
 fi
 
 keep_open=false
-dir="$HOME/.config/bookmarks/"
+dir="$HOME/.dotfiles/custom/bookmarks/"
 PROMPT=" Search Bookmarks  "
 
 usage() {

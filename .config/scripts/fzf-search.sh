@@ -7,7 +7,7 @@ if ! type fzf &>/dev/null; then
 	exit 1
 fi
 
-dir="$HOME/.config/bookmarks/searchbars/"
+dir="$HOME/.dotfiles/custom/bookmarks/searchbars/"
 PREVIEW_WINDOW="up,1"
 SEARCH_PROMPT=" Searchbars  "
 INPUT_PROMPT="Input query: "
