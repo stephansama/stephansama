@@ -12,4 +12,4 @@ fi
 
 cd "$CODE/$query" || exit
 
-nvim .
+nvim
