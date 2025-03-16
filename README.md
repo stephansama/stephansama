@@ -1,5 +1,9 @@
 # Hello World... 🌍
 
+<p align="center">
+Hello, I'm <b>Stephan Randle</b>, a Fullstack Web Developer specializing in frontend technologies. With nearly two years of experience as a Frontend Engineer at <a href="https://www.uwm.com" target="_blank">United Wholesale Mortgage</a>, I have a strong foundation in building and optimizing web applications. My technical expertise is complemented by my completion of the Software Engineering Immersive Course at General Assembly in March 2022.
+<br />Beyond my professional work, I own and maintain the <a href="https://madprofessorblog.org" target="_blank">Mad Professor Blog</a>, where I share insights on web development, programming best practices, and emerging technologies.</p>
+
   <div align="center">
       <a href="https://github.com/search?q=user%3Astephansama+language%3Abash"><img alt="Bash" src="https://img.shields.io/badge/Bash-121011.svg?logo=gnu-bash&logoColor=white"></a>
       <a href="https://github.com/search?q=user%3Astephansama+language%3Acpp"><img alt="C++" src="https://custom-icon-badges.demolab.com/badge/C++-9C033A.svg?logo=cpp2&logoColor=white"></a>
@@ -39,16 +43,6 @@
 
 <div align="center">
 <img src="https://www.codewars.com/users/stephansama/badges/small" />
-</div>
-
-<p align="center">
-Hello, I'm <b>Stephan Randle</b>, a Fullstack Web Developer specializing in frontend technologies. With nearly two years of experience as a Frontend Engineer at <a href="https://www.uwm.com" target="_blank">United Wholesale Mortgage</a>, I have a strong foundation in building and optimizing web applications. My technical expertise is complemented by my completion of the Software Engineering Immersive Course at General Assembly in March 2022.
-<br />Beyond my professional work, I own and maintain the <a href="https://madprofessorblog.org" target="_blank">Mad Professor Blog</a>, where I share insights on web development, programming best practices, and emerging technologies.</p>
-
-<div align="center">
-
-![test](https://svg.bookmark.style/api?url=https://madprofessorblog.org/&mode=light&style=horizontal)
-
 </div>
 
 <!-- STATS -->
