@@ -2,6 +2,9 @@
 	path = .config/nvim
 	url = https://github.com/stephansama/nvim.git
 	branch = main
+[submodule ".config/scripts"]
+	path = .config/scripts
+	url = https://github.com/stephansama/scripts.git
 [submodule ".config/wezterm"]
 	path = .config/wezterm
 	url = https://github.com/stephansama/wezterm.git
