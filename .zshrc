@@ -38,19 +38,19 @@ function e() {
 	local tmp="$(mktemp -t "yazi-cwd.XXXXXX")" cwd
 	yazi "$@" --cwd-file="$tmp"
 	if cwd="$(command cat -- "$tmp")" && [ -n "$cwd" ] && [ "$cwd" != "$PWD" ]; then
-		builtin cd -- "$cwd"
+		builtin cd -- "$cwd" || exit
 	fi
 	rm -f -- "$tmp"
 }
 
+alias b='launch-bat.sh'
+alias lg='launch-lazygit.sh'
+alias fp='. fzf-projects.sh'
+alias all='. fzf-alias.sh'
 alias gsm='. fzf-submodule.sh'
 alias gu='cd "$(git rev-parse --show-toplevel)"'
 alias guu='cd .. && gu'
 alias ai='oatmeal sessions open'
-alias fp='. fzf-projects.sh'
-alias all='. fzf-alias.sh'
-alias lg='launch-lazygit.sh'
-alias b='launch-bat.sh'
 alias c='clear'
 alias ls='lsd'
 alias dst="find . -type f -name '.DS_Store' -delete"
