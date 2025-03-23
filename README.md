@@ -29,23 +29,22 @@ Hello, I'm <b>Stephan Randle</b>, a Fullstack Web Developer specializing in fron
 [![PostgreSQL](https://custom-icon-badges.demolab.com/badge/PostgreSQL-4169E1.svg?logo=postgresql&logoColor=white)](https://github.com/search?q=user%3Astephansama+language%3Asql)
   </div>
 
-<!-- SOCIALS -->
-<p align="center">
-<a href="https://www.linkedin.com/in/stephan-randle-38a30319a/" target="_blank">
-<img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=LinkedIn&logoColor=white" />
-</a>
-<a href="https://stackoverflow.com/users/2908680/stephan-randle" target="_blank">
-<img alt="Stack Overflow" src="https://img.shields.io/badge/Stack_Overflow-%23F58025.svg?&style=for-the-badge&logo=stackoverflow&logoColor=white" />
-</a>
-<a href="" target="_blank">
-</a>
-<a href="https://www.buymeacoffee.com/stephanrandle" target="_blank">
-<img alt="Buy me a Coffee" src="https://img.shields.io/badge/buy_me_a_coffee-%23FFDD00.svg?&style=for-the-badge&logo=buymeacoffee&logoColor=black" />
-</a>
-</p>
+<div align="center">
+
+![Codewars Badge](https://www.codewars.com/users/stephansama/badges/small)
+
+</div>
 
 <div align="center">
-<img src="https://www.codewars.com/users/stephansama/badges/small" />
+<a href="https://www.linkedin.com/in/stephan-randle-38a30319a/">
+<img src="https://api.iconify.design/skill-icons:linkedin.svg?color=%23888888" alt="LinkedIn" height="25" />
+</a>
+<a href="https://www.linkedin.com/in/stephan-randle-38a30319a/">
+<img src="https://api.iconify.design/skill-icons:stackoverflow-dark.svg?color=%23888888" alt="Stackoverflow" height="25" />
+</a>
+<a href="https://www.buymeacoffee.com/stephanrandle" target="_blank">
+<img src="https://res.cloudinary.com/dkxqv3dll/image/upload/v1720924127/buymeacoffee_hcjj5f.png" alt="Buymeacoffee" loading="lazy" height="25" decoding="async">
+</a>
 </div>
 
 <!-- STATS -->
