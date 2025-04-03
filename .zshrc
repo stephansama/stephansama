@@ -46,6 +46,7 @@ function e() {
 alias b='launch-bat.sh'
 alias lg='launch-lazygit.sh'
 alias fp='. fzf-projects.sh'
+alias fpj='. fzf-pkgjson.sh'
 alias all='. fzf-alias.sh'
 alias gsm='. fzf-submodule.sh'
 alias gu='. git-toplevel.sh'
