@@ -2,6 +2,9 @@ export EDITOR='nvim'
 export VISUAL='nvim'
 export FZF_DEFAULT_OPTS='--tmux center'
 
+# https://github.com/antfu-collective/ni?tab=readme-ov-file#config
+export NI_GLOBAL_AGENT="pnpm"
+
 export CODE="$HOME/Code"
 
 export GOPATH="$HOME/go"
