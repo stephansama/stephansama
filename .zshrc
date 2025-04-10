@@ -53,6 +53,7 @@ alias gu='. git-toplevel.sh'
 alias ai='oatmeal sessions open'
 alias c='clear'
 alias ls='lsd'
+alias gd='cd $DOTFILES'
 alias dst="find . -type f -name '.DS_Store' -delete"
 alias pj="bat package.json | jq '.scripts'"
 alias restow='stow -D . && stow .'
