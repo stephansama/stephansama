@@ -45,9 +45,10 @@ function e() {
 
 alias b='launch-bat.sh'
 alias lg='launch-lazygit.sh'
+alias all='. fzf-alias.sh'
+alias dup='sort "$(fzf)" | uniq --count --repeated'
 alias fp='. fzf-projects.sh'
 alias fpj='. fzf-pkgjson.sh'
-alias all='. fzf-alias.sh'
 alias gsm='. fzf-submodule.sh'
 alias gu='. git-toplevel.sh'
 alias ai='oatmeal sessions open'
