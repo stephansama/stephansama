@@ -13,6 +13,8 @@ export SCRIPTS="$HOME/.config/scripts/"
 export DOTFILES="$HOME/.dotfiles/"
 export BOOKMARKS="$DOTFILES/custom/bookmarks/"
 
+export MANPAGER="less --incsearch"
+
 export PATH="$PATH"
 export PATH="$PATH:/sbin"
 export PATH="$PATH:$SCRIPTS"
