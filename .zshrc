@@ -43,23 +43,23 @@ function e() {
 	rm -f -- "$tmp"
 }
 
-alias b='launch-bat.sh'
-alias lg='launch-lazygit.sh'
+alias ai='oatmeal sessions open'
 alias all='. fzf-alias.sh'
+alias b='launch-bat.sh'
+alias c='clear'
+alias dst="find . -type f -name '.DS_Store' -delete"
 alias dup='sort "$(fzf)" | uniq --count --repeated'
 alias fp='. fzf-projects.sh'
 alias fpj='. fzf-pkgjson.sh'
+alias gd='cd $DOTFILES'
 alias gsm='. fzf-submodule.sh'
 alias gu='. git-toplevel.sh'
-alias ai='oatmeal sessions open'
-alias c='clear'
+alias lg='launch-lazygit.sh'
 alias ls='lsd'
-alias gd='cd $DOTFILES'
-alias dst="find . -type f -name '.DS_Store' -delete"
-alias pj="bat package.json | jq '.scripts'"
-alias restow='stow -D . && stow .'
 alias lv='NVIM_APPNAME=lazyvim nvim'
 alias ov='vim'
+alias pj="bat package.json | jq '.scripts'"
+alias restow='stow -D . && stow .'
 alias v='nvim'
 
 source "$HOME/.config/scripts/completion-pnpm.sh"
