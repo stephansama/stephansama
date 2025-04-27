@@ -68,6 +68,8 @@ if ! type docker &>/dev/null; then
 	source "$HOME/.config/scripts/completion-docker.sh"
 fi
 
+source "$HOME/.config/scripts/autoload-nvm.sh"
+
 set -o vi
 
 eval "$(starship init zsh)"
