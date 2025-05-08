@@ -62,7 +62,6 @@ alias pj="bat package.json | jq '.scripts'"
 alias restow='stow -D . && stow .'
 alias tsv='TSGOPATH="$HOME/Code/typescript-go/built/local/tsgo" v'
 alias v='nvim'
-alias fzf='launch-fzf.sh'
 
 source "$HOME/.config/scripts/completion-pnpm.sh"
 
