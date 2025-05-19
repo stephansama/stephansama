@@ -43,25 +43,29 @@ function e() {
 	rm -f -- "$tmp"
 }
 
-alias ai='oatmeal sessions open'
-alias all='. fzf-alias.sh'
-alias b='launch-bat.sh'
-alias c='clear'
-alias dst="find . -type f -name '.DS_Store' -delete"
-alias dup='sort "$(fzf)" | uniq --count --repeated'
-alias fp='. fzf-projects.sh'
-alias fpj='. fzf-pkgjson.sh'
-alias gd='cd $DOTFILES'
-alias gsm='. fzf-submodule.sh'
-alias gu='. git-toplevel.sh'
-alias lg='launch-lazygit.sh'
-alias ls='lsd'
-alias lv='NVIM_APPNAME=lazyvim nvim'
-alias ov='vim'
-alias pj="bat package.json | jq '.scripts'"
-alias restow='stow -D . && stow .'
-alias tsv='TSGOPATH="$HOME/Code/typescript-go/built/local/tsgo" v'
-alias v='nvim'
+alias \
+	ai='oatmeal sessions open' \
+	all='. fzf-alias.sh' \
+	b='launch-bat.sh' \
+	c='clear' \
+	cp='cp -iv' \
+	mv='mv -iv' \
+	dst="find . -type f -name '.DS_Store' -delete" \
+	dup='sort "$(fzf)" | uniq --count --repeated' \
+	fp='. fzf-projects.sh' \
+	fpj='. fzf-pkgjson.sh' \
+	gd='cd $DOTFILES' \
+	gdo="find . -type f -name '*.orig' -delete" \
+	gsm='. fzf-submodule.sh' \
+	gu='. git-toplevel.sh' \
+	lg='launch-lazygit.sh' \
+	ls='lsd' \
+	lv='NVIM_APPNAME=lazyvim nvim' \
+	ov='vim' \
+	pj="bat package.json | jq '.scripts'" \
+	restow='stow -D . && stow .' \
+	tsv='TSGOPATH="$HOME/Code/typescript-go/built/local/tsgo" v' \
+	v='nvim'
 
 source "$HOME/.config/scripts/completion-pnpm.sh"
 
