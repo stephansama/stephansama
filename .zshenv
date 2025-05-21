@@ -13,7 +13,11 @@ export SCRIPTS="$HOME/.config/scripts/"
 export DOTFILES="$HOME/.dotfiles/"
 export BOOKMARKS="$DOTFILES/custom/bookmarks/"
 
-export MANPAGER="less --incsearch"
+if ! type fzf &>/dev/null; then
+	export MANPAGER="less --incsearch"
+else
+	export MANPAGER="nvim +Man!"
+fi
 
 export PATH="$PATH"
 export PATH="$PATH:/sbin"
