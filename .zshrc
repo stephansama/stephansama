@@ -49,6 +49,7 @@ alias \
 	b='launch-bat.sh' \
 	c='clear' \
 	cp='cp -iv' \
+	dedupe='dedupe.sh' \
 	mv='mv -iv' \
 	dst="find . -type f -name '.DS_Store' -delete" \
 	dup='sort "$(fzf)" | uniq --count --repeated' \
