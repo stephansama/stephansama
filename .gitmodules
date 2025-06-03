@@ -15,3 +15,6 @@
 [submodule "custom/alfred"]
 	path = custom/alfred
 	url = https://github.com/stephansama/alfred
+[submodule "firmware"]
+	path = custom/firmware
+	url = https://github.com/stephansama/firmware
