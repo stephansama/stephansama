@@ -6,6 +6,11 @@ Hello, my name is <b>Stephan Randle</b>, a Fullstack Web Developer specializing 
 
 ## :newspaper: Latest articles
 <!-- BLOG-POST-LIST:START -->
+- [Understanding the JavaScript event loop](https://madprofessorblog.org/articles/understanding-the-javascript-event-loop/)
+- [How to automatically load node version based on nvmrc file](https://madprofessorblog.org/articles/how-to-automatically-load-node-version-based-on-nvmrc-file/)
+- [How to Install and Configure TypeScript-Go &lpar;tsgo&rpar; as an LSP in Neovim](https://madprofessorblog.org/articles/how-to-install-and-configure-typescript-go-as-an-lsp-in-neovim/)
+- [Identifying Duplicate Lines in a File using Linux Terminal Commands](https://madprofessorblog.org/articles/identifying-duplicate-lines-in-files-using-linux-terminal-commands/)
+- [How to Install Catppuccin Theme Across Your Entire Setup](https://madprofessorblog.org/articles/how-to-install-catppuccin-theme-across-your-entire-setup/)
 <!-- BLOG-POST-LIST:END -->
 
   <div align="center">
