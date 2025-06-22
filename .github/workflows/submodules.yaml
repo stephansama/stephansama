@@ -19,3 +19,6 @@ jobs:
       - name: Update Submodules
         id: submodules
         uses: sgoudham/update-git-submodules@v2.1.3
+        with:
+          submodules: |
+            .config/nvim
