@@ -11,6 +11,11 @@ jobs:
     name: Update git submodules with the latest commit
     runs-on: ubuntu-latest
     steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+        with:
+          submodules: "recursive"
+          fetch-depth: 0
       - name: Update Submodules
         id: submodules
         uses: sgoudham/update-git-submodules@v2.1.3
