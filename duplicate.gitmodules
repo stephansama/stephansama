@@ -1,3 +1,15 @@
+[submodule "nvim"]
+	path = .config/nvim
+	url = https://github.com/stephansama/nvim.git
+[submodule "scripts"]
+	path = .config/scripts
+	url = https://github.com/stephansama/scripts.git
+[submodule "wezterm"]
+	path = .config/wezterm
+	url = https://github.com/stephansama/wezterm.git
+[submodule "yazi"]
+	path = .config/yazi
+	url = https://github.com/stephansama/yazi
 [submodule "custom/alfred"]
 	path = custom/alfred
 	url = https://github.com/stephansama/alfred
