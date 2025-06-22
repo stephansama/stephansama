@@ -1,13 +1,13 @@
-[submodule ".config/nvim"]
+[submodule "nvim"]
 	path = .config/nvim
 	url = https://github.com/stephansama/nvim.git
-[submodule ".config/scripts"]
+[submodule "scripts"]
 	path = .config/scripts
 	url = https://github.com/stephansama/scripts.git
-[submodule ".config/wezterm"]
+[submodule "wezterm"]
 	path = .config/wezterm
 	url = https://github.com/stephansama/wezterm.git
-[submodule ".config/yazi"]
+[submodule "yazi"]
 	path = .config/yazi
 	url = https://github.com/stephansama/yazi
 [submodule "custom/alfred"]
