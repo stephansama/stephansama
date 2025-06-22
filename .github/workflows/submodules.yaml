@@ -1,0 +1,16 @@
+name: Update git submodules
+on:
+  schedule:
+    - cron: '0 7 * * *'
+  workflow_dispatch:
+permissions:
+  actions: write
+  contents: write
+jobs:
+  update:
+    name: Update git submodules with the latest commit
+    runs-on: ubuntu-latest
+    steps:
+      - name: Update Submodules
+        id: submodules
+        uses: sgoudham/update-git-submodules@v2.1.3
