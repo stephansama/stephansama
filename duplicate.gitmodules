@@ -1,6 +1,6 @@
-[submodule ".config/yazi"]
-	path = .config/yazi
-	url = https://github.com/stephansama/yazi
+[submodule ".config/nvim"]
+	path = .config/nvim
+	url = https://github.com/stephansama/nvim.git
 [submodule "custom/alfred"]
 	path = custom/alfred
 	url = https://github.com/stephansama/alfred
