@@ -1,6 +1,3 @@
-[submodule ".config/nvim"]
-	path = .config/nvim
-	url = https://github.com/stephansama/nvim.git
 [submodule "custom/alfred"]
 	path = custom/alfred
 	url = https://github.com/stephansama/alfred
