@@ -14,8 +14,9 @@ plugins=(
 	rust                         # https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/rust
 	golang                       # https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/golang
 	pnpm                         # https://github.com/ntnyq/omz-plugin-pnpm
-	zsh-autosuggestions          # https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/autosuggestions
-	zsh-syntax-highlighting      # https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/highlighting
+	zsh-autocomplete             # https://github.com/marlonrichert/zsh-autocomplete
+	zsh-autosuggestions          # https://github.com/zsh-users/zsh-autosuggestions
+	zsh-syntax-highlighting      # https://github.com/zsh-users/zsh-syntax-highlighting
 	zsh-npm-scripts-autocomplete # https://github.com/grigorii-zander/zsh-npm-scripts-autocomplete
 )
 
@@ -75,7 +76,6 @@ if type docker &>/dev/null; then
 fi
 
 source "$HOME/.config/scripts/autoload-nvm.sh"
-
 source <(fzf --zsh)
 
 eval "$(atuin init zsh)"
