@@ -59,14 +59,29 @@ Hello, my name is <b>Stephan Randle</b>, a Fullstack Web Developer specializing 
 <!-- STATS -->
 <p align="center">
     <a href="https://github.com/stephansama/github-readme-streak-stats">
-      <!-- Use https://streak-stats.demolab.com or self-host with your own Vercel app - visit https://git.io/streak-stats for instructions -->
-      <img title="🔥 Get streak stats for your profile at git.io/streak-stats" alt="stephansama's streak" src="https://github-readme-streak-stats-9m8ugfa77-denvercoder1.vercel.app/?user=stephansama&theme=catppuccin-mocha&hide_border=true"/>
+<picture>
+      <source srcset="https://github-readme-streak-stats-9m8ugfa77-denvercoder1.vercel.app/?user=stephansama&theme=catppuccin-mocha&hide_border=true" alt="Github Logo" media="(prefers-color-scheme: dark)"/>
+      <source srcset="https://github-readme-streak-stats-9m8ugfa77-denvercoder1.vercel.app/?user=stephansama&theme=catppuccin-latte&hide_border=true" alt="Github Logo" media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"/>
+      <img src="https://github-readme-streak-stats-9m8ugfa77-denvercoder1.vercel.app/?user=stephansama&theme=catppuccin-mocha&hide_border=true" alt="Github Logo"/>
+    </picture>
     </a>
   </p>
 
 <p align="center">
-  <a href="https://github.com/anuraghazra/github-readme-stats"><img alt="Stephansama's Github Stats" src="https://github-readme-stats.vercel.app/api?username=stephansama&theme=catppuccin_mocha&show_icons=true&hide_border=true" height="190px"/></a>
-  <a href="https://github.com/anuraghazra/github-readme-stats"><img alt="stephansama's Top Languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=stephansama&theme=catppuccin_mocha&layout=compact&hide_border=true" height="190px"/></a>
+  <a href="https://github.com/anuraghazra/github-readme-stats">
+<picture>
+      <source  height="190px" srcset="https://github-readme-stats.vercel.app/api?username=stephansama&theme=catppuccin_mocha&show_icons=true&hide_border=true" alt="Github Logo" media="(prefers-color-scheme: dark)"/>
+      <source  height="190px" srcset="https://github-readme-stats.vercel.app/api?username=stephansama&theme=catppuccin_latte&show_icons=true&hide_border=true" alt="Github Logo" media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"/>
+      <img  height="190px" src="https://github-readme-stats.vercel.app/api?username=stephansama&theme=catppuccin_mocha&show_icons=true&hide_border=true" alt="Github Logo"/>
+    </picture>
+  </a>
+  <a href="https://github.com/anuraghazra/github-readme-stats">
+<picture>
+      <source  height="190px" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=stephansama&theme=catppuccin_mocha&layout=compact&hide_border=true" alt="Github Logo" media="(prefers-color-scheme: dark)"/>
+      <source  height="190px" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=stephansama&theme=catppuccin_latte&layout=compact&hide_border=true" alt="Github Logo" media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"/>
+      <img  height="190px" src="https://github-readme-stats.vercel.app/api/top-langs/?username=stephansama&theme=catppuccin_mocha&layout=compact&hide_border=true" alt="Github Logo"/>
+    </picture>
+  </a>
 <br />
 
 </p>
