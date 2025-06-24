@@ -1,7 +1,8 @@
 **/bookmarks/**/extra.txt
-node_modules/
-.vscode/
-.DS_Store
-*test*.*
-Icon
 *.lock
+*test*.*
+.DS_Store
+.astro
+.vscode
+Icon
+node_modules
