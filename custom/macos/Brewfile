@@ -1,9 +1,10 @@
+brew "asciinema"
+
 # CLI Tools
 cask "github"
-brew "jesseduffield/lazydocker/lazydocker"
-brew "jesseduffield/lazygit/lazygit"
+brew "lazydocker"
+brew "lazygit"
 brew "imagemagick"
-brew "dustinblackman/tap/oatmeal"
 
 # utilities
 cask "keka"
