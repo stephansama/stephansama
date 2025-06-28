@@ -61,6 +61,7 @@ alias \
 	lg='launch-lazygit.sh' \
 	ls='lsd' \
 	lv='NVIM_APPNAME=lazyvim nvim' \
+	notify='. notify.sh' \
 	ov='vim' \
 	pj="bat package.json | jq '.scripts'" \
 	restow='stow -D . && stow .' \
