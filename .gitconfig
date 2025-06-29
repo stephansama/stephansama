@@ -1,12 +1,5 @@
 [user]
 	name = stephansama
 	email = stephanrandle@hotmail.com
-[merge]
-	tool = vscode
-[mergetool "vscode"]
-	cmd = code --wait --merge $REMOTE $LOCAL $BASE $MERGED
-[diff]
-	tool = vscode
-[difftool "vscode"]
-	cmd = code --wait --diff $LOCAL $REMOTE
-
+[include]
+    path = ~/.config/git/delta.gitconfig
