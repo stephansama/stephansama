@@ -4,6 +4,7 @@ brew "asciinema"
 cask "gh"
 brew "lazydocker"
 brew "lazygit"
+brew "git-delta"
 brew "imagemagick"
 
 # utilities
