@@ -43,15 +43,12 @@ function e() {
 }
 
 alias \
-	ai='oatmeal sessions open' \
 	all='. fzf-alias.sh' \
 	b='launch-bat.sh' \
 	c='clear' \
 	cp='cp -iv' \
-	dedupe='dedupe.sh' \
 	mv='mv -iv' \
 	dst="find . -type f -name '.DS_Store' -delete" \
-	dup='sort "$(fzf)" | uniq --count --repeated' \
 	fp='. fzf-projects.sh' \
 	fpj='. fzf-pkgjson.sh' \
 	gd='cd $DOTFILES' \
@@ -60,8 +57,6 @@ alias \
 	gu='. git-toplevel.sh' \
 	lg='launch-lazygit.sh' \
 	ls='lsd' \
-	lv='NVIM_APPNAME=lazyvim nvim' \
-	notify='. notify.sh' \
 	ov='vim' \
 	pj="bat package.json | jq '.scripts'" \
 	restow='stow -D . && stow .' \
