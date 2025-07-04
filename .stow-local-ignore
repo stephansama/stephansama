@@ -42,5 +42,5 @@ _darcs
 # Uncomment if on mac #
 ########################
 
-# hypr
-# rofi
+hypr
+rofi
