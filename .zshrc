@@ -71,8 +71,12 @@ if type docker &>/dev/null; then
 	source "$HOME/.config/scripts/completion-docker.sh"
 fi
 
-source "$HOME/.config/scripts/autoload-nvm.sh"
+if type nvm &>/dev/null; then
+	source "$HOME/.config/scripts/autoload-nvm.sh"
+fi
+
 source <(fzf --zsh)
 
 eval "$(atuin init zsh)"
 eval "$(starship init zsh)"
+eval "$(fnm env --use-on-cd --shell zsh)"
