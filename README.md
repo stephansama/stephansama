@@ -1,7 +1,7 @@
-# Hello World... 🌍
+![](https://raw.githubusercontent.com/stephansama/static/refs/heads/main/github-header-image.png)
 
 <p align="center">
-Hello, my name is <b>Stephan Randle</b>, a Fullstack Web Developer specializing in frontend technologies. With nearly three years of experience as a Frontend Engineer at <a href="https://www.uwm.com" target="_blank">United Wholesale Mortgage</a>, I have a strong foundation in building and optimizing web applications. My technical expertise is complemented by my completion of the Software Engineering Immersive Course at General Assembly in March 2022.
+My name is <b>Stephan Randle</b>, a Fullstack Web Developer specializing in frontend technologies. With nearly three years of experience as a Frontend Engineer at <a href="https://www.uwm.com" target="_blank">United Wholesale Mortgage</a>, I have a strong foundation in building and optimizing web applications. My technical expertise is complemented by my completion of the Software Engineering Immersive Course at General Assembly in March 2022.
 <br />Beyond my professional work, I own and maintain the <a href="https://madprofessorblog.org" target="_blank">Mad Professor Blog</a>, where I share insights on web development, programming best practices, and emerging technologies.</p>
 
 ## :newspaper: Latest articles
