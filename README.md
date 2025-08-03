@@ -1,17 +1,8 @@
-![](https://raw.githubusercontent.com/stephansama/static/refs/heads/main/github-header-image.png)
-
-<p align="center">
-My name is <b>Stephan Randle</b>, a Fullstack Web Developer specializing in frontend technologies. With nearly three years of experience as a Frontend Engineer at <a href="https://www.uwm.com" target="_blank">United Wholesale Mortgage</a>, I have a strong foundation in building and optimizing web applications. My technical expertise is complemented by my completion of the Software Engineering Immersive Course at General Assembly in March 2022.
-<br />Beyond my professional work, I own and maintain the <a href="https://madprofessorblog.org" target="_blank">Mad Professor Blog</a>, where I share insights on web development, programming best practices, and emerging technologies.</p>
-
-## :newspaper: Latest articles
-<!-- BLOG-POST-LIST:START -->
-- [Understanding the JavaScript event loop](https://madprofessorblog.org/articles/understanding-the-javascript-event-loop/)
-- [How to automatically load node version based on nvmrc file](https://madprofessorblog.org/articles/how-to-automatically-load-node-version-based-on-nvmrc-file/)
-- [How to Install and Configure TypeScript-Go &lpar;tsgo&rpar; as an LSP in Neovim](https://madprofessorblog.org/articles/how-to-install-and-configure-typescript-go-as-an-lsp-in-neovim/)
-- [Identifying Duplicate Lines in a File using Linux Terminal Commands](https://madprofessorblog.org/articles/identifying-duplicate-lines-in-files-using-linux-terminal-commands/)
-- [How to Install Catppuccin Theme Across Your Entire Setup](https://madprofessorblog.org/articles/how-to-install-catppuccin-theme-across-your-entire-setup/)
-<!-- BLOG-POST-LIST:END -->
+<picture>
+<source srcset="https://raw.githubusercontent.com/stephansama/static/refs/heads/main/gh-banner-light.png" media="(prefers-color-scheme: light)"/>
+<source srcset="https://raw.githubusercontent.com/stephansama/static/refs/heads/main/gh-banner-dark.png" media="(prefers-color-scheme: dark)"/>
+<img src="https://raw.githubusercontent.com/stephansama/static/refs/heads/main/gh-banner-dark.png" alt="stephansama's banner" />
+</picture>
 
   <div align="center">
 
@@ -38,31 +29,26 @@ My name is <b>Stephan Randle</b>, a Fullstack Web Developer specializing in fron
 [![PostgreSQL](https://custom-icon-badges.demolab.com/badge/PostgreSQL-4169E1.svg?logo=postgresql&logoColor=white)](https://github.com/search?q=user%3Astephansama+language%3Asql)
   </div>
 
-<div align="center">
+<p align="center">
+My name is <b>Stephan Randle</b>, a Fullstack Web Developer specializing in frontend technologies. With nearly three years of experience as a Frontend Engineer at <a href="https://www.uwm.com" target="_blank">United Wholesale Mortgage</a>, I have a strong foundation in building and optimizing web applications. My technical expertise is complemented by my completion of the Software Engineering Immersive Course at General Assembly in March 2022.
+<br />Beyond my professional work, I own and maintain the <a href="https://madprofessorblog.org" target="_blank">Mad Professor Blog</a>, where I share insights on web development, programming best practices, and emerging technologies.</p>
 
-![Codewars Badge](https://www.codewars.com/users/stephansama/badges/small)
-
-</div>
-
-<div align="center">
-<a href="https://www.linkedin.com/in/stephan-randle-38a30319a/">
-<img src="https://api.iconify.design/skill-icons:linkedin.svg?color=%23888888" alt="LinkedIn" height="25" />
-</a>
-<a href="https://www.linkedin.com/in/stephan-randle-38a30319a/">
-<img src="https://api.iconify.design/skill-icons:stackoverflow-dark.svg?color=%23888888" alt="Stackoverflow" height="25" />
-</a>
-<a href="https://www.buymeacoffee.com/stephanrandle" target="_blank">
-<img src="https://res.cloudinary.com/dkxqv3dll/image/upload/v1720924127/buymeacoffee_hcjj5f.png" alt="Buymeacoffee" loading="lazy" height="25" decoding="async">
-</a>
-</div>
+## :newspaper: Latest articles
+<!-- BLOG-POST-LIST:START -->
+- [Understanding the JavaScript event loop](https://madprofessorblog.org/articles/understanding-the-javascript-event-loop/)
+- [How to automatically load node version based on nvmrc file](https://madprofessorblog.org/articles/how-to-automatically-load-node-version-based-on-nvmrc-file/)
+- [How to Install and Configure TypeScript-Go &lpar;tsgo&rpar; as an LSP in Neovim](https://madprofessorblog.org/articles/how-to-install-and-configure-typescript-go-as-an-lsp-in-neovim/)
+- [Identifying Duplicate Lines in a File using Linux Terminal Commands](https://madprofessorblog.org/articles/identifying-duplicate-lines-in-files-using-linux-terminal-commands/)
+- [How to Install Catppuccin Theme Across Your Entire Setup](https://madprofessorblog.org/articles/how-to-install-catppuccin-theme-across-your-entire-setup/)
+<!-- BLOG-POST-LIST:END -->
 
 <!-- STATS -->
 <p align="center">
     <a href="https://github.com/stephansama/github-readme-streak-stats">
 <picture>
-      <source srcset="https://github-readme-streak-stats-9m8ugfa77-denvercoder1.vercel.app/?user=stephansama&theme=catppuccin-mocha&hide_border=true" alt="Github Logo" media="(prefers-color-scheme: dark)"/>
-      <source srcset="https://github-readme-streak-stats-9m8ugfa77-denvercoder1.vercel.app/?user=stephansama&theme=catppuccin-latte&hide_border=true" alt="Github Logo" media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"/>
-      <img src="https://github-readme-streak-stats-9m8ugfa77-denvercoder1.vercel.app/?user=stephansama&theme=catppuccin-mocha&hide_border=true" alt="Github Logo"/>
+      <source srcset="https://github-readme-streak-stats-9m8ugfa77-denvercoder1.vercel.app/?user=stephansama&theme=catppuccin-mocha&hide_border=true" media="(prefers-color-scheme: dark)"/>
+      <source srcset="https://github-readme-streak-stats-9m8ugfa77-denvercoder1.vercel.app/?user=stephansama&theme=catppuccin-latte&hide_border=true" media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"/>
+      <img width="800px" src="https://github-readme-streak-stats-9m8ugfa77-denvercoder1.vercel.app/?user=stephansama&theme=catppuccin-mocha&hide_border=true" alt="Github Logo"/>
     </picture>
     </a>
   </p>
@@ -70,15 +56,15 @@ My name is <b>Stephan Randle</b>, a Fullstack Web Developer specializing in fron
 <p align="center">
   <a href="https://github.com/anuraghazra/github-readme-stats">
 <picture>
-      <source  height="190px" srcset="https://github-readme-stats.vercel.app/api?username=stephansama&theme=catppuccin_mocha&show_icons=true&hide_border=true" alt="Github Logo" media="(prefers-color-scheme: dark)"/>
-      <source  height="190px" srcset="https://github-readme-stats.vercel.app/api?username=stephansama&theme=catppuccin_latte&show_icons=true&hide_border=true" alt="Github Logo" media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"/>
+      <source  height="190px" srcset="https://github-readme-stats.vercel.app/api?username=stephansama&theme=catppuccin_mocha&show_icons=true&hide_border=true" media="(prefers-color-scheme: dark)"/>
+      <source  height="190px" srcset="https://github-readme-stats.vercel.app/api?username=stephansama&theme=catppuccin_latte&show_icons=true&hide_border=true" media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"/>
       <img  height="190px" src="https://github-readme-stats.vercel.app/api?username=stephansama&theme=catppuccin_mocha&show_icons=true&hide_border=true" alt="Github Logo"/>
     </picture>
   </a>
   <a href="https://github.com/anuraghazra/github-readme-stats">
 <picture>
-      <source  height="190px" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=stephansama&theme=catppuccin_mocha&layout=compact&hide_border=true" alt="Github Logo" media="(prefers-color-scheme: dark)"/>
-      <source  height="190px" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=stephansama&theme=catppuccin_latte&layout=compact&hide_border=true" alt="Github Logo" media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"/>
+      <source  height="190px" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=stephansama&theme=catppuccin_mocha&layout=compact&hide_border=true" media="(prefers-color-scheme: dark)"/>
+      <source  height="190px" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=stephansama&theme=catppuccin_latte&layout=compact&hide_border=true" media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"/>
       <img  height="190px" src="https://github-readme-stats.vercel.app/api/top-langs/?username=stephansama&theme=catppuccin_mocha&layout=compact&hide_border=true" alt="Github Logo"/>
     </picture>
   </a>
