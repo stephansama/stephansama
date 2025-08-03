@@ -48,7 +48,7 @@ My name is <b>Stephan Randle</b>, a Fullstack Web Developer specializing in fron
 <picture>
       <source srcset="https://github-readme-streak-stats-9m8ugfa77-denvercoder1.vercel.app/?user=stephansama&theme=catppuccin-mocha&hide_border=true" media="(prefers-color-scheme: dark)"/>
       <source srcset="https://github-readme-streak-stats-9m8ugfa77-denvercoder1.vercel.app/?user=stephansama&theme=catppuccin-latte&hide_border=true" media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"/>
-      <img width="100%" src="https://github-readme-streak-stats-9m8ugfa77-denvercoder1.vercel.app/?user=stephansama&theme=catppuccin-mocha&hide_border=true" alt="Github Logo"/>
+      <img width="800px" src="https://github-readme-streak-stats-9m8ugfa77-denvercoder1.vercel.app/?user=stephansama&theme=catppuccin-mocha&hide_border=true" alt="Github Logo"/>
     </picture>
     </a>
   </p>
