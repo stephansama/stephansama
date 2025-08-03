@@ -1,4 +1,8 @@
-![](https://raw.githubusercontent.com/stephansama/static/refs/heads/main/github-header-image.png)
+<picture>
+<source srcset="https://raw.githubusercontent.com/stephansama/static/refs/heads/main/gh-banner-light.png" alt="Lightmode banner" media="(prefers-color-scheme: light)"/>
+<source srcset="https://raw.githubusercontent.com/stephansama/static/refs/heads/main/gh-banner-dark.png" alt="Darkmode banner" media="(prefers-color-scheme: dark)"/>
+<img src="https://raw.githubusercontent.com/stephansama/static/refs/heads/main/gh-banner-dark.png" alt="Darkmode banner" />
+</picture>
 
 <p align="center">
 My name is <b>Stephan Randle</b>, a Fullstack Web Developer specializing in frontend technologies. With nearly three years of experience as a Frontend Engineer at <a href="https://www.uwm.com" target="_blank">United Wholesale Mortgage</a>, I have a strong foundation in building and optimizing web applications. My technical expertise is complemented by my completion of the Software Engineering Immersive Course at General Assembly in March 2022.
