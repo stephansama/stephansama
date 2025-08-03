@@ -1,7 +1,7 @@
 <picture>
-<source srcset="https://raw.githubusercontent.com/stephansama/static/refs/heads/main/gh-banner-light.png" alt="Lightmode banner" media="(prefers-color-scheme: light)"/>
-<source srcset="https://raw.githubusercontent.com/stephansama/static/refs/heads/main/gh-banner-dark.png" alt="Darkmode banner" media="(prefers-color-scheme: dark)"/>
-<img src="https://raw.githubusercontent.com/stephansama/static/refs/heads/main/gh-banner-dark.png" alt="Darkmode banner" />
+<source srcset="https://raw.githubusercontent.com/stephansama/static/refs/heads/main/gh-banner-light.png" media="(prefers-color-scheme: light)"/>
+<source srcset="https://raw.githubusercontent.com/stephansama/static/refs/heads/main/gh-banner-dark.png" media="(prefers-color-scheme: dark)"/>
+<img src="https://raw.githubusercontent.com/stephansama/static/refs/heads/main/gh-banner-dark.png" alt="stephansama's banner" />
 </picture>
 
 <p align="center">
@@ -64,8 +64,8 @@ My name is <b>Stephan Randle</b>, a Fullstack Web Developer specializing in fron
 <p align="center">
     <a href="https://github.com/stephansama/github-readme-streak-stats">
 <picture>
-      <source srcset="https://github-readme-streak-stats-9m8ugfa77-denvercoder1.vercel.app/?user=stephansama&theme=catppuccin-mocha&hide_border=true" alt="Github Logo" media="(prefers-color-scheme: dark)"/>
-      <source srcset="https://github-readme-streak-stats-9m8ugfa77-denvercoder1.vercel.app/?user=stephansama&theme=catppuccin-latte&hide_border=true" alt="Github Logo" media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"/>
+      <source srcset="https://github-readme-streak-stats-9m8ugfa77-denvercoder1.vercel.app/?user=stephansama&theme=catppuccin-mocha&hide_border=true" media="(prefers-color-scheme: dark)"/>
+      <source srcset="https://github-readme-streak-stats-9m8ugfa77-denvercoder1.vercel.app/?user=stephansama&theme=catppuccin-latte&hide_border=true" media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"/>
       <img src="https://github-readme-streak-stats-9m8ugfa77-denvercoder1.vercel.app/?user=stephansama&theme=catppuccin-mocha&hide_border=true" alt="Github Logo"/>
     </picture>
     </a>
@@ -74,15 +74,15 @@ My name is <b>Stephan Randle</b>, a Fullstack Web Developer specializing in fron
 <p align="center">
   <a href="https://github.com/anuraghazra/github-readme-stats">
 <picture>
-      <source  height="190px" srcset="https://github-readme-stats.vercel.app/api?username=stephansama&theme=catppuccin_mocha&show_icons=true&hide_border=true" alt="Github Logo" media="(prefers-color-scheme: dark)"/>
-      <source  height="190px" srcset="https://github-readme-stats.vercel.app/api?username=stephansama&theme=catppuccin_latte&show_icons=true&hide_border=true" alt="Github Logo" media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"/>
+      <source  height="190px" srcset="https://github-readme-stats.vercel.app/api?username=stephansama&theme=catppuccin_mocha&show_icons=true&hide_border=true" media="(prefers-color-scheme: dark)"/>
+      <source  height="190px" srcset="https://github-readme-stats.vercel.app/api?username=stephansama&theme=catppuccin_latte&show_icons=true&hide_border=true" media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"/>
       <img  height="190px" src="https://github-readme-stats.vercel.app/api?username=stephansama&theme=catppuccin_mocha&show_icons=true&hide_border=true" alt="Github Logo"/>
     </picture>
   </a>
   <a href="https://github.com/anuraghazra/github-readme-stats">
 <picture>
-      <source  height="190px" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=stephansama&theme=catppuccin_mocha&layout=compact&hide_border=true" alt="Github Logo" media="(prefers-color-scheme: dark)"/>
-      <source  height="190px" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=stephansama&theme=catppuccin_latte&layout=compact&hide_border=true" alt="Github Logo" media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"/>
+      <source  height="190px" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=stephansama&theme=catppuccin_mocha&layout=compact&hide_border=true" media="(prefers-color-scheme: dark)"/>
+      <source  height="190px" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=stephansama&theme=catppuccin_latte&layout=compact&hide_border=true" media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"/>
       <img  height="190px" src="https://github-readme-stats.vercel.app/api/top-langs/?username=stephansama&theme=catppuccin_mocha&layout=compact&hide_border=true" alt="Github Logo"/>
     </picture>
   </a>
