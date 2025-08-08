@@ -43,15 +43,6 @@ My name is <b>Stephan Randle</b>, a Fullstack Web Developer specializing in fron
 <!-- BLOG-POST-LIST:END -->
 
 <!-- STATS -->
-<p align="center">
-    <a href="https://github.com/stephansama/github-readme-streak-stats">
-<picture>
-      <source srcset="https://github-readme-streak-stats-9m8ugfa77-denvercoder1.vercel.app/?user=stephansama&theme=catppuccin-mocha&hide_border=true" media="(prefers-color-scheme: dark)"/>
-      <source srcset="https://github-readme-streak-stats-9m8ugfa77-denvercoder1.vercel.app/?user=stephansama&theme=catppuccin-latte&hide_border=true" media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"/>
-      <img width="800px" src="https://github-readme-streak-stats-9m8ugfa77-denvercoder1.vercel.app/?user=stephansama&theme=catppuccin-mocha&hide_border=true" alt="Github Logo"/>
-    </picture>
-    </a>
-  </p>
 
 <p align="center">
   <a href="https://github.com/anuraghazra/github-readme-stats">
@@ -71,3 +62,13 @@ My name is <b>Stephan Randle</b>, a Fullstack Web Developer specializing in fron
 <br />
 
 </p>
+
+<p align="center">
+    <a href="https://github.com/stephansama/github-readme-streak-stats">
+<picture>
+      <source srcset="https://github-readme-streak-stats-9m8ugfa77-denvercoder1.vercel.app/?user=stephansama&theme=catppuccin-mocha&hide_border=true" media="(prefers-color-scheme: dark)"/>
+      <source srcset="https://github-readme-streak-stats-9m8ugfa77-denvercoder1.vercel.app/?user=stephansama&theme=catppuccin-latte&hide_border=true" media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"/>
+      <img width="800px" src="https://github-readme-streak-stats-9m8ugfa77-denvercoder1.vercel.app/?user=stephansama&theme=catppuccin-mocha&hide_border=true" alt="Github Logo"/>
+    </picture>
+    </a>
+  </p>
