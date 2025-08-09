@@ -35,7 +35,7 @@ My name is <b>Stephan Randle</b>, a Fullstack Web Developer specializing in fron
 <br />Beyond my professional work, I own and maintain the <a href="https://madprofessorblog.org" target="_blank">Mad Professor Blog</a>, where I share insights on web development, programming best practices, and emerging technologies.
 </p>
 
-## :newspaper: Latest articles
+### :newspaper: Latest articles
 <!-- BLOG-POST-LIST:START -->
 - [Understanding the JavaScript event loop](https://madprofessorblog.org/articles/understanding-the-javascript-event-loop/)
 - [How to automatically load node version based on nvmrc file](https://madprofessorblog.org/articles/how-to-automatically-load-node-version-based-on-nvmrc-file/)
