@@ -10,7 +10,6 @@ plugins=(
 	tmux                         # https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/tmux
 	aliases                      # https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/aliases
 	vi-mode                      # https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/vi-mode
-	nvm                          # https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/nvm
 	rust                         # https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/rust
 	golang                       # https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/golang
 	pnpm                         # https://github.com/ntnyq/omz-plugin-pnpm
@@ -58,7 +57,6 @@ alias \
 	lg='launch-lazygit.sh' \
 	ls='lsd' \
 	ov='vim' \
-	pj="bat package.json | jq '.scripts'" \
 	restow='stow -D . && stow .' \
 	tsv='TSGOPATH="$HOME/Code/typescript-go/built/local/tsgo" v' \
 	v='nvim'
