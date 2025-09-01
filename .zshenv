@@ -1,7 +1,7 @@
 export EDITOR='nvim'
 export VISUAL='nvim'
 
-export FZF_DEFAULT_OPTS='--tmux center'
+export FZF_DEFAULT_OPTS='--tmux center --preview-window="up"'
 
 # https://github.com/antfu-collective/ni?tab=readme-ov-file#config
 export NI_GLOBAL_AGENT="pnpm"
@@ -35,6 +35,7 @@ export PATH="$PATH:$HOME/.local/share/nvim/mason/bin"
 export PATH="$PATH:./node_modules/.bin"
 export PATH="$PATH:$HOME/.config/scripts"
 export PATH="$PATH:$HOME/Library/Python/3.9/bin"
+export PATH="$PATH:$HOME/.local/share/bob/nvim-bin"
 
 # pnpm
 export PNPM_HOME="$HOME/.local/share/pnpm"
