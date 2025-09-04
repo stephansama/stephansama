@@ -58,7 +58,7 @@ alias \
 	ls='lsd' \
 	ov='vim' \
 	restow='stow -D . && stow .' \
-	tsv='TSGOPATH="$HOME/Code/typescript-go/built/local/tsgo" v' \
+	tsv='NVIM_APPNAME="tsnvim" nvim' \
 	v='nvim'
 
 if type pnpm &>/dev/null; then
@@ -76,5 +76,6 @@ fi
 source <(fzf --zsh)
 
 eval "$(atuin init zsh)"
+eval "$(bob complete zsh)"
 eval "$(starship init zsh)"
 eval "$(fnm env --use-on-cd --shell zsh)"
