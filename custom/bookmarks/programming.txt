@@ -6,6 +6,7 @@ Cheat.sh/:firstpage https://cheat.sh/
 CSS to TailwindCSS https://transform.tools/css-to-tailwind
 DevDocs https://devdocs.io/
 Devhints https://devhints.io/
+JQ Playground https://play.jqlang.org/
 Tailblocks — Ready-to-use Tailwind CSS blocks https://tailblocks.cc/
 Tailwind CSS https://tailwindcss.com/
 Tailwind UI https://tailwindui.com/
