@@ -34,8 +34,9 @@ _darcs
 # ^/INSTALL.*
 # ^/TODO.*
 ^/COPYING
+^/LICENSE
 ^/Brewfile
-^/update_configs.sh
+^/submodule.sh
 .editorconfig
 
 ########################
