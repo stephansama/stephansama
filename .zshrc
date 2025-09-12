@@ -32,15 +32,6 @@ fi
 
 source "$ZSH/oh-my-zsh.sh"
 
-function e() {
-	local tmp="$(mktemp -t "yazi-cwd.XXXXXX")" cwd
-	yazi "$@" --cwd-file="$tmp"
-	if cwd="$(command cat -- "$tmp")" && [ -n "$cwd" ] && [ "$cwd" != "$PWD" ]; then
-		builtin cd -- "$cwd" || exit
-	fi
-	rm -f -- "$tmp"
-}
-
 alias \
 	all='. fzf-alias.sh' \
 	b='launch-bat.sh' \
@@ -60,6 +51,19 @@ alias \
 	restow='stow -D . && stow .' \
 	tsv='NVIM_APPNAME="tsnvim" nvim' \
 	v='nvim'
+
+# https://yazi-rs.github.io/docs/quick-start#shell-wrapper
+if type yazi &>/dev/null; then
+	function e() {
+		local tmp="$(mktemp -t "yazi-cwd.XXXXXX")" cwd
+		yazi "$@" --cwd-file="$tmp"
+		if cwd="$(command cat -- "$tmp")" && [ -n "$cwd" ] && [ "$cwd" != "$PWD" ]; then
+			builtin cd -- "$cwd" || exit
+		fi
+		rm -f -- "$tmp"
+	}
+
+fi
 
 if type pnpm &>/dev/null; then
 	source "$HOME/.config/scripts/completion-pnpm.sh"
