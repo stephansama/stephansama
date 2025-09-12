@@ -16,3 +16,15 @@
 [submodule "custom/firmware"]
 	path = custom/firmware
 	url = https://github.com/stephansama/firmware.git
+[submodule "custom/refind"]
+	path = custom/refind
+	url = https://github.com/stephansama/refind
+[submodule "custom/sddm"]
+	path = custom/sddm
+	url = https://github.com/stephansama/sddm
+[submodule "hyprland"]
+	path = .config/hypr
+	url = https://github.com/stephansama/hyprland
+[submodule "rofi"]
+	path = .config/rofi
+	url = https://github.com/stephansama/rofi
