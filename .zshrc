@@ -54,7 +54,7 @@ alias \
 
 # https://yazi-rs.github.io/docs/quick-start#shell-wrapper
 
-if (($ + commands[yazi])); then
+if type yazi &>/dev/null; then
 	function e() {
 		local tmp="$(mktemp -t "yazi-cwd.XXXXXX")" cwd
 		yazi "$@" --cwd-file="$tmp"
@@ -67,40 +67,40 @@ if (($ + commands[yazi])); then
 fi
 
 # https://pnpm.io/completion
-if (($ + commands[pnpm])); then
+if type pnpm &>/dev/null; then
 	source "$HOME/.config/scripts/completion-pnpm.sh"
 fi
 
 # https://docs.docker.com/engine/cli/completion/
-if (($ + commands[docker])); then
+if type docker &>/dev/null; then
 	source "$HOME/.config/scripts/completion-docker.sh"
 fi
 
-if (($ + commands[nvm])); then
+if type nvm &>/dev/null; then
 	source "$HOME/.config/scripts/autoload-nvm.sh"
 fi
 
 # https://github.com/junegunn/fzf?tab=readme-ov-file#setting-up-shell-integration
-if (($ + commands[fzf])); then
+if type fzf &>/dev/null; then
 	source <(fzf --zsh)
 fi
 
 # https://docs.atuin.sh/integrations/
-if (($ + commands[atuin])); then
+if type atuin &>/dev/null; then
 	eval "$(atuin init zsh)"
 fi
 
 # https://github.com/MordechaiHadad/bob?tab=readme-ov-file#-shell-completion
-if (($ + commands[bob])); then
+if type bob &>/dev/null; then
 	eval "$(bob complete zsh)"
 fi
 
 # https://starship.rs/guide/#step-2-set-up-your-shell-to-use-starship
-if (($ + commands[starship])); then
+if type starship &>/dev/null; then
 	eval "$(starship init zsh)"
 fi
 
 # https://github.com/Schniz/fnm?tab=readme-ov-file#completions
-if (($ + commands[fnm])); then
+if type fnm &>/dev/null; then
 	eval "$(fnm env --use-on-cd --shell zsh)"
 fi
