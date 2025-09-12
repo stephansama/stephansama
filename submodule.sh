@@ -1,12 +1,7 @@
 #!/usr/bin/env sh
 
 # select a submodule to interact with
-module=$(
-	git submodule foreach '' |
-		sed 's/Entering\ //g' |
-		tr -d "'" |
-		fzf
-)
+module=$(git submodule --quiet foreach 'echo $path' | fzf)
 
 if [ -z "$module" ]; then
 	echo "No module selected"
