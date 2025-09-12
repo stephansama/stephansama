@@ -73,9 +73,22 @@ if type nvm &>/dev/null; then
 	source "$HOME/.config/scripts/autoload-nvm.sh"
 fi
 
-source <(fzf --zsh)
+if type fzf &>/dev/null; then
+	source <(fzf --zsh)
+fi
 
-eval "$(atuin init zsh)"
-eval "$(bob complete zsh)"
-eval "$(starship init zsh)"
-eval "$(fnm env --use-on-cd --shell zsh)"
+if type atuin &>/dev/null; then
+	eval "$(atuin init zsh)"
+fi
+
+if type bob &>/dev/null; then
+	eval "$(bob complete zsh)"
+fi
+
+if type starship &>/dev/null; then
+	eval "$(starship init zsh)"
+fi
+
+if type fnm &>/dev/null; then
+	eval "$(fnm env --use-on-cd --shell zsh)"
+fi
