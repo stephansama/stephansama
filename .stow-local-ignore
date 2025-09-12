@@ -36,7 +36,7 @@ _darcs
 ^/COPYING
 ^/LICENSE
 ^/Brewfile
-^/submodle.sh
+^/submodule.sh
 .editorconfig
 
 ########################
