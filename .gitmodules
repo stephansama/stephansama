@@ -28,3 +28,12 @@
 [submodule "rofi"]
 	path = .config/rofi
 	url = https://github.com/stephansama/rofi
+[submodule "atuin"]
+	path = .config/atuin
+	url = https://github.com/stephansama/atuin.git
+[submodule "ghostty"]
+	path = .config/ghostty
+	url = https://github.com/stephansama/ghostty.git
+[submodule "kitty"]
+	path = .config/kitty
+	url = https://github.com/stephansama/kitty.git
