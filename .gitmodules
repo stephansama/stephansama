@@ -1,12 +1,12 @@
 [submodule "nvim"]
 	path = .config/nvim
-	url = https://github.com/stephansama/nvim.git
+	url = https://github.com/stephansama/nvim
 [submodule "scripts"]
 	path = .config/scripts
-	url = https://github.com/stephansama/scripts.git
+	url = https://github.com/stephansama/scripts
 [submodule "wezterm"]
 	path = .config/wezterm
-	url = https://github.com/stephansama/wezterm.git
+	url = https://github.com/stephansama/wezterm
 [submodule "yazi"]
 	path = .config/yazi
 	url = https://github.com/stephansama/yazi
@@ -15,7 +15,7 @@
 	url = https://github.com/stephansama/alfred
 [submodule "custom/firmware"]
 	path = custom/firmware
-	url = https://github.com/stephansama/firmware.git
+	url = https://github.com/stephansama/firmware
 [submodule "custom/refind"]
 	path = custom/refind
 	url = https://github.com/stephansama/refind
@@ -30,10 +30,10 @@
 	url = https://github.com/stephansama/rofi
 [submodule "atuin"]
 	path = .config/atuin
-	url = https://github.com/stephansama/atuin.git
+	url = https://github.com/stephansama/atuin
 [submodule "ghostty"]
 	path = .config/ghostty
-	url = https://github.com/stephansama/ghostty.git
+	url = https://github.com/stephansama/ghostty
 [submodule "kitty"]
 	path = .config/kitty
-	url = https://github.com/stephansama/kitty.git
+	url = https://github.com/stephansama/kitty
