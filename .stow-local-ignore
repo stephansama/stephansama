@@ -29,20 +29,13 @@ _darcs
 
 ^/.config/.*md
 
-# ^/README.*
-# ^/README.*
-# ^/LICENSE.*
-# ^/INSTALL.*
-# ^/TODO.*
+(^|/)install$
+(^|/)LICENSE$
+(^|/)README*$
+
 ^/COPYING
-^/LICENSE
 ^/Brewfile
+^/LICENSE
+^/Makefile
 ^/submodule.sh
 .editorconfig
-
-########################
-# Uncomment if on mac #
-########################
-
-hypr
-rofi

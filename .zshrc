@@ -49,9 +49,7 @@ alias \
 	ls='lsd' \
 	mv='mv -iv' \
 	ov='vim' \
-	restow='stow -D . && stow .' \
-	tsv='NVIM_APPNAME="tsnvim" nvim' \
-	v='nvim'
+	restow='stow -D . && stow .'
 
 # https://yazi-rs.github.io/docs/quick-start#shell-wrapper
 if type yazi &>/dev/null; then
@@ -62,6 +60,14 @@ if type yazi &>/dev/null; then
 			builtin cd -- "$cwd" || exit
 		fi
 		rm -f -- "$tmp"
+	}
+fi
+
+# wrap calling nvim with any passed arguments then return to last known position
+if type nvim &>/dev/null; then
+	v() {
+		nvim "$@"
+		cd "$(cat ~/.nvim_cwd 2>/dev/null || pwd)"
 	}
 fi
 
