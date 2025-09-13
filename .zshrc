@@ -65,16 +65,6 @@ if type yazi &>/dev/null; then
 	}
 fi
 
-# https://pnpm.io/completion
-if type pnpm &>/dev/null; then
-	source "$HOME/.config/scripts/completion-pnpm.sh"
-fi
-
-# https://docs.docker.com/engine/cli/completion/
-if type docker &>/dev/null; then
-	source "$HOME/.config/scripts/completion-docker.sh"
-fi
-
 # https://github.com/junegunn/fzf?tab=readme-ov-file#setting-up-shell-integration
 if type fzf &>/dev/null; then
 	source <(fzf --zsh)
@@ -102,4 +92,14 @@ fi
 
 if type nvm &>/dev/null; then
 	source "$HOME/.config/scripts/autoload-nvm.sh"
+fi
+
+# https://pnpm.io/completion
+if type pnpm &>/dev/null; then
+	source "$HOME/.config/scripts/completion-pnpm.sh"
+fi
+
+# https://docs.docker.com/engine/cli/completion/
+if type docker &>/dev/null; then
+	source "$HOME/.config/scripts/completions/docker.sh"
 fi
