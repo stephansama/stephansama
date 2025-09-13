@@ -96,7 +96,7 @@ fi
 
 # https://pnpm.io/completion
 if type pnpm &>/dev/null; then
-	source "$HOME/.config/scripts/completion-pnpm.sh"
+	source "$HOME/.config/scripts/completions/pnpm.sh"
 fi
 
 # https://docs.docker.com/engine/cli/completion/

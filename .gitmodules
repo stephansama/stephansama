@@ -37,3 +37,9 @@
 [submodule "kitty"]
 	path = .config/kitty
 	url = https://github.com/stephansama/kitty
+[submodule "lazygit"]
+	path = .config/lazygit
+	url = https://github.com/stephansama/lazygit
+[submodule "bat"]
+	path = .config/bat
+	url = https://github.com/stephansama/bat
