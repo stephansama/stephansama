@@ -1,7 +1,11 @@
 #!/usr/bin/env sh
 
-# select a submodule to interact with
-module=$(git submodule --quiet foreach 'echo $path' | fzf)
+# select a submodule to interact with (lists all available submodules)
+module=$(
+	git config --file .gitmodules --get-regexp path |
+		awk '{print $2}' |
+		fzf
+)
 
 if [ -z "$module" ]; then
 	echo "No module selected"

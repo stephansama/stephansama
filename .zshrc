@@ -37,16 +37,17 @@ alias \
 	b='launch-bat.sh' \
 	c='clear' \
 	cp='cp -iv' \
-	mv='mv -iv' \
 	dst="find . -type f -name '.DS_Store' -delete" \
 	fp='. fzf-projects.sh' \
 	fpj='. fzf-pkgjson.sh' \
 	gd='cd $DOTFILES' \
 	gdo="find . -type f -name '*.orig' -delete" \
 	gsm='. fzf-submodule.sh' \
+	gsmi='. $DOTFILES/submodule.sh' \
 	gu='. git-toplevel.sh' \
 	lg='launch-lazygit.sh' \
 	ls='lsd' \
+	mv='mv -iv' \
 	ov='vim' \
 	restow='stow -D . && stow .' \
 	tsv='NVIM_APPNAME="tsnvim" nvim' \
@@ -62,16 +63,6 @@ if type yazi &>/dev/null; then
 		fi
 		rm -f -- "$tmp"
 	}
-fi
-
-# https://pnpm.io/completion
-if type pnpm &>/dev/null; then
-	source "$HOME/.config/scripts/completion-pnpm.sh"
-fi
-
-# https://docs.docker.com/engine/cli/completion/
-if type docker &>/dev/null; then
-	source "$HOME/.config/scripts/completion-docker.sh"
 fi
 
 # https://github.com/junegunn/fzf?tab=readme-ov-file#setting-up-shell-integration
@@ -101,4 +92,14 @@ fi
 
 if type nvm &>/dev/null; then
 	source "$HOME/.config/scripts/autoload-nvm.sh"
+fi
+
+# https://pnpm.io/completion
+if type pnpm &>/dev/null; then
+	source "$HOME/.config/scripts/completion-pnpm.sh"
+fi
+
+# https://docs.docker.com/engine/cli/completion/
+if type docker &>/dev/null; then
+	source "$HOME/.config/scripts/completions/docker.sh"
 fi
