@@ -37,16 +37,17 @@ alias \
 	b='launch-bat.sh' \
 	c='clear' \
 	cp='cp -iv' \
-	mv='mv -iv' \
 	dst="find . -type f -name '.DS_Store' -delete" \
 	fp='. fzf-projects.sh' \
 	fpj='. fzf-pkgjson.sh' \
 	gd='cd $DOTFILES' \
 	gdo="find . -type f -name '*.orig' -delete" \
 	gsm='. fzf-submodule.sh' \
+	gsmi='. $DOTFILES/submodule.sh' \
 	gu='. git-toplevel.sh' \
 	lg='launch-lazygit.sh' \
 	ls='lsd' \
+	mv='mv -iv' \
 	ov='vim' \
 	restow='stow -D . && stow .' \
 	tsv='NVIM_APPNAME="tsnvim" nvim' \
