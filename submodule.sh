@@ -1,5 +1,20 @@
 #!/usr/bin/env sh
 
+# If arguments are passed, handle them non-interactively
+if [ "$#" -gt 0 ]; then
+	if [ "$1" = "uninstall" ]; then
+		echo "Deinitializing all submodules..."
+		git submodule deinit -f --all
+		exit 0
+	fi
+
+	for module in "$@"; do
+		echo "Installing $module"
+		git submodule update --init "$module"
+	done
+	exit 0
+fi
+
 # select a submodule to interact with (lists all available submodules)
 module=$(
 	git config --file .gitmodules --get-regexp path |
