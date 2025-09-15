@@ -22,7 +22,8 @@ macos:
 		.config/scripts \
 		.config/yazi \
 		.config/wezterm \
-		.config/lazygit
+		.config/lazygit \
+		custom/alfred
 
 clean:
 	./submodule.sh uninstall
