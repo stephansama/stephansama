@@ -6,6 +6,7 @@ set -o vi
 
 plugins=(
 	git                          # https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/git
+	mise                         # https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/mise
 	sudo                         # https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/sudo
 	tmux                         # https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/tmux
 	aliases                      # https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/aliases
@@ -49,7 +50,8 @@ alias \
 	ls='lsd' \
 	mv='mv -iv' \
 	ov='vim' \
-	restow='stow -D . && stow .'
+	restow='stow -D . && stow .' \
+	vc='code .'
 
 # https://yazi-rs.github.io/docs/quick-start#shell-wrapper
 if type yazi &>/dev/null; then
@@ -81,23 +83,9 @@ if type atuin &>/dev/null; then
 	eval "$(atuin init zsh)"
 fi
 
-# https://github.com/MordechaiHadad/bob?tab=readme-ov-file#-shell-completion
-if type bob &>/dev/null; then
-	eval "$(bob complete zsh)"
-fi
-
 # https://starship.rs/guide/#step-2-set-up-your-shell-to-use-starship
 if type starship &>/dev/null; then
 	eval "$(starship init zsh)"
-fi
-
-# https://github.com/Schniz/fnm?tab=readme-ov-file#completions
-if type fnm &>/dev/null; then
-	eval "$(fnm env --use-on-cd --shell zsh)"
-fi
-
-if type nvm &>/dev/null; then
-	source "$HOME/.config/scripts/autoload-nvm.sh"
 fi
 
 # https://pnpm.io/completion
