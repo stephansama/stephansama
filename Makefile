@@ -4,6 +4,7 @@ submodule:
 linux:
 	./submodule.sh \
 		.config/atuin \
+		.config/mise \
 		.config/nvim \
 		.config/rofi \
 		.config/scripts \
@@ -16,6 +17,7 @@ linux:
 macos:
 	./submodule.sh \
 		.config/atuin \
+		.config/mise \
 		.config/nvim \
 		.config/scripts \
 		.config/yazi \
