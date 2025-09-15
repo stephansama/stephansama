@@ -43,3 +43,6 @@
 [submodule "bat"]
 	path = .config/bat
 	url = https://github.com/stephansama/bat
+[submodule "mise"]
+	path = .config/mise
+	url = https://github.com/stephansama/mise
