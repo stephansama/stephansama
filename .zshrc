@@ -1,5 +1,3 @@
-# shellcheck disable=1091
-
 source "$HOME/.antidote/antidote.zsh"
 
 antidote load
@@ -63,35 +61,4 @@ if type starship &>/dev/null; then
 	eval "$(starship init zsh)"
 fi
 
-# https://docs.docker.com/engine/cli/completion/
-if type docker &>/dev/null; then
-	DOCKER_COMPLETION="$HOME/.config/scripts/completions/docker.sh"
-
-	if [ ! -f "$DOCKER_COMPLETION" ]; then
-		docker completion zsh >$DOCKER_COMPLETION
-	fi
-
-	source "$DOCKER_COMPLETION"
-fi
-
-# https://pnpm.io/completion
-if type pnpm &>/dev/null; then
-	PNPM_COMPLETION="$HOME/.config/scripts/completions/pnpm.sh"
-
-	if [ ! -f "$PNPM_COMPLETION" ]; then
-		pnpm completion zsh >$PNPM_COMPLETION
-	fi
-
-	source "$PNPM_COMPLETION"
-fi
-
-# https://docs.astral.sh/uv/reference/cli/#uv-generate-shell-completion
-if type uv &>/dev/null; then
-	UV_COMPLETION="$HOME/.config/scripts/completions/uv.sh"
-
-	if [ ! -f "$UV_COMPLETION" ]; then
-		uv generate-shell-completion zsh >$UV_COMPLETION
-	fi
-
-	source "$UV_COMPLETION"
-fi
+source "$HOME/.config/scripts/completions/setup.sh"
