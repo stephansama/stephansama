@@ -1,37 +1,12 @@
 # shellcheck disable=1091
-export ZSH="$HOME/.oh-my-zsh"
-export ZSH_THEME=""
+
+source "$HOME/.antidote/antidote.zsh"
+
+antidote load
 
 set -o vi
 
-plugins=(
-	git                          # https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/git
-	mise                         # https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/mise
-	sudo                         # https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/sudo
-	tmux                         # https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/tmux
-	aliases                      # https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/aliases
-	vi-mode                      # https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/vi-mode
-	rust                         # https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/rust
-	golang                       # https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/golang
-	pnpm                         # https://github.com/ntnyq/omz-plugin-pnpm
-	zsh-autocomplete             # https://github.com/marlonrichert/zsh-autocomplete
-	zsh-autosuggestions          # https://github.com/zsh-users/zsh-autosuggestions
-	zsh-syntax-highlighting      # https://github.com/zsh-users/zsh-syntax-highlighting
-	zsh-npm-scripts-autocomplete # https://github.com/grigorii-zander/zsh-npm-scripts-autocomplete
-)
-
-if [[ "$OSTYPE" == "linux-gnu" ]]; then
-	plugins+=(
-		archlinux # https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/archlinux
-		systemd   # https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/systemd
-	)
-else
-	plugins+=(
-		macos # https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/macos
-	)
-fi
-
-source "$ZSH/oh-my-zsh.sh"
+unalias nr # remove unused alias set by grigorii-zander/zsh-npm-scripts-autocomplete
 
 alias \
 	all='. fzf-alias.sh' \
@@ -65,7 +40,7 @@ if type yazi &>/dev/null; then
 	}
 fi
 
-# wrap calling nvim with any passed arguments then return to last known position
+# wrap calling nvim with any passed arguments then return to last known directory
 if type nvim &>/dev/null; then
 	v() {
 		nvim "$@"
@@ -88,12 +63,35 @@ if type starship &>/dev/null; then
 	eval "$(starship init zsh)"
 fi
 
-# https://pnpm.io/completion
-if type pnpm &>/dev/null; then
-	source "$HOME/.config/scripts/completions/pnpm.sh"
-fi
-
 # https://docs.docker.com/engine/cli/completion/
 if type docker &>/dev/null; then
-	source "$HOME/.config/scripts/completions/docker.sh"
+	DOCKER_COMPLETION="$HOME/.config/scripts/completions/docker.sh"
+
+	if [ ! -f "$DOCKER_COMPLETION" ]; then
+		docker completion zsh >$DOCKER_COMPLETION
+	fi
+
+	source "$DOCKER_COMPLETION"
+fi
+
+# https://pnpm.io/completion
+if type pnpm &>/dev/null; then
+	PNPM_COMPLETION="$HOME/.config/scripts/completions/pnpm.sh"
+
+	if [ ! -f "$PNPM_COMPLETION" ]; then
+		pnpm completion zsh >$PNPM_COMPLETION
+	fi
+
+	source "$PNPM_COMPLETION"
+fi
+
+# https://docs.astral.sh/uv/reference/cli/#uv-generate-shell-completion
+if type uv &>/dev/null; then
+	UV_COMPLETION="$HOME/.config/scripts/completions/uv.sh"
+
+	if [ ! -f "$UV_COMPLETION" ]; then
+		uv generate-shell-completion zsh >$UV_COMPLETION
+	fi
+
+	source "$UV_COMPLETION"
 fi

@@ -46,3 +46,6 @@
 [submodule "mise"]
 	path = .config/mise
 	url = https://github.com/stephansama/mise
+[submodule "antidote"]
+	path = .antidote
+	url = https://github.com/mattmc3/antidote

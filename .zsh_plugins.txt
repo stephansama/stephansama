@@ -1,0 +1,10 @@
+getantidote/use-omz
+ohmyzsh/ohmyzsh path:plugins/mise
+ohmyzsh/ohmyzsh path:plugins/sudo
+ohmyzsh/ohmyzsh path:plugins/aliases
+ohmyzsh/ohmyzsh path:plugins/vi-mode
+
+marlonrichert/zsh-autocomplete
+zsh-users/zsh-autosuggestions
+zsh-users/zsh-syntax-highlighting
+grigorii-zander/zsh-npm-scripts-autocomplete
