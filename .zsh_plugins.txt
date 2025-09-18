@@ -1,4 +1,5 @@
 getantidote/use-omz
+ohmyzsh/ohmyzsh path:lib
 ohmyzsh/ohmyzsh path:plugins/mise
 ohmyzsh/ohmyzsh path:plugins/sudo
 ohmyzsh/ohmyzsh path:plugins/aliases
