@@ -49,3 +49,6 @@
 [submodule "antidote"]
 	path = .antidote
 	url = https://github.com/mattmc3/antidote
+[submodule "starship"]
+	path = .config/starship
+	url = https://github.com/stephansama/starship
