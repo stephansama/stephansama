@@ -2,16 +2,6 @@ source "$HOME/.antidote/antidote.zsh"
 
 antidote load
 
-source "$HOME/.config/scripts/util/p10k.sh"
-source "$HOME/.config/scripts/completions/setup.sh"
-
-# https://starship.rs/guide/#step-2-set-up-your-shell-to-use-starship
-if type starship &>/dev/null && [ ! -n "$P10K_INSTANT_PROMPT" ]; then
-	export STARSHIP_CONFIG="$HOME/.config/starship/config.toml"
-
-	eval "$(starship init zsh)"
-fi
-
 set -o vi
 
 unalias nr # remove unused alias set by grigorii-zander/zsh-npm-scripts-autocomplete
@@ -30,7 +20,7 @@ alias \
 	gsmi=". $DOTFILES/submodule.sh" \
 	gu=". git-toplevel.sh" \
 	lg="launch-lazygit.sh" \
-	ls='lsd' \
+	ls="lsd" \
 	mv="mv -iv" \
 	ov="vim" \
 	restow="stow -D . && stow ." \
@@ -54,4 +44,17 @@ if type nvim &>/dev/null; then
 		nvim "$@"
 		cd "$(cat ~/.nvim_cwd 2>/dev/null || pwd)"
 	}
+fi
+
+source "$HOME/.config/scripts/completions/setup.sh"
+
+if [ -n "$USE_P10K" ]; then
+	source "$HOME/.config/scripts/util/p10k.sh"
+fi
+
+# https://starship.rs/guide/#step-2-set-up-your-shell-to-use-starship
+if type starship &>/dev/null && [ ! -n "$USE_P10K" ]; then
+	export STARSHIP_CONFIG="$HOME/.config/starship/config.toml"
+
+	eval "$(starship init zsh)"
 fi
