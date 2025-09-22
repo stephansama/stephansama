@@ -52,3 +52,6 @@
 [submodule "starship"]
 	path = .config/starship
 	url = https://github.com/stephansama/starship
+[submodule "tmux"]
+	path = .config/tmux
+	url = https://github.com/stephansama/tmux
