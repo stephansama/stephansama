@@ -1,28 +1,38 @@
 submodule:
 	./submodule.sh
 
+stow:
+	stow .
+
+restow:
+	stow -D . && stow .
+
 linux:
 	./submodule.sh \
+		.antidote \
 		.config/atuin \
+		.config/lazygit \
 		.config/mise \
 		.config/nvim \
 		.config/rofi \
 		.config/scripts \
-		.config/yazi \
+		.config/tmux \
 		.config/wezterm \
-		.config/lazygit \
+		.config/yazi \
 		custom/refind \
 		custom/sddm
 
 macos:
 	./submodule.sh \
+		.antidote \
 		.config/atuin \
+		.config/lazygit \
 		.config/mise \
 		.config/nvim \
 		.config/scripts \
-		.config/yazi \
+		.config/tmux \
 		.config/wezterm \
-		.config/lazygit \
+		.config/yazi \
 		custom/alfred
 
 clean:
