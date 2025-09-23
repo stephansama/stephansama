@@ -1,5 +1,5 @@
 submodule:
-	./submodule.sh
+	~/.config/scripts/git-submodule.sh
 
 stow:
 	stow .
@@ -7,33 +7,25 @@ stow:
 restow:
 	stow -D . && stow .
 
-linux:
-	./submodule.sh \
-		.antidote \
-		.config/atuin \
-		.config/lazygit \
-		.config/mise \
-		.config/nvim \
-		.config/rofi \
-		.config/scripts \
-		.config/tmux \
-		.config/wezterm \
-		.config/yazi \
-		custom/refind \
+base:
+	git submodule update --init --recursive .config/tmux \
+		custom/zsh
+	git submodule update --init .config/atuin \
+		.config/lazygit
+		.config/mise
+		.config/nvim
+		.config/scripts
+		.config/starship
+		.config/wezterm
+		.config/yazi
+
+linux: base
+	git submodule update --init .config/rofi \
+		custom/refind
 		custom/sddm
 
-macos:
-	./submodule.sh \
-		.antidote \
-		.config/atuin \
-		.config/lazygit \
-		.config/mise \
-		.config/nvim \
-		.config/scripts \
-		.config/tmux \
-		.config/wezterm \
-		.config/yazi \
-		custom/alfred
+macos: base
+	git submodule update --init custom/alfred
 
 clean:
-	./submodule.sh uninstall
+	git submodule deinit -f --all
