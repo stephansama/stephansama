@@ -55,3 +55,6 @@
 [submodule "zsh"]
 	path = custom/zsh
 	url = https://github.com/stephansama/zsh
+[submodule "vim"]
+	path = .vim
+	url = https://github.com/stephansama/vim
