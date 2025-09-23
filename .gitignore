@@ -2,7 +2,10 @@
 *.lock
 *test*.*
 .DS_Store
+.antidote
 .astro
+.bash*
 .vscode
+.zsh*
 Icon
 node_modules

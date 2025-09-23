@@ -46,12 +46,15 @@
 [submodule "mise"]
 	path = .config/mise
 	url = https://github.com/stephansama/mise
-[submodule "antidote"]
-	path = .antidote
-	url = https://github.com/mattmc3/antidote
 [submodule "starship"]
 	path = .config/starship
 	url = https://github.com/stephansama/starship
 [submodule "tmux"]
 	path = .config/tmux
 	url = https://github.com/stephansama/tmux
+[submodule "zsh"]
+	path = custom/zsh
+	url = https://github.com/stephansama/zsh
+[submodule "vim"]
+	path = .vim
+	url = https://github.com/stephansama/vim
