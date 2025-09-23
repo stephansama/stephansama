@@ -1,12 +1,6 @@
 submodule:
 	~/.config/scripts/git-submodule.sh
 
-stow:
-	stow .
-
-restow:
-	stow -D . && stow .
-
 base:
 	git submodule update --init --recursive .config/tmux
 	git submodule update --init --recursive custom/zsh
@@ -30,5 +24,13 @@ linux: base
 macos: base
 	git submodule update --init custom/alfred
 
-clean:
+stow:
+	stow .
+
+unstow:
+	stow -D .
+
+restow: unstow stow
+
+clean: unstow
 	git submodule deinit -f --all
