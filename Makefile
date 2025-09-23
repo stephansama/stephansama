@@ -13,8 +13,7 @@ base:
 	git submodule update --init .config/wezterm
 	git submodule update --init .config/yazi
 	make -C custom/zsh stow
-	make -C .config/mise install
-	eval $$(mise activate --shims)
+	make -C .config/mise activate
 	make -C .config/nvim all
 
 linux: base
