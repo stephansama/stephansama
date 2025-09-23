@@ -20,9 +20,11 @@ linux: base
 	git submodule update --init .config/rofi
 	git submodule update --init custom/refind
 	git submodule update --init custom/sddm
+	make stow
 
 macos: base
 	git submodule update --init custom/alfred
+	make stow
 
 stow:
 	stow .
