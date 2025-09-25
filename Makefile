@@ -1,4 +1,15 @@
-.PHONY: linux macos restow
+.PHONY: linux macos restow submodule zsh nvim mise base linux-modules macos-modules stow unstow clean all test
+
+stow:
+	stow .
+
+unstow:
+	stow -D .
+
+restow: unstow stow
+
+clean: unstow
+	git submodule deinit -f --all
 
 submodule:
 	~/.config/scripts/git-submodule.sh
@@ -33,17 +44,6 @@ linux-modules: base
 macos-modules: base
 	git submodule update --init custom/alfred
 
-linux: base linux-modules stow
+linux: linux-modules stow
 
-macos: base macos-modules stow
-
-stow:
-	stow .
-
-unstow:
-	stow -D .
-
-restow: unstow stow
-
-clean: unstow
-	git submodule deinit -f --all
+macos: macos-modules stow
