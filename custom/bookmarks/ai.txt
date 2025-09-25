@@ -1,6 +1,0 @@
-AI Content Detector | GPT-3 | GPT-4 | ChatGPT - Writer https://writer.com/ai-content-detector/
-ChatGPT https://chatgpt.com/
-Claude AI https://claude.ai/
-GPT Tools https://www.gpttools.com/
-Google Gemini https://gemini.google.com/app
-OpenAI Playground https://platform.openai.com/playground
