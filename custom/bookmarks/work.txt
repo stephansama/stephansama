@@ -1,4 +1,0 @@
-Infisical https://app.infisical.com/
-Zoho Account https://account.zoho.com
-Zoho Mail https://mail.zoho.com/zm
-Zoho Vault https://vault.zoho.com/app#/unlock/master

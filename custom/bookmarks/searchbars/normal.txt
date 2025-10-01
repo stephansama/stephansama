@@ -1,1 +1,0 @@
-DDG | Duckduckgo https://duckduckgo.com/?q={query}
