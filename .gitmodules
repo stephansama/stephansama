@@ -61,3 +61,6 @@
 [submodule "gitconfig"]
 	path = .config/git
 	url = https://github.com/stephansama/gitconfig
+[submodule "opencode"]
+	path = .config/opencode
+	url = https://github.com/stephansama/opencode
