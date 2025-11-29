@@ -15,4 +15,4 @@ jobs:
       - name: ⬇️ Pull in madprofessorblog articles
         uses: gautamkrishnar/blog-post-workflow@v1
         with:
-          feed_list: "https://madprofessorblog.org/rss.xml"
+          feed_list: ${{vars.RSS_URL}}
