@@ -37,11 +37,11 @@ My name is <b>Stephan Randle</b>, a Fullstack Web Developer specializing in fron
 
 ## :newspaper: Latest articles
 <!-- BLOG-POST-LIST:START -->
-- [Adding TypeScript to My Neovim Configuration](https://madprofessorblog.org/articles/adding-typescript-to-my-neovim-configuration/)
-- [Understanding the JavaScript event loop](https://madprofessorblog.org/articles/understanding-the-javascript-event-loop/)
-- [How to automatically load node version based on nvmrc file](https://madprofessorblog.org/articles/how-to-automatically-load-node-version-based-on-nvmrc-file/)
-- [How to Install and Configure TypeScript-Go &lpar;tsgo&rpar; as an LSP in Neovim](https://madprofessorblog.org/articles/how-to-install-and-configure-typescript-go-as-an-lsp-in-neovim/)
-- [Identifying Duplicate Lines in a File using Linux Terminal Commands](https://madprofessorblog.org/articles/identifying-duplicate-lines-in-files-using-linux-terminal-commands/)
+- [Adding TypeScript to My Neovim Configuration](/articles/adding-typescript-to-my-neovim-configuration)
+- [Understanding the JavaScript event loop](/articles/understanding-the-javascript-event-loop)
+- [How to automatically load node version based on nvmrc file](/articles/how-to-automatically-load-node-version-based-on-nvmrc-file)
+- [How to Install and Configure TypeScript-Go &lpar;tsgo&rpar; as an LSP in Neovim](/articles/how-to-install-and-configure-typescript-go-as-an-lsp-in-neovim)
+- [Identifying Duplicate Lines in a File using Linux Terminal Commands](/articles/identifying-duplicate-lines-in-files-using-linux-terminal-commands)
 <!-- BLOG-POST-LIST:END -->
 
 <!-- STATS -->
