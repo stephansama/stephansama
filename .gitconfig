@@ -1,5 +1,10 @@
 [user]
 	name = stephansama
 	email = stephanrandle@hotmail.com
+	signingkey = 4B38234D51C44328
 [include]
     path = ~/.config/git/delta.gitconfig
+[commit]
+	gpgsign = true
+[tag]
+	gpgSign = true
