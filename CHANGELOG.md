@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.0](https://github.com/stephansama/stephansama/compare/v1.1.0...v1.2.0) (2025-12-30)
+
+
+### Features
+
+* switched to self hosted readme stats ([#70](https://github.com/stephansama/stephansama/issues/70)) ([a7465e0](https://github.com/stephansama/stephansama/commit/a7465e04746c85a29ea4cb69925472adafa558ea))
+
 ## [1.1.0](https://github.com/stephansama/stephansama/compare/v1.0.0...v1.1.0) (2025-12-30)
 
 
