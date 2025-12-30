@@ -48,14 +48,14 @@ My name is <b>Stephan Randle</b>, a Fullstack Web Developer specializing in fron
 
 <p align="center">
  <picture>
-  <source srcset="https://github-readme-stats.vercel.app/api?username=stephansama&theme=catppuccin_mocha&show_icons=true&hide_border=true" media="(prefers-color-scheme: dark)"/>
-  <source srcset="https://github-readme-stats.vercel.app/api?username=stephansama&theme=catppuccin_latte&show_icons=true&hide_border=true" media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"/>
-  <img width="54%" src="https://github-readme-stats.vercel.app/api?username=stephansama&theme=catppuccin_mocha&show_icons=true&hide_border=true" alt="Github Stats"/>
+  <source srcset="https://readme-stats.stephansama.info/api?username=stephansama&theme=catppuccin_mocha&show_icons=true&hide_border=true" media="(prefers-color-scheme: dark)"/>
+  <source srcset="https://readme-stats.stephansama.info/api?username=stephansama&theme=catppuccin_latte&show_icons=true&hide_border=true" media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"/>
+  <img width="54%" src="https://readme-stats.stephansama.info/api?username=stephansama&theme=catppuccin_mocha&show_icons=true&hide_border=true" alt="Github Stats"/>
  </picture>
  <picture>
-  <source srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=stephansama&theme=catppuccin_mocha&layout=compact&hide_border=true" media="(prefers-color-scheme: dark)"/>
-  <source srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=stephansama&theme=catppuccin_latte&layout=compact&hide_border=true" media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"/>
-  <img width="41%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=stephansama&theme=catppuccin_mocha&layout=compact&hide_border=true" alt="Github Most Used Languages"/>
+  <source srcset="https://readme-stats.stephansama.info/api/top-langs/?username=stephansama&theme=catppuccin_mocha&layout=compact&hide_border=true" media="(prefers-color-scheme: dark)"/>
+  <source srcset="https://readme-stats.stephansama.info/api/top-langs/?username=stephansama&theme=catppuccin_latte&layout=compact&hide_border=true" media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"/>
+  <img width="41%" src="https://readme-stats.stephansama.info/api/top-langs/?username=stephansama&theme=catppuccin_mocha&layout=compact&hide_border=true" alt="Github Most Used Languages"/>
  </picture>
 </p>
 <p align="center">
