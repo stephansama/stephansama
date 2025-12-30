@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.0](https://github.com/stephansama/stephansama/compare/v1.0.0...v1.1.0) (2025-12-30)
+
+
+### Features
+
+* update all submodules ([#68](https://github.com/stephansama/stephansama/issues/68)) ([07be5ed](https://github.com/stephansama/stephansama/commit/07be5ed811c6685254d3ab1f97d9c75aee34ee57))
+
 ## 1.0.0 (2025-12-28)
 
 
