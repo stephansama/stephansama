@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.3.0](https://github.com/stephansama/stephansama/compare/v1.2.0...v1.3.0) (2026-01-14)
+
+
+### Features
+
+* switch to static repo skill icons ([#74](https://github.com/stephansama/stephansama/issues/74)) ([f7e71b7](https://github.com/stephansama/stephansama/commit/f7e71b753dccffded2d9aa10a7f08e369611c81f))
+
 ## [1.2.0](https://github.com/stephansama/stephansama/compare/v1.1.0...v1.2.0) (2025-12-30)
 
 
