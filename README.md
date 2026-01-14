@@ -7,27 +7,12 @@
 
 <div align="center">
 
-[![AWS](https://img.shields.io/badge/AWS-232F3E.svg?logo=amazonwebservices&logoColor=white)](https://github.com/search?q=user%3Astephansama+language%3Abash)
-[![Cloudflare](https://img.shields.io/badge/Cloudlfare-F38020.svg?logo=cloudflare&logoColor=white)](https://github.com/search?q=user%3Astephansama+language%3Abash)
-[![ZSH](https://img.shields.io/badge/ZSH-121011.svg?logo=gnu-bash&logoColor=white)](https://github.com/search?q=user%3Astephansama+language%3Abash)
-[![C++](https://custom-icon-badges.demolab.com/badge/C++-9C033A.svg?logo=cpp2&logoColor=white)](https://github.com/search?q=user%3Astephansama+language%3Acpp)
-[![C#](https://custom-icon-badges.demolab.com/badge/C%23-68217A.svg?logo=cs2&logoColor=white)](https://github.com/search?q=user%3Astephansama+language%3Acsharp)
-[![HTML](https://img.shields.io/badge/HTML-E34F26.svg?logo=html5&logoColor=white)](https://github.com/search?q=user%3Astephansama+language%3Ahtml)
-[![CSS](https://img.shields.io/badge/CSS-1572B6.svg?logo=css3&logoColor=white)](https://github.com/search?q=user%3Astephansama+language%3Acss)
-[![PostCSS](https://img.shields.io/badge/PostCSS-DD3A0A.svg?logo=postcss&logoColor=white)](https://github.com/search?q=user%3Astephansama+language%3Apostcss)
-[![TailwindCSS](https://img.shields.io/badge/TailwindCSS-06B6D4.svg?logo=tailwindcss&logoColor=white)](https://github.com/search?q=user%3Astephansama+language%3Acss)
-[![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E.svg?logo=javascript&logoColor=black)](https://github.com/search?q=user%3Astephansama+language%3Ajavascript)
-[![Node.js](https://img.shields.io/badge/Node.js-43853D.svg?logo=node.js&logoColor=white)](https://github.com/search?q=user%3Astephansama+language%3Ajavascript)
-[![TypeScript](https://img.shields.io/badge/TypeScript-007ACC.svg?logo=typescript&logoColor=white)](https://github.com/search?q=user%3Astephansama+language%3AtypeScript)
-[![AstroJS](https://img.shields.io/badge/Astro-BC52EE.svg?logo=astro&logoColor=white)](https://github.com/search?q=user%3Astephansama+language%3Aastro)
-[![AlpineJS](https://img.shields.io/badge/Alpine.js-8BC0D0.svg?logo=alpinedotjs&logoColor=black)](https://github.com/search?q=user%3Astephansama+language%3Ajavascript)
-[![NextJS](https://img.shields.io/badge/Next.JS-000.svg?logo=nextdotjs&logoColor=white)](https://github.com/search?q=user%3Astephansama+language%3Atypescript)
-[![ReactJS](https://img.shields.io/badge/React-61DAFB.svg?logo=react&logoColor=333)](https://github.com/search?q=user%3Astephansama+language%3Atypescript)
-[![Markdown](https://img.shields.io/badge/Markdown-000000.svg?logo=markdown&logoColor=white)](https://github.com/search?q=user%3Astephansama+language%3Amarkdown)
-[![Go](https://img.shields.io/badge/Golang-00ADD8.svg?logo=go&logoColor=white)](https://github.com/search?q=user%3Astephansama+language%3Ago)
-[![Rust](https://img.shields.io/badge/Rust-orange.svg?logo=rust)](https://github.com/search?q=user%3Astephansama+language%3Arust)
-[![MongoDB](https://custom-icon-badges.demolab.com/badge/MongoDB-47A248.svg?logo=mongodb&logoColor=white)](https://github.com/search?q=user%3Astephansama+language%3Asql)
-[![PostgreSQL](https://custom-icon-badges.demolab.com/badge/PostgreSQL-4169E1.svg?logo=postgresql&logoColor=white)](https://github.com/search?q=user%3Astephansama+language%3Asql)
+<picture>
+<source srcset="https://raw.githubusercontent.com/stephansama/static/refs/heads/main/gh-skill-icons-light.svg" media="(prefers-color-scheme: light)" />
+<source srcset="https://raw.githubusercontent.com/stephansama/static/refs/heads/main/gh-skill-icons-dark.svg" media="(prefers-color-scheme: dark)" />
+<img src="https://raw.githubusercontent.com/stephansama/static/refs/heads/main/gh-skill-icons-light.svg" alt="skill banner" />
+</picture>
+
 </div>
 
 <p align="center">
