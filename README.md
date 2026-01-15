@@ -29,6 +29,11 @@ My name is <b>Stephan Randle</b>, a Fullstack Web Developer specializing in fron
 - [Identifying Duplicate Lines in a File using Linux Terminal Commands](/articles/identifying-duplicate-lines-in-files-using-linux-terminal-commands)
 <!-- BLOG-POST-LIST:END -->
 
+## :video_camera: Latest YouTube videos
+
+<!-- BEGIN YOUTUBE-CARDS -->
+<!-- END YOUTUBE-CARDS -->
+
 <!-- STATS -->
 
 <p align="center">
