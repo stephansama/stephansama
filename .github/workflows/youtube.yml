@@ -16,3 +16,5 @@ jobs:
         uses: DenverCoder1/github-readme-youtube-cards@main
         with:
           channel_id: UCc79YC0GBcP6ugYag80fuPA
+          theme_context_light: '{ "background_color": "#eff1f5", "title_color": "#4c4f69", "stats_color": "#6c6f85" }'
+          theme_context_dark: '{ "background_color": "#1e1e2e", "title_color": "#cdd6f4", "stats_color": "#a6adc8" }'
