@@ -42,11 +42,11 @@ My name is <b>Stephan Randle</b>, a Fullstack Web Developer specializing in fron
 
 ## :newspaper: Latest articles
 <!-- BLOG-POST-LIST:START -->
+- [How npmx is Transforming the Node.js Package Ecosystem](/articles/how-npmx-revolutionized-the-npm-community)
 - [How to Connect Cloudflare Tunnel to Synology NAS](/articles/how-to-connect-cloudflare-tunnel-to-synology-nas)
 - [Adding TypeScript to My Neovim Configuration](/articles/adding-typescript-to-my-neovim-configuration)
 - [Understanding the JavaScript event loop](/articles/understanding-the-javascript-event-loop)
 - [How to automatically load node version based on nvmrc file](/articles/how-to-automatically-load-node-version-based-on-nvmrc-file)
-- [How to Install and Configure TypeScript-Go &lpar;tsgo&rpar; as an LSP in Neovim](/articles/how-to-install-and-configure-typescript-go-as-an-lsp-in-neovim)
 <!-- BLOG-POST-LIST:END -->
 
 ## :video_camera: Latest YouTube videos
