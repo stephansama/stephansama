@@ -42,11 +42,11 @@ My name is <b>Stephan Randle</b>, a Fullstack Web Developer specializing in fron
 
 ## :newspaper: Latest articles
 <!-- BLOG-POST-LIST:START -->
+- [How Cloudflare Rebuilt Next.js with Vite Using AI Vibe Coding](/articles/how-cloudflare-rebuilt-next-in-vite-using-vibe-coding)
 - [How npmx is Transforming the Node.js Package Ecosystem](/articles/how-npmx-revolutionized-the-npm-community)
 - [How to pipe data into a node script](/articles/how-to-pipe-data-into-a-node-script)
 - [How to Connect Cloudflare Tunnel to Synology NAS](/articles/how-to-connect-cloudflare-tunnel-to-synology-nas)
 - [Adding TypeScript to My Neovim Configuration](/articles/adding-typescript-to-my-neovim-configuration)
-- [Understanding the JavaScript event loop](/articles/understanding-the-javascript-event-loop)
 <!-- BLOG-POST-LIST:END -->
 
 ## :video_camera: Latest YouTube videos
