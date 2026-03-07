@@ -41,13 +41,7 @@ My name is <b>Stephan Randle</b>, a Fullstack Web Developer specializing in fron
 </p>
 
 ## :newspaper: Latest articles
-<!-- BLOG-POST-LIST:START -->
-- [How Cloudflare Rebuilt Next.js with Vite Using AI Vibe Coding](/articles/how-cloudflare-rebuilt-next-in-vite-using-vibe-coding)
-- [How npmx is Transforming the Node.js Package Ecosystem](/articles/how-npmx-revolutionized-the-npm-community)
-- [How to pipe data into a node script](/articles/how-to-pipe-data-into-a-node-script)
-- [How to Connect Cloudflare Tunnel to Synology NAS](/articles/how-to-connect-cloudflare-tunnel-to-synology-nas)
-- [Adding TypeScript to My Neovim Configuration](/articles/adding-typescript-to-my-neovim-configuration)
-<!-- BLOG-POST-LIST:END -->
+<!-- BLOG-POST-LIST:START -->- [How Cloudflare Rebuilt Next.js with Vite Using AI Vibe Coding](https://blog.stephansama.info/articles/how-cloudflare-rebuilt-next-in-vite-using-vibe-coding)- [How npmx is Transforming the Node.js Package Ecosystem](https://blog.stephansama.info/articles/how-npmx-revolutionized-the-npm-community)- [How to pipe data into a node script](https://blog.stephansama.info/articles/how-to-pipe-data-into-a-node-script)- [How to Connect Cloudflare Tunnel to Synology NAS](https://blog.stephansama.info/articles/how-to-connect-cloudflare-tunnel-to-synology-nas)- [Adding TypeScript to My Neovim Configuration](https://blog.stephansama.info/articles/adding-typescript-to-my-neovim-configuration)<!-- BLOG-POST-LIST:END -->
 
 ## :video_camera: Latest YouTube videos
 
