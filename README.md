@@ -46,7 +46,8 @@ My name is <b>Stephan Randle</b>, a Fullstack Web Developer specializing in fron
 - [How npmx is Transforming the Node.js Package Ecosystem](https://blog.stephansama.info/articles/how-npmx-revolutionized-the-npm-community)
 - [How to pipe data into a node script](https://blog.stephansama.info/articles/how-to-pipe-data-into-a-node-script)
 - [How to Connect Cloudflare Tunnel to Synology NAS](https://blog.stephansama.info/articles/how-to-connect-cloudflare-tunnel-to-synology-nas)
-- [Adding TypeScript to My Neovim Configuration](https://blog.stephansama.info/articles/adding-typescript-to-my-neovim-configuration)<!-- BLOG-POST-LIST:END -->
+- [Adding TypeScript to My Neovim Configuration](https://blog.stephansama.info/articles/adding-typescript-to-my-neovim-configuration)
+<!-- BLOG-POST-LIST:END -->
 
 ## :video_camera: Latest YouTube videos
 
