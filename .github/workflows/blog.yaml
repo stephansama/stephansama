@@ -16,4 +16,3 @@ jobs:
         uses: gautamkrishnar/blog-post-workflow@v1
         with:
           feed_list: ${{vars.RSS_URL}}
-          template: "$newline- [$title](${{vars.RSS_ROOT}}$url)"
