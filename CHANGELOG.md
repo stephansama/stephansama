@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.4.0](https://github.com/stephansama/stephansama/compare/v1.3.0...v1.4.0) (2026-03-10)
+
+
+### Features
+
+* add zellij submodule ([#82](https://github.com/stephansama/stephansama/issues/82)) ([0dba1d0](https://github.com/stephansama/stephansama/commit/0dba1d02a65ea50e9f94914f77a27a25061f5fc5))
+
 ## [1.3.0](https://github.com/stephansama/stephansama/compare/v1.2.0...v1.3.0) (2026-01-14)
 
 
