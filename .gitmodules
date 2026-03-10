@@ -64,3 +64,6 @@
 [submodule "opencode"]
 	path = .config/opencode
 	url = https://github.com/stephansama/opencode
+[submodule "zellij"]
+	path = .config/zellij
+	url = https://github.com/stephansama/zellij
