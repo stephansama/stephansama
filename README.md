@@ -42,11 +42,11 @@ My name is <b>Stephan Randle</b>, a Fullstack Web Developer specializing in fron
 
 ## :newspaper: Latest articles
 <!-- BLOG-POST-LIST:START -->
+- [Mastering CSS Counters: A Guide to Dynamic Web Numbering](https://blog.stephansama.info/articles/mastering-css-counters-a-guide-to-dynamic-web-numbering)
 - [Maintaining Package Versions with pnpm and YAML Anchors](https://blog.stephansama.info/articles/maintaining-package-versions-with-pnpm-and-yaml-anchors)
 - [Using is operator in typescript for type narrowing](https://blog.stephansama.info/articles/using-is-operator-in-typescript-for-type-narrowing)
 - [Determining the Age of a Git Repository](https://blog.stephansama.info/articles/determining-the-age-of-a-git-repository)
 - [How Cloudflare Rebuilt Next.js with Vite Using AI Vibe Coding](https://blog.stephansama.info/articles/how-cloudflare-rebuilt-next-in-vite-using-vibe-coding)
-- [How npmx is Transforming the Node.js Package Ecosystem](https://blog.stephansama.info/articles/how-npmx-revolutionized-the-npm-community)
 <!-- BLOG-POST-LIST:END -->
 
 ## :video_camera: Latest YouTube videos
