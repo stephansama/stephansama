@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.5.0](https://github.com/stephansama/stephansama/compare/v1.4.0...v1.5.0) (2026-08-12)
+
+
+### Features
+
+* Feature/switch to mise ([#91](https://github.com/stephansama/stephansama/issues/91)) ([cb53664](https://github.com/stephansama/stephansama/commit/cb53664de88b17af8487a313226ff3b98a7f1d66))
+
 ## [1.4.0](https://github.com/stephansama/stephansama/compare/v1.3.0...v1.4.0) (2026-03-10)
 
 
