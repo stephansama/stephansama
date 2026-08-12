@@ -13,4 +13,4 @@ for (const current of linuxModules) {
 	utility.functions.sh`mise run submodule init ${current}`
 }
 
-utility.functions.sh`mise run stow`
+utility.functions.sh`mise run stow -c`

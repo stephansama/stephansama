@@ -1,4 +1,4 @@
-#!/usr/bin/env sh
+#!/usr/bin/env tsx
 //MISE depends=["setup:base"]
 
 import * as utility from '../utility'
@@ -11,4 +11,4 @@ for (const current of macosModules) {
 	utility.functions.sh`mise run submodule init ${current}`
 }
 
-utility.functions.sh`mise run stow`
+utility.functions.sh`mise run stow -c`
