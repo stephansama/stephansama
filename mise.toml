@@ -1,0 +1,6 @@
+[task_config]
+includes = ["tasks"]
+
+[tools]
+node = "latest"
+"npm:tsx" = "latest"

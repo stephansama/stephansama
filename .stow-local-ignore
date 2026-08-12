@@ -33,6 +33,7 @@ _darcs
 (^|/)LICENSE$
 (^|/)README*$
 
+^/mise\.toml
 ^/COPYING
 ^/Brewfile
 ^/LICENSE
