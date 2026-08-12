@@ -7,6 +7,17 @@ import { SubmoduleMetaInformation } from './constants'
 
 const startDirectory = process.cwd();
 
+export function setup({ modules, stow }: {
+	modules: Array<Submodule>
+	stow?: boolean
+}) {
+	for (const current of modules) {
+		sh`mise run submodule init ${current}`
+	}
+
+	if (stow) sh`mise run stow -c`
+}
+
 export function sh(strings: TemplateStringsArray, ...values: string[]) {
 	return cp.execSync(strings.reduce((previous, current, index) => {
 		const value = values[index - 1];
