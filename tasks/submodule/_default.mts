@@ -25,7 +25,7 @@ if (!utility.functions.isSubmodule(usage_module)) {
 
 const submodulePath = utility.constants.SubmoduleMetaInformation[usage_module].path
 
-console.log(`performing action: ${usage_action} for submodule ${usage_module} located at ${submodulePath}`)
+console.log(`performing action: ${usage_action} for submodule ${usage_module} located at ./${submodulePath}`)
 
 switch (usage_action) {
 	case "deinit":
@@ -34,7 +34,7 @@ switch (usage_action) {
 	case "init":
 		utility.functions.sh`git submodule update --init --recursive ${submodulePath}`
 		const hasConfig = await hasMiseConfiguration(submodulePath)
-		console.log(`this module does ${!hasConfig ? 'not ' : ''}have a mise.toml configuration`)
+		console.log(`${hasConfig ? '✅' : '🚫'} this module does ${!hasConfig ? 'not ' : ''}have a mise.toml configuration`)
 		if (!hasConfig) break
 
 		utility.functions.chdir(submodulePath, () => {
