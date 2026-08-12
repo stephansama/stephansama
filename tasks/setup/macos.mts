@@ -1,7 +1,6 @@
 #!/usr/bin/env sh
 //MISE depends=["setup:base"]
 
-
 import * as utility from '../utility'
 
 export const macosModules = [
