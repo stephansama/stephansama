@@ -34,7 +34,7 @@ switch (usage_action) {
 	case "init":
 		utility.functions.sh`git submodule update --init --recursive ${submodulePath}`
 		const hasConfig = await hasMiseConfiguration(submodulePath)
-		console.log(`this module does ${!hasConfig ? 'not' : ''} have a mise.toml configuration`)
+		console.log(`this module does ${!hasConfig ? 'not ' : ''}have a mise.toml configuration`)
 		if (!hasConfig) break
 
 		utility.functions.chdir(submodulePath, () => {
