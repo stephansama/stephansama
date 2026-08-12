@@ -22,15 +22,16 @@ export const SubmoduleMetaInformation = { // metainformation
 } as const
 `
 
-	const metaInformation = modules.map((current) => {
-		const properties = Object.entries(current)
-			.filter(([key]) => key !== 'name')
-			.map(([key, value]) => `"${key}": "${value}",`)
-			.join('\n')
-		return `"${current.name}": {
-${properties}
-},`
-	}).join('\n')
+	const metaInformation = modules
+		.sort((a, b) => a.name.localeCompare(b.name))
+		.map((current) => {
+			const properties = Object.entries(current)
+				.filter(([key]) => key !== 'name')
+				.map(([key, value]) => `"${key}": "${value}",`)
+				.join(' ')
+			return `"${current.name}": { ${properties} },`
+		})
+		.join('\n')
 
 	return template.replace(ts`// metainformation`, metaInformation)
 }
